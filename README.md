@@ -19,7 +19,7 @@
 
 <!-- DESCRIPTION -->
 ## Description
-Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore. Fruity! An application for fruit lovers for whom this choice is a problem. One click will help you make that tough decision!
+Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore. Fruity! An application to help you make this difficult decision with just one click. In addition, you will learn interesting things about the drawn fruit.
 
 <!-- FEATURES -->
 ## Features
