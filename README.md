@@ -14,15 +14,19 @@
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [Installation](#installation)
-5. [Contact](#contact)
+5. [Deployment](#deployment)
+6. [Contact](#contact)
 
 <!-- DESCRIPTION -->
 ## Description
-In progress...	
+Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore. Fruity! An application for fruit lovers for whom this choice is a problem. One click will help you make that tough decision!
 
 <!-- FEATURES -->
 ## Features
-In progress...	
+Here are some of the project's best features:
+- Drawing a fruit from the data contained in the array.
+- Displaying detailed information about a specific fruit.
+- Possibility to filter the fruit list. Selecting fruits that should not be included in the draw.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
@@ -54,6 +58,10 @@ npm run start
 ```
 
 The project will be launched at the following url: <a href="http://localhost:8080/">http://localhost:8080/<a/>
+
+<!-- DEPLOYMENT -->
+## Deployment
+In progress...	
 
 <!-- CONTACT -->
 ## Contact
