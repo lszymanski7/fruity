@@ -59,6 +59,10 @@ npm run start
 
 The project will be launched at the following url: <a href="http://localhost:8080/">http://localhost:8080/<a/>
 
+<!-- SCRIPTS -->
+## Scripts
+In progress...	
+
 <!-- DEPLOYMENT -->
 ## Deployment
 In progress...	
