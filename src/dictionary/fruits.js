@@ -1,0 +1,3 @@
+const fruits = {
+    name: 'Apple'
+}
