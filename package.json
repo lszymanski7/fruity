@@ -2,7 +2,7 @@
   "name": "fruity-app",
   "version": "1.0.0",
   "description": "An app for fruit lovers who can't decide what fruit they would like to eat. One click will help you make that tough decision!",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "private": true,
   "scripts": {
     "build": "webpack",
