@@ -5,8 +5,8 @@
 }
 
 .header__logo {
-    height: 125px;
-    width: 125PX;
+    height: 130px;
+    width: 130px;
 }
 
 .header__title {
@@ -22,6 +22,7 @@
 .header__subtitle {
     color: $dark-gray;
     font-size: $m-size;
+    font-style: italic;
     font-weight: 500;
     margin: 0;
 }

@@ -1,9 +1,9 @@
 .container {
-    align-items: center;
+    align-items: start;
     display: flex;
     gap: 20px;
     justify-content: center;
-    max-width: 50rem;
     margin: 0 auto;
+    max-width: 50rem;
     padding: 0 $m-size; 
 }
