@@ -1,0 +1,27 @@
+.header {
+    background: $powder-pink;
+    margin-bottom: $m-size;
+    padding: $m-size 0;
+}
+
+.header__logo {
+    height: 125px;
+    width: 125PX;
+}
+
+.header__title {
+    color: $strawberry-red;
+    font-size: $xl-size;
+    font-weight: 800;
+    margin: 0;
+    padding: 0 0 $xs-size 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+}
+
+.header__subtitle {
+    color: $dark-gray;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
