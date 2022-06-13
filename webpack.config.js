@@ -24,7 +24,7 @@ module.exports = {
 					'sass-loader'
 				]
 			}, {
-				test: /\.(png|jpe?g|gif)$/i,
+				test: /\.(png|jpe?g|gif)$/,
 				use: ['file-loader']
 			}
     	]
@@ -39,7 +39,7 @@ module.exports = {
 		port: 8080,
 		compress: true,
 		hot: false,
-		open: false,
+		open: true,
 		liveReload: true
   	},
 	plugins: [

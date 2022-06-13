@@ -23,9 +23,7 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 
 <!-- FEATURES -->
 ## Features
-Here are some of the project's best features:
 - Drawing a fruit from the data contained in the list of objects.
-- Displaying detailed information about a specific fruit.
 - Possibility to filter the fruit list. Selecting fruits that should not be included in the draw.
 
 <!-- TECHNOLOGIES -->
