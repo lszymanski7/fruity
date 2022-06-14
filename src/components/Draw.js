@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import fruits from '../dictionary/fruits'
 
 const Draw = () => {
-    const handleDraw = () => {
-		alert('Draw a Fruit!')
-	}
+	const [fruit, setFruit] = useState()
 
+    const handleDraw = () => {
+		const rand = Math.floor(Math.random() * fruits.length)
+		setFruit(fruits[rand])
+	}
+	
     return (
         <div>
 		    <button className="big-button" onClick={handleDraw}>

@@ -73,3 +73,5 @@ const fruits = [{
     name: 'Watermelon',
     img: `${imgPath}/watermelon.png`
 }]
+
+export { fruits as default }
