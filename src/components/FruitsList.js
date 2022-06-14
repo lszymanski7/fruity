@@ -3,8 +3,8 @@ import React from 'react'
 const FruitsList = () => {
 
     return (
-        <div>
-
+        <div className="container__list">
+            <p>test</p>
         </div>
     ) 
 }

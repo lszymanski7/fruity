@@ -1,5 +1,6 @@
 import React from 'react'
 import Draw from './Draw'
+import FruitsList from './FruitsList'
 import Header from './Header'
 
 const FruityApp = () => {
@@ -8,6 +9,7 @@ const FruityApp = () => {
         <div>
             <Header />
             <div className="container">
+                <FruitsList />
                 <Draw />
             </div>
         </div>

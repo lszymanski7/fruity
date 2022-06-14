@@ -7,15 +7,15 @@ const Header = () => {
 
 	return (
 		<header className="header">
-				<div className="container__header">
-					<div>
-						<img className="header__logo" src={logo} alt="Fruity Logo" />
-					</div>
-					<div>
-						<h1 className="header__title">{title}</h1>
-						<h2 className="header__subtitle">{subtitle}</h2>
-					</div>
+			<div className="container__header">
+				<div>
+					<img className="header__logo" src={logo} alt="Fruity Logo" />
 				</div>
+				<div>
+					<h1 className="header__title">{title}</h1>
+					<h2 className="header__subtitle">{subtitle}</h2>
+				</div>
+			</div>
 		</header>
 	)
 }
