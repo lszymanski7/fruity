@@ -5,9 +5,8 @@
     border: none;
     border-bottom: .75rem solid darken($red-dark, 10%);
     color: $white;
-    font-weight: bold;
     font-size: $l-size;
-    margin-bottom: $m-size;
+    font-weight: bold;
     padding: 2.4rem;
     width: 100%;
 }
@@ -15,4 +14,6 @@
 .big-button:hover {
     background: darken($red-dark, 10%);
     border-bottom: .75rem solid darken($red-dark, 20%);
-  }
+}
+
+// Button

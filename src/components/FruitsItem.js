@@ -1,10 +1,180 @@
 import React from 'react'
+import apple_lineal from '../../public/images/fruits-lineal/apple.png'
+import apple_color from '../../public/images/fruits-color/watermelon.png'
 
 const FruitsItem = () => {
+    let image = apple_color
+
+    const handleChangeColor = () => {
+        image = apple_lineal
+        console.log('Apple')
+    }
 
     return (
         <div>
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
 
+<img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+
+<img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
         </div>
     ) 
 }
