@@ -1,4 +1,4 @@
-import { fruitsColor, fruitsLinear } from '../assets/icons/index'
+import { fruitsColor, fruitsLinear } from '../assets/icons/icons-import'
 
 const fruits = [{
     name: 'Apple',

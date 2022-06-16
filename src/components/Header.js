@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../assets/icons/index'
+import { logo } from '../assets/icons/icons-import'
 
 const Header = () => {
 	const title = 'Fruity'

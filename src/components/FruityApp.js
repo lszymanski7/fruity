@@ -11,7 +11,7 @@ const FruityApp = () => {
     const handleDraw = () => {
 		const rand = Math.floor(Math.random() * fruits.length)
 		setFruit(fruits[rand])
-        // console.log(fruit)
+        console.log(fruit)
 	}
 	
     return (

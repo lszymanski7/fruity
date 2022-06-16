@@ -3,7 +3,7 @@ import logo from './logo/fruity.png'
 const importAll = (r) => {
     let icons = {}
     r.keys().forEach(
-        (item, index) => (icons[item.replace('./', '')] = r(item))
+        (item) => icons[item.replace('./', '')] = r(item)
     )
 
     return icons
