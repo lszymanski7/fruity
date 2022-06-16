@@ -46,7 +46,7 @@ import pomegranateLinear from './fruits-linear/pomegranate.png'
 import starFruitLinear from './fruits-linear/star-fruit.png'
 import strawberryLinear from './fruits-linear/strawberry.png'
 import watermelonLinear from './fruits-linear/watermelon.png'
-import logo from './logo/favicon.png'
+import logo from './logo/fruity.png'
 
 export {
     appleColor,

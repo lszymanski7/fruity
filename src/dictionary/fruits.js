@@ -46,7 +46,7 @@ import { appleColor,
     starFruitLinear,
     strawberryLinear,
     watermelonLinear
-} from '../../public/images/index'
+} from '../assets/icons/index'
 
 const fruits = [{
     name: 'Apple',

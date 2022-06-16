@@ -1,7 +1,7 @@
 import React from "react"
 import Modal from 'react-modal'
 import fruits from "../dictionary/fruits"
-import apple from "../../public/images/fruits-color/apple.png"
+import apple from "../assets/icons/fruits-color/apple.png"
 
 const FruitsModal = () => (
     <Modal

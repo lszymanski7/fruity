@@ -1,8 +1,11 @@
 # Dependencies
-node_modules
+/node_modules
 
-# Build
-public/dist/
+# Production
+/build
 
 # Misc.
 .DS_Store
+
+# Backup
+/backup

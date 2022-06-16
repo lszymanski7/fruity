@@ -1,12 +1,12 @@
 const path = require('path')
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
 	entry: {
 		main: path.resolve(__dirname, './src/index.js')
 	},
   	output: {
-		path: path.resolve(__dirname, './public/dist'),
+		path: path.resolve(__dirname, './build'),
 		filename: 'bundle.js',
 		clean: true
   	},
@@ -24,7 +24,7 @@ module.exports = {
 					'sass-loader'
 				]
 			}, {
-				test: /\.(png|jpe?g|gif)$/,
+				test: /\.(png|jpe?g|gif|svg)$/,
 				use: ['file-loader']
 			}
     	]
@@ -44,7 +44,7 @@ module.exports = {
   	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: path.resolve(__dirname, "./public/index.html"),
+			template: path.resolve(__dirname, './public/index.html'),
 			filename: 'index.html'
 		})
 	],

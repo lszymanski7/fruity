@@ -1,12 +1,12 @@
 import React from 'react'
-import apple_lineal from '../../public/images/fruits-linear/apple.png'
-import apple_color from '../../public/images/fruits-color/watermelon.png'
+import appleLinear from '../assets/icons/fruits-linear/apple.png'
+import appleColor from '../assets/icons//fruits-color/apple.png'
 
 const FruitsItem = () => {
-    let image = apple_color
+    let image = appleColor
 
     const handleChangeColor = () => {
-        image = apple_lineal
+        image = appleLinear
         console.log('Apple')
     }
 
