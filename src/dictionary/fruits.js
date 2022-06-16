@@ -1,77 +1,197 @@
-const imgPath = '../../public/images/fruits'
+import { appleColor,
+    bananaColor,
+    blackberryColor,
+    blueberriesColor,
+    cherriesColor,
+    coconutColor,
+    dragonFruitColor,
+    figColor,
+    grapesColor,
+    kiwiColor,
+    lemonColor,
+    lycheeColor,
+    mangoColor,
+    melonColor,
+    orangeColor,
+    papayaColor,
+    peachColor,
+    pearColor,
+    pineappleColor,
+    plumColor,
+    pomegranateColor,
+    starFruitColor,
+    strawberryColor,
+    watermelonColor,
+    appleLinear,
+    bananaLinear,
+    blackberryLinear,
+    blueberriesLinear,
+    cherriesLinear,
+    coconutLinear,
+    dragonFruitLinear,
+    figLinear,
+    grapesLinear,
+    kiwiLinear,
+    lemonLinear,
+    lycheeLinear,
+    mangoLinear,
+    melonLinear,
+    orangeLinear,
+    papayaLinear,
+    peachLinear,
+    pearLinear,
+    pineappleLinear,
+    plumLinear,
+    pomegranateLinear,
+    starFruitLinear,
+    strawberryLinear,
+    watermelonLinear
+} from '../../public/images/index'
 
 const fruits = [{
     name: 'Apple',
-    img: `${imgPath}/apple.png`
+    img: [
+        appleColor, 
+        appleLinear
+    ]
 }, {
     name: 'Banana',
-    img: `${imgPath}/banana.png`
+    img: [
+        bananaColor, 
+        bananaLinear
+    ]
 }, {
     name: 'Blackberry',
-    img: `${imgPath}/blackberry.png`
+    img: [
+        blackberryColor, 
+        blackberryLinear
+    ]
 }, {
     name: 'Blueberries',
-    img: `${imgPath}/blueberries.png`
+    img: [
+        blueberriesColor, 
+        blueberriesLinear
+    ]
 }, {
     name: 'Cherries',
-    img: `${imgPath}/cherries.png`
+    img: [
+        cherriesColor,
+        cherriesLinear
+    ]
 }, {
     name: 'Coconut',
-    img: `${imgPath}/coconut.png`
+    img: [
+        coconutColor,
+        coconutLinear
+    ]
 }, {
     name: 'Dragon Fruit',
-    img: `${imgPath}/dragon_fruit.png`
+    img: [
+        dragonFruitColor,
+        dragonFruitLinear
+    ]
 }, {
     name: 'Fig',
-    img: `${imgPath}/fig.png`
+    img: [
+        figColor,
+        figLinear
+    ]
 }, {
     name: 'Grapes',
-    img: `${imgPath}/grapes.png`
+    img: [
+        grapesColor,
+        grapesLinear
+    ]
 }, {
     name: 'Kiwi',
-    img: `${imgPath}/kiwi.png`
+    img: [
+        kiwiColor,
+        kiwiLinear
+    ]
 }, {
     name: 'Lemon',
-    img: `${imgPath}/lemon.png`
+    img: [
+        lemonColor,
+        lemonLinear
+    ]
 }, {
     name: 'Lychee',
-    img: `${imgPath}/lychee.png`
+    img: [
+        lycheeColor,
+        lycheeLinear
+    ]
 }, {
     name: 'Mango',
-    img: `${imgPath}/mango.png`
+    img: [
+        mangoColor,
+        mangoLinear
+    ]
 }, {
     name: 'Melon',
-    img: `${imgPath}/melon.png`
+    img: [
+        melonColor,
+        melonLinear
+    ]
 }, {
     name: 'Orange',
-    img: `${imgPath}/orange.png`
+    img: [
+        orangeColor,
+        orangeLinear
+    ]
 }, {
     name: 'Papaya',
-    img: `${imgPath}/papaya.png`
+    img: [
+        papayaColor,
+        papayaLinear
+    ]
 }, {
     name: 'Peach',
-    img: `${imgPath}/peach.png`
+    img: [
+        peachColor,
+        peachLinear
+    ]
 }, {
     name: 'Pear',
-    img: `${imgPath}/pear.png`
+    img: [
+        pearColor,
+        pearLinear
+    ]
 }, {
     name: 'Pineapple',
-    img: `${imgPath}/pineapple.png`
+    img: [
+        pineappleColor,
+        pineappleLinear
+    ]
 }, {
     name: 'Plum',
-    img: `${imgPath}/plum.png`
+    img: [
+        plumColor,
+        plumLinear
+    ]
 }, {
     name: 'Pomegranate',
-    img: `${imgPath}/pomegranate.png`
+    img: [
+        pomegranateColor,
+        pomegranateLinear
+    ]
 }, {
     name: 'Star Fruit',
-    img: `${imgPath}/star_fruit.png`
+    img: [
+        starFruitColor,
+        starFruitLinear
+    ]
 }, {
     name: 'Strawberry',
-    img: `${imgPath}/strawberry.png`
+    img: [
+        strawberryColor,
+        strawberryLinear
+    ]
 }, {
     name: 'Watermelon',
-    img: `${imgPath}/watermelon.png`
+    img: [
+        watermelonColor,
+        watermelonLinear
+    ]
 }]
 
 export { fruits as default }

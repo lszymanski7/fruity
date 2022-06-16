@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../public/images/favicon.png'
+import { logo } from '../../public/images/index'
 
 const Header = () => {
 	const title = 'Fruity'

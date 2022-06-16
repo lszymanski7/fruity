@@ -1,5 +1,6 @@
 import React from 'react'
 import FruitsItem from './FruitsItem'
+import fruits from '../dictionary/fruits'
 
 const FruitsList = () => {
 

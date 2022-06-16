@@ -1,5 +1,5 @@
 import React from 'react'
-import apple_lineal from '../../public/images/fruits-lineal/apple.png'
+import apple_lineal from '../../public/images/fruits-linear/apple.png'
 import apple_color from '../../public/images/fruits-color/watermelon.png'
 
 const FruitsItem = () => {
