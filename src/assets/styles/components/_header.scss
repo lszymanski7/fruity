@@ -1,0 +1,35 @@
+.header {
+    background: $pink-dark;
+    margin-bottom: $l-size;
+    padding: $m-size 0;
+}
+
+.header__container {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+.header__logo {
+    height: 125px;
+    width: 125px;
+}
+
+.header__title {
+    color: $red-dark;
+    font-size: $xl-size;
+    font-weight: 800;
+    margin: 0;
+    padding: 0 0 $s-size 0;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: $white;
+}
+
+.header__subtitle {
+    color: $gray-dark;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+    text-align: justify;
+}

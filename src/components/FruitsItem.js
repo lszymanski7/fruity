@@ -1,0 +1,182 @@
+import React from 'react'
+import appleLinear from '../assets/icons/fruits-linear/apple.png'
+import appleColor from '../assets/icons//fruits-color/apple.png'
+
+const FruitsItem = () => {
+    let image = appleColor
+
+    const handleChangeColor = () => {
+        image = appleLinear
+        console.log('Apple')
+    }
+
+    return (
+        <div>
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+
+<img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+
+<img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+            <img 
+                height="50px"
+                width="50px"
+                src={image} 
+                alt="Apple"
+                onClick={handleChangeColor}
+                title="Apple"
+            />
+        </div>
+    ) 
+}
+
+export { FruitsItem as default }
