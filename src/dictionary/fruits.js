@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from 'uuid'
 import { fruitsColor, fruitsLinear } from '../assets/icons/icons-import'
 
 const fruits = [{
+    id: uuidv4(),
     name: 'Apple',
     img: [
         fruitsColor['apple.png'].default,
@@ -8,13 +10,15 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Banana',
     img: [
         fruitsColor['banana.png'].default,
         fruitsLinear['banana.png'].default
     ],
-    checked: true
+    checked: false
 }, {
+    id: uuidv4(),
     name: 'Blackberry',
     img: [
         fruitsColor['blackberry.png'].default,
@@ -22,6 +26,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Blueberries',
     img: [
         fruitsColor['blueberries.png'].default,
@@ -29,6 +34,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Cherries',
     img: [
         fruitsColor['cherries.png'].default,
@@ -36,6 +42,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Coconut',
     img: [
         fruitsColor['coconut.png'].default,
@@ -43,6 +50,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Dragon Fruit',
     img: [
         fruitsColor['dragon-fruit.png'].default,
@@ -50,6 +58,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Fig',
     img: [
         fruitsColor['fig.png'].default,
@@ -57,6 +66,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Grapes',
     img: [
         fruitsColor['grapes.png'].default,
@@ -64,6 +74,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Kiwi',
     img: [
         fruitsColor['kiwi.png'].default,
@@ -71,6 +82,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Lemon',
     img: [
         fruitsColor['lemon.png'].default,
@@ -78,6 +90,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Lychee',
     img: [
         fruitsColor['lychee.png'].default,
@@ -85,6 +98,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Mango',
     img: [
         fruitsColor['mango.png'].default,
@@ -92,6 +106,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Melon',
     img: [
         fruitsColor['melon.png'].default,
@@ -99,6 +114,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Orange',
     img: [
         fruitsColor['orange.png'].default,
@@ -106,6 +122,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Papaya',
     img: [
         fruitsColor['papaya.png'].default,
@@ -113,6 +130,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Peach',
     img: [
         fruitsColor['peach.png'].default,
@@ -120,6 +138,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Pear',
     img: [
         fruitsColor['pear.png'].default,
@@ -127,6 +146,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Pineapple',
     img: [
         fruitsColor['pineapple.png'].default,
@@ -134,6 +154,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Plum',
     img: [
         fruitsColor['plum.png'].default,
@@ -141,6 +162,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Pomegranate',
     img: [
         fruitsColor['pomegranate.png'].default,
@@ -148,6 +170,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Star Fruit',
     img: [
         fruitsColor['star-fruit.png'].default,
@@ -155,6 +178,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Strawberry',
     img: [
         fruitsColor['strawberry.png'].default,
@@ -162,6 +186,7 @@ const fruits = [{
     ],
     checked: true
 }, {
+    id: uuidv4(),
     name: 'Watermelon',
     img: [
         fruitsColor['watermelon.png'].default,

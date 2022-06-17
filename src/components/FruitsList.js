@@ -12,7 +12,10 @@ const FruitsList = () => {
             </div>
             {
                 fruits.map(
-                    (fruit) => <FruitsItem key={fruit.name.toLowerCase()} img={fruit.img[0]} name={fruit.name} />
+                    (fruit) => fruit.checked ?
+                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img[0]} name={fruit.name} />
+                    :
+                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img[1]} name={fruit.name} />
                 )
             }
 		</div>
