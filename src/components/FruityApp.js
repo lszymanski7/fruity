@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Draw from './Draw'
 import FruitsList from './FruitsList'
 import FruitsModal from './FruitsModal'
@@ -6,7 +6,6 @@ import Header from './Header'
 import fruits from '../dictionary/fruits'
 
 const FruityApp = () => {
-    console.log(fruits)
     const [fruit, setFruit] = useState()
 
     const handleDraw = () => {
@@ -14,7 +13,20 @@ const FruityApp = () => {
 		setFruit(fruits[rand])
         console.log(fruit)
 	}
-	
+
+    // Save initialization data to localStorage 
+    useEffect(() => {
+		try {
+			const dataJSON = localStorage.getItem('fruits')
+
+			if (!dataJSON) {
+				localStorage.setItem('fruits', JSON.stringify(fruits))
+			}
+		} catch (e) {
+			console.log('Error:', e)
+		}	
+	}, [])
+
     return (
         <div>
             <Header />
