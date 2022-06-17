@@ -6,6 +6,7 @@ import Header from './Header'
 import fruits from '../dictionary/fruits'
 
 const FruityApp = () => {
+    console.log(fruits)
     const [fruit, setFruit] = useState()
 
     const handleDraw = () => {

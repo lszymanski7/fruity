@@ -13,9 +13,9 @@ const FruitsList = () => {
             {
                 fruits.map(
                     (fruit) => fruit.checked ?
-                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img[0]} name={fruit.name} />
+                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img.color} name={fruit.name} />
                     :
-                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img[1]} name={fruit.name} />
+                        <FruitsItem key={fruit.id} id={fruit.id} img={fruit.img.linear} name={fruit.name} />
                 )
             }
 		</div>
