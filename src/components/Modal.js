@@ -1,10 +1,11 @@
 import React from "react"
-import Modal from 'react-modal'
+import ReactModal from 'react-modal'
+
 import fruits from "../dictionary/fruits"
 import apple from "../assets/icons/fruits-color/apple.png"
 
-const FruitsModal = () => (
-    <Modal
+const Modal = () => (
+    <ReactModal
         isOpen={false}
         //onRequestClose={false}
         contentLabel="Random Fruit"
@@ -14,7 +15,7 @@ const FruitsModal = () => (
         <h3>Random Fruit</h3>
         <img src={apple} alt={fruits[0].name} />
         <button>Okay</button>
-    </Modal>
+    </ReactModal>
 )
 
-export { FruitsModal as default }
+export { Modal as default }

@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import FruityApp from './components/FruityApp'
+import Fruity from './components/Fruity'
 import 'normalize.css/normalize.css'
 import './assets/styles/styles.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-    <FruityApp />
+    <Fruity />
 )

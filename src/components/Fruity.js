@@ -1,30 +1,28 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Draw from './Draw'
-import FruitsList from './FruitsList'
-import FruitsModal from './FruitsModal'
 import Header from './Header'
+import Modal from './Modal'
+import Widget from './Widget'
+
 import fruits from '../dictionary/fruits'
 
-const FruityApp = () => {
-    const [fruit, setFruit] = useState()
-
+const Fruity = () => {
     const handleDraw = () => {
 		const rand = Math.floor(Math.random() * fruits.length)
-		setFruit(fruits[rand])
-        console.log(fruit)
+        console.log(rand)
 	}
 
     // Save initialization data to localStorage 
     useEffect(() => {
-		try {
-			const dataJSON = localStorage.getItem('fruits')
+        const dataJSON = localStorage.getItem('fruits')
 
-			if (!dataJSON) {
+		try {
+			if (dataJSON === null) {
 				localStorage.setItem('fruits', JSON.stringify(fruits))
 			}
 		} catch (e) {
 			console.log('Error:', e)
-		}	
+        }
 	}, [])
 
     return (
@@ -32,13 +30,13 @@ const FruityApp = () => {
             <Header />
             <div className="container">
                 <div className="widget">
-                    <FruitsList />
+                    <Widget />
                 </div>
                 <Draw handleDraw={handleDraw} />
             </div>
-            <FruitsModal />
+            <Modal />
         </div>
     ) 
 }
 
-export { FruityApp as default }
+export { Fruity as default }
