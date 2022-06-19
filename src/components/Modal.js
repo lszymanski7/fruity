@@ -12,7 +12,7 @@ const Modal = ({ selectedFruit, modalIsOpen, closeModal }) => (
     >
         {selectedFruit && <h3>Selected Fruit: {selectedFruit.name}</h3>}
         {selectedFruit && <img src={selectedFruit.img.color} alt={selectedFruit.name} width="75px" height="75px" />}
-        <button onClick={closeModal}>Okay</button>
+        <button className="button" onClick={closeModal}>Okay</button>
     </ReactModal>
 )
 
