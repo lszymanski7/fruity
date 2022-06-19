@@ -1,20 +1,18 @@
-import React from "react"
+import React from 'react'
 import ReactModal from 'react-modal'
 
-import fruits from "../dictionary/fruits"
-import apple from "../assets/icons/fruits-color/apple.png"
-
-const Modal = () => (
+const Modal = ({ selectedFruit, modalIsOpen, closeModal }) => (
     <ReactModal
-        isOpen={false}
-        //onRequestClose={false}
-        contentLabel="Random Fruit"
-        closeTimeoutMS={200}
-        //className="modal"
+        appElement={document.getElementById('root')}
+        // className=""
+        // closeTimeoutMS={250}
+        contentLabel="Fruit Modal"
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
     >
-        <h3>Random Fruit</h3>
-        <img src={apple} alt={fruits[0].name} />
-        <button>Okay</button>
+        {selectedFruit && <h3>Selected Fruit: {selectedFruit.name}</h3>}
+        {selectedFruit && <img src={selectedFruit.img.color} alt={selectedFruit.name} width="75px" height="75px" />}
+        <button onClick={closeModal}>Okay</button>
     </ReactModal>
 )
 
