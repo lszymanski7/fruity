@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Item = ({ id, name, img, checked }) => {
+const Item = (props) => {
+    const { id, name, img, checked } = props
     const icon = checked ? img.color : img.linear
 
     const handleCheck = () => {
