@@ -1,10 +1,9 @@
 import React from 'react'
 import Item from './Item'
 
-import fruits from '../dictionary/fruits'
-
-const Widget = () => {
+const Widget = (props) => {
     const title = 'Your fruits'
+    const { fruits } = props
 
     return (
         <div className="container">
@@ -12,7 +11,7 @@ const Widget = () => {
 			    <h3>{title}</h3>
             </div>
             { 
-                fruits.map(
+                fruits === undefined ? <p>Loading...</p> : fruits.map(
                     (fruit) => <Item key={fruit.id} id={fruit.id} img={fruit.img} name={fruit.name} checked={fruit.checked} />
                 )
             }

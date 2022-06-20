@@ -5,7 +5,12 @@ const Item = (props) => {
     const icon = checked ? img.color : img.linear
 
     const handleCheck = () => {
-        console.log(name)
+        const dataJSON = localStorage.getItem('fruits')
+        const data = JSON.parse(dataJSON)
+        const itemek = data.find(item => item.id === id)
+        console.log(itemek)
+        itemek.checked = !itemek.checked
+        console.log(itemek)
     }
 
     return (
