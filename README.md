@@ -1,5 +1,5 @@
 <!-- PROJECT TITLE -->
-![Fruity Background](./docs/fruity-background.png)
+![Fruity Header](./docs/fruity-header.png)
 
 <!-- PROJECT SHIELDS -->
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)

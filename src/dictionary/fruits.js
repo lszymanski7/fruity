@@ -1,197 +1,198 @@
-import { appleColor,
-    bananaColor,
-    blackberryColor,
-    blueberriesColor,
-    cherriesColor,
-    coconutColor,
-    dragonFruitColor,
-    figColor,
-    grapesColor,
-    kiwiColor,
-    lemonColor,
-    lycheeColor,
-    mangoColor,
-    melonColor,
-    orangeColor,
-    papayaColor,
-    peachColor,
-    pearColor,
-    pineappleColor,
-    plumColor,
-    pomegranateColor,
-    starFruitColor,
-    strawberryColor,
-    watermelonColor,
-    appleLinear,
-    bananaLinear,
-    blackberryLinear,
-    blueberriesLinear,
-    cherriesLinear,
-    coconutLinear,
-    dragonFruitLinear,
-    figLinear,
-    grapesLinear,
-    kiwiLinear,
-    lemonLinear,
-    lycheeLinear,
-    mangoLinear,
-    melonLinear,
-    orangeLinear,
-    papayaLinear,
-    peachLinear,
-    pearLinear,
-    pineappleLinear,
-    plumLinear,
-    pomegranateLinear,
-    starFruitLinear,
-    strawberryLinear,
-    watermelonLinear
-} from '../assets/icons/index'
+import { v4 as uuidv4 } from 'uuid'
+import { fruitsColor, fruitsLinear } from '../assets/icons/icons-import'
 
 const fruits = [{
+    id: uuidv4(),
     name: 'Apple',
-    img: [
-        appleColor, 
-        appleLinear
-    ]
+    img: {
+        color: fruitsColor['apple.png'].default,
+        linear: fruitsLinear['apple.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Banana',
-    img: [
-        bananaColor, 
-        bananaLinear
-    ]
+    img: {
+        color: fruitsColor['banana.png'].default,
+        linear: fruitsLinear['banana.png'].default
+    },
+    checked: false
 }, {
+    id: uuidv4(),
     name: 'Blackberry',
-    img: [
-        blackberryColor, 
-        blackberryLinear
-    ]
+    img: {
+        color: fruitsColor['blackberry.png'].default,
+        linear: fruitsLinear['blackberry.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Blueberries',
-    img: [
-        blueberriesColor, 
-        blueberriesLinear
-    ]
+    img: {
+        color: fruitsColor['blueberries.png'].default,
+        linear: fruitsLinear['blueberries.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Cherries',
-    img: [
-        cherriesColor,
-        cherriesLinear
-    ]
+    img: {
+        color: fruitsColor['cherries.png'].default,
+        linear: fruitsLinear['cherries.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Coconut',
-    img: [
-        coconutColor,
-        coconutLinear
-    ]
+    img: {
+        color: fruitsColor['coconut.png'].default,
+        linear: fruitsLinear['coconut.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Dragon Fruit',
-    img: [
-        dragonFruitColor,
-        dragonFruitLinear
-    ]
+    img: {
+        color: fruitsColor['dragon-fruit.png'].default,
+        linear: fruitsLinear['dragon-fruit.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Fig',
-    img: [
-        figColor,
-        figLinear
-    ]
+    img: {
+        color: fruitsColor['fig.png'].default,
+        linear: fruitsLinear['fig.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Grapes',
-    img: [
-        grapesColor,
-        grapesLinear
-    ]
+    img: {
+        color: fruitsColor['grapes.png'].default,
+        linear: fruitsLinear['grapes.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Kiwi',
-    img: [
-        kiwiColor,
-        kiwiLinear
-    ]
+    img: {
+        color: fruitsColor['kiwi.png'].default,
+        linear: fruitsLinear['kiwi.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Lemon',
-    img: [
-        lemonColor,
-        lemonLinear
-    ]
+    img: {
+        color: fruitsColor['lemon.png'].default,
+        linear: fruitsLinear['lemon.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Lychee',
-    img: [
-        lycheeColor,
-        lycheeLinear
-    ]
+    img: {
+        color: fruitsColor['lychee.png'].default,
+        linear: fruitsLinear['lychee.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Mango',
-    img: [
-        mangoColor,
-        mangoLinear
-    ]
+    img: {
+        color: fruitsColor['mango.png'].default,
+        linear: fruitsLinear['mango.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Melon',
-    img: [
-        melonColor,
-        melonLinear
-    ]
+    img: {
+        color: fruitsColor['melon.png'].default,
+        linear: fruitsLinear['melon.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Orange',
-    img: [
-        orangeColor,
-        orangeLinear
-    ]
+    img: {
+        color: fruitsColor['orange.png'].default,
+        linear: fruitsLinear['orange.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Papaya',
-    img: [
-        papayaColor,
-        papayaLinear
-    ]
+    img: {
+        color: fruitsColor['papaya.png'].default,
+        linear: fruitsLinear['papaya.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Peach',
-    img: [
-        peachColor,
-        peachLinear
-    ]
+    img: {
+        color: fruitsColor['peach.png'].default,
+        linear: fruitsLinear['peach.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Pear',
-    img: [
-        pearColor,
-        pearLinear
-    ]
+    img: {
+        color: fruitsColor['pear.png'].default,
+        linear: fruitsLinear['pear.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Pineapple',
-    img: [
-        pineappleColor,
-        pineappleLinear
-    ]
+    img: {
+        color: fruitsColor['pineapple.png'].default,
+        linear: fruitsLinear['pineapple.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Plum',
-    img: [
-        plumColor,
-        plumLinear
-    ]
+    img: {
+        color: fruitsColor['plum.png'].default,
+        linear: fruitsLinear['plum.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Pomegranate',
-    img: [
-        pomegranateColor,
-        pomegranateLinear
-    ]
+    img: {
+        color: fruitsColor['pomegranate.png'].default,
+        linear: fruitsLinear['pomegranate.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Star Fruit',
-    img: [
-        starFruitColor,
-        starFruitLinear
-    ]
+    img: {
+        color: fruitsColor['star-fruit.png'].default,
+        linear: fruitsLinear['star-fruit.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Strawberry',
-    img: [
-        strawberryColor,
-        strawberryLinear
-    ]
+    img: {
+        color: fruitsColor['strawberry.png'].default,
+        linear: fruitsLinear['strawberry.png'].default
+    },
+    checked: true
 }, {
+    id: uuidv4(),
     name: 'Watermelon',
-    img: [
-        watermelonColor,
-        watermelonLinear
-    ]
+    img: {
+        color: fruitsColor['watermelon.png'].default,
+        linear: fruitsLinear['watermelon.png'].default
+    },
+    checked: true
 }]
 
 export { fruits as default }
