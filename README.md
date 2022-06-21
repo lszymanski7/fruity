@@ -62,6 +62,14 @@ The project will be launched at the following url: <a href="http://localhost:808
 ## Scripts
 In progress...	
 
+```sh
+npm run build
+```
+
+```sh
+npm run start
+```
+
 <!-- DEPLOYMENT -->
 ## Deployment
 In progress...	
