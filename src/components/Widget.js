@@ -11,7 +11,7 @@ const Widget = (props) => {
 			    <h3>{title}</h3>
             </div>
             { 
-                fruits === undefined ? <p>Loading...</p> : fruits.map(
+                fruits !== undefined && fruits.map(
                     (fruit) => <Item key={fruit.id} id={fruit.id} img={fruit.img} name={fruit.name} checked={fruit.checked} />
                 )
             }

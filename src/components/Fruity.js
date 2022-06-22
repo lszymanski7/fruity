@@ -16,7 +16,6 @@ const Fruity = () => {
     }
     
     const closeModal = () => {
-        setSelectedFruit(undefined)
         setIsOpen(false)
     }
     
