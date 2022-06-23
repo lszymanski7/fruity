@@ -3,48 +3,31 @@ import Draw from './Draw'
 import Header from './Header'
 import Modal from './Modal'
 import Widget from './Widget'
-
 import fruitsDictionary from '../dictionary/fruits'
+import useLocalStorage from '../hooks/useLocalStorage'
 
 const Fruity = () => {
-    const [fruits, setFruits] = useState(undefined)
+    const [fruits, setFruits] = useLocalStorage('fruits', fruitsDictionary)
     const [selectedFruit, setSelectedFruit] = useState(undefined)
     const [modalIsOpen, setIsOpen] = useState(false)
 
-    const openModal = () => {
+    const openModal = (fruit) => {
+        setSelectedFruit(fruit)
         setIsOpen(true)
     }
     
     const closeModal = () => {
+        setSelectedFruit(undefined)
         setIsOpen(false)
     }
     
     const handleDraw = () => {
-        
-        console.log(fruits)
-		const rand = Math.floor(Math.random() * fruits.length) // fruits.length to change | data from localStorage instead of dictionary
-        const fruit = fruits[rand] // fruits[rand] to change | data from localStorage instead of dictionary
-        setSelectedFruit(fruit)
-        openModal()
+		const rand = Math.floor(Math.random() * fruits.length)
+        openModal(fruits[rand])
 	}
 
-    // Save initialization data to localStorage 
     useEffect(() => {
-        const dataJSON = localStorage.getItem('fruits')
-
-		try {
-			if (dataJSON === null) {
-				localStorage.setItem('fruits', JSON.stringify(fruitsDictionary))
-			}
-		} catch (e) {
-			console.log('Error:', e)
-        }
-	}, [])
-
-    // Save initialization data to localStorage 
-    useEffect(() => {
-        const dataJSON = localStorage.getItem('fruits')
-        setFruits(JSON.parse(dataJSON))
+        setFruits(fruitsDictionary)
 	}, [])
 
     return (
