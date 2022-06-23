@@ -3,6 +3,7 @@ import { fruitsColor, fruitsLinear } from '../assets/icons/icons-import'
 
 const fruits = [{
     id: uuidv4(),
+    key: 'apple',
     name: 'Apple',
     img: {
         color: fruitsColor['apple.png'].default,
@@ -11,6 +12,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'banana',
     name: 'Banana',
     img: {
         color: fruitsColor['banana.png'].default,
@@ -19,6 +21,7 @@ const fruits = [{
     checked: false
 }, {
     id: uuidv4(),
+    key: 'blackberry',
     name: 'Blackberry',
     img: {
         color: fruitsColor['blackberry.png'].default,
@@ -27,6 +30,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'blueberries',
     name: 'Blueberries',
     img: {
         color: fruitsColor['blueberries.png'].default,
@@ -35,6 +39,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'cherries',
     name: 'Cherries',
     img: {
         color: fruitsColor['cherries.png'].default,
@@ -43,6 +48,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'coconut',
     name: 'Coconut',
     img: {
         color: fruitsColor['coconut.png'].default,
@@ -51,6 +57,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'dragon_fruit',
     name: 'Dragon Fruit',
     img: {
         color: fruitsColor['dragon-fruit.png'].default,
@@ -59,6 +66,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'fig',
     name: 'Fig',
     img: {
         color: fruitsColor['fig.png'].default,
@@ -67,6 +75,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'grapes',
     name: 'Grapes',
     img: {
         color: fruitsColor['grapes.png'].default,
@@ -75,6 +84,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'kiwi',
     name: 'Kiwi',
     img: {
         color: fruitsColor['kiwi.png'].default,
@@ -83,6 +93,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'lemon',
     name: 'Lemon',
     img: {
         color: fruitsColor['lemon.png'].default,
@@ -91,6 +102,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'lychee',
     name: 'Lychee',
     img: {
         color: fruitsColor['lychee.png'].default,
@@ -99,6 +111,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'mango',
     name: 'Mango',
     img: {
         color: fruitsColor['mango.png'].default,
@@ -107,6 +120,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'melon',
     name: 'Melon',
     img: {
         color: fruitsColor['melon.png'].default,
@@ -115,6 +129,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'orange',
     name: 'Orange',
     img: {
         color: fruitsColor['orange.png'].default,
@@ -123,6 +138,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'papaya',
     name: 'Papaya',
     img: {
         color: fruitsColor['papaya.png'].default,
@@ -131,6 +147,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'peach',
     name: 'Peach',
     img: {
         color: fruitsColor['peach.png'].default,
@@ -139,6 +156,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'pear',
     name: 'Pear',
     img: {
         color: fruitsColor['pear.png'].default,
@@ -147,6 +165,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'pineapple',
     name: 'Pineapple',
     img: {
         color: fruitsColor['pineapple.png'].default,
@@ -155,6 +174,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'plum',
     name: 'Plum',
     img: {
         color: fruitsColor['plum.png'].default,
@@ -163,6 +183,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'pomegranate',
     name: 'Pomegranate',
     img: {
         color: fruitsColor['pomegranate.png'].default,
@@ -171,6 +192,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'star_fruit',
     name: 'Star Fruit',
     img: {
         color: fruitsColor['star-fruit.png'].default,
@@ -179,6 +201,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'strawberry',
     name: 'Strawberry',
     img: {
         color: fruitsColor['strawberry.png'].default,
@@ -187,6 +210,7 @@ const fruits = [{
     checked: true
 }, {
     id: uuidv4(),
+    key: 'watermelon',
     name: 'Watermelon',
     img: {
         color: fruitsColor['watermelon.png'].default,
