@@ -70,6 +70,10 @@ npm run build
 npm run start
 ```
 
+```sh
+npm run test
+```
+
 <!-- DEPLOYMENT -->
 ## Deployment
 In progress...	
