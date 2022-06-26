@@ -18,7 +18,7 @@ const fruits = [{
         color: fruitsColor['banana.png'].default,
         linear: fruitsLinear['banana.png'].default
     },
-    checked: false
+    checked: true
 }, {
     id: uuidv4(),
     key: 'blackberry',
