@@ -2,8 +2,8 @@ import React from 'react'
 import Item from './Item'
 
 const Widget = (props) => {
-    const title = 'Select your favorite fruits:'
-    const { fruits } = props
+    const title = 'Select fruits:'
+    const { fruits, setFruits } = props
 
     return (
         <div className="container">
@@ -11,8 +11,16 @@ const Widget = (props) => {
 			    <h3>{title}</h3>
             </div>
             { 
-                fruits.map(
-                    (fruit) => <Item key={fruit.key} id={fruit.id} img={fruit.img} name={fruit.name} checked={fruit.checked} />
+                fruits.map((fruit) => 
+                    <Item 
+                        key={fruit.key} 
+                        id={fruit.id} 
+                        name={fruit.name} 
+                        img={fruit.img} 
+                        checked={fruit.checked} 
+                        fruits={fruits} 
+                        setFruits={setFruits} 
+                    />
                 )
             }
 		</div>
