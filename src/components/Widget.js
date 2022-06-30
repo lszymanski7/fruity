@@ -3,16 +3,15 @@ import Item from './Item'
 
 const Widget = (props) => {
     const title = 'Select fruits:'
-    const { fruits, setFruits } = props
+    const { fruits, setFruits, filteredFruits, setFilteredFruits } = props
 
     return (
         <div className="container">
-            <div>
-			    <h3>{title}</h3>
-            </div>
+			<h3>{title}</h3>
             {
                 fruits.map((fruit) => { 
                     const key = fruit.name.toLowerCase().replace(' ', '_')
+
                     return (
                         <Item 
                             key={key} 
@@ -21,11 +20,13 @@ const Widget = (props) => {
                             img={fruit.img} 
                             checked={fruit.checked} 
                             fruits={fruits} 
-                            setFruits={setFruits}  
+                            setFruits={setFruits}
+                            setFilteredFruits={setFilteredFruits}
                         />
                     )
                 })
             }
+            {filteredFruits.length < 2 && <p>Select at least two fruits to get started!</p>}
 		</div>
     )
 }
