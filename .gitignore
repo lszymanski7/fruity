@@ -4,5 +4,15 @@
 # Production
 /build
 
+# Empty Directories
+/src/actions
+/src/assets/fonts
+/src/assets/images
+/src/context
+/src/reducers
+/src/routers
+/src/selectors
+/src/store
+
 # Misc.
 .DS_Store
