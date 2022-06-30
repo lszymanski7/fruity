@@ -1,41 +1,36 @@
 import React, { useState, useEffect } from 'react'
 import Draw from './Draw'
+import Footer from './Footer'
 import Header from './Header'
 import Modal from './Modal'
 import Widget from './Widget'
-
-import fruits from '../dictionary/fruits'
+import fruitsData from '../dictionary/fruits'
+import useLocalStorage from '../hooks/useLocalStorage'
 
 const Fruity = () => {
+    const [fruits, setFruits] = useLocalStorage('fruits', fruitsData)
+    const [filteredFruits, setFilteredFruits] = useState(fruits.filter((fruit) => fruit.checked === true))
     const [selectedFruit, setSelectedFruit] = useState(undefined)
-    const [modalIsOpen, setIsOpen] = useState(false)
+    const [isOpenModal, setIsOpenModal] = useState(false)
 
-    const openModal = () => {
-        setIsOpen(true)
+    const openModal = (fruit) => {
+        setSelectedFruit(fruit)
+        setIsOpenModal(true)
     }
     
     const closeModal = () => {
         setSelectedFruit(undefined)
-        setIsOpen(false)
+        setIsOpenModal(false)
     }
     
     const handleDraw = () => {
-		const rand = Math.floor(Math.random() * fruits.length) // fruits.length to change | data from localStorage instead of dictionary
-        const fruit = fruits[rand] // fruits[rand] to change | data from localStorage instead of dictionary
-        setSelectedFruit(fruit)
-        openModal()
+        const rand = Math.floor(Math.random() * filteredFruits.length)
+        openModal(filteredFruits[rand])
 	}
 
-    // Save initialization data to localStorage 
     useEffect(() => {
-        const dataJSON = localStorage.getItem('fruits')
-
-		try {
-			if (dataJSON === null) {
-				localStorage.setItem('fruits', JSON.stringify(fruits))
-			}
-		} catch (e) {
-			console.log('Error:', e)
+        if (window.localStorage.getItem('fruits') === null) {
+            setFruits(fruitsData)
         }
 	}, [])
 
@@ -44,11 +39,12 @@ const Fruity = () => {
             <Header />
             <div className="container">
                 <div className="widget">
-                    <Widget />
+                    <Widget fruits={fruits} setFruits={setFruits} filteredFruits={filteredFruits} setFilteredFruits={setFilteredFruits} />
                 </div>
-                <Draw handleDraw={handleDraw} />
+                <Draw filteredFruits={filteredFruits} handleDraw={handleDraw} />
             </div>
-            <Modal selectedFruit={selectedFruit} modalIsOpen={modalIsOpen} closeModal={closeModal} />
+            <Modal selectedFruit={selectedFruit} isOpenModal={isOpenModal} closeModal={closeModal} />
+            <Footer />
         </div>
     ) 
 }

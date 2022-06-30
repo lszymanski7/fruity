@@ -1,0 +1,19 @@
+// Footer
+
+.footer {
+    background: $pink-dark;
+    margin-top: $m-size;
+    padding: $s-size 0;
+}
+
+.footer__attribution {
+    color: $gray-dark;
+    font-size: $s-size;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    a {
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

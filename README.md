@@ -15,7 +15,8 @@
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5. [Deployment](#deployment)
-6. [Contact](#contact)
+6. [Attribution](#attribution)
+7. [Contact](#contact)
 
 <!-- DESCRIPTION -->
 ## Description
@@ -61,9 +62,27 @@ The project will be launched at the following url: <a href="http://localhost:808
 ## Scripts
 In progress...	
 
+```sh
+npm run build
+```
+
+```sh
+npm run start
+```
+
+```sh
+npm run test
+```
+
 <!-- DEPLOYMENT -->
 ## Deployment
 In progress...	
+
+
+<!-- ATTRIBUTION -->
+## Attribution
+- Logo made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a>
+- Icons made by <a href="https://www.flaticon.com/authors/smashicons">Smashicons</a> from <a href="https://www.flaticon.com">www.flaticon.com</a>
 
 <!-- CONTACT -->
 ## Contact

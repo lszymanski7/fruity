@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState }  from 'react'
 
 const Item = (props) => {
-    const { id, name, img, checked } = props
-    const icon = checked ? img.color : img.linear
+    const { id, name, img, checked, fruits, setFruits, setFilteredFruits } = props
+    const [icon, setIcon] = useState(checked ? img.color : img.linear)
+    const fruitsData = JSON.parse(JSON.stringify(fruits))
 
     const handleCheck = () => {
-        console.log(name)
+        const fruit = fruitsData.find((fruit) => fruit.id === id)
+        fruit.checked = !fruit.checked
+        setFruits(fruitsData)
+        setIcon(fruit.checked ? img.color : img.linear)
+        setFilteredFruits(fruitsData.filter((fruit) => fruit.checked === true))
     }
 
     return (
         <div>
-            <img id={id} src={icon} alt={name} width="75px" height="75px" onClick={handleCheck} />
+            <img id={id} src={icon} alt={name} width="50px" height="50px" onClick={handleCheck} />
             <p>{name}</p>
 		</div>
     ) 
