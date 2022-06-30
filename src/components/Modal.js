@@ -2,14 +2,14 @@ import React from 'react'
 import ReactModal from 'react-modal'
 
 const Modal = (props) => {
-    const { selectedFruit, modalIsOpen, closeModal } = props
+    const { selectedFruit, isOpenModal, closeModal } = props
 
     return (
         <ReactModal
             appElement={document.getElementById('root')}
             className="modal"
             contentLabel="Fruit Modal"
-            isOpen={modalIsOpen}
+            isOpen={isOpenModal}
             onRequestClose={closeModal}
         >
             {
