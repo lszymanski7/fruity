@@ -10,7 +10,7 @@ const Widget = (props) => {
 			<h3>{title}</h3>
             {
                 fruits.map((fruit) => { 
-                    const key = fruit.name.toLowerCase().replace(' ', '_')
+                    const key = fruit.name.toLowerCase().replace(' ', '-')
 
                     return (
                         <Item 

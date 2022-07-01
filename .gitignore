@@ -4,6 +4,9 @@
 # Production
 /build
 
+# Misc.
+.DS_Store
+
 # Unused Folders
 /src/actions
 /src/assets/fonts
@@ -13,6 +16,4 @@
 /src/routers
 /src/selectors
 /src/store
-
-# Misc.
-.DS_Store
+/src/tests
