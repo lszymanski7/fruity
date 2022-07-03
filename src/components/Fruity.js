@@ -4,7 +4,7 @@ import Footer from './Footer'
 import Header from './Header'
 import Modal from './Modal'
 import Widget from './Widget'
-import fruitsData from '../dictionary/fruits'
+import fruitsData from '../data/fruits'
 import useLocalStorage from '../hooks/useLocalStorage'
 
 const Fruity = () => {
