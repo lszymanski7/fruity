@@ -16,4 +16,8 @@
 /src/routers
 /src/selectors
 /src/store
-/src/tests
+/src/tests/actions
+/src/tests/fixtures
+/src/tests/hooks
+/src/tests/reducers
+/src/tests/selectors
