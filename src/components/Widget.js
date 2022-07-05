@@ -2,12 +2,12 @@ import React from 'react'
 import Item from './Item'
 
 const Widget = (props) => {
-    const title = 'Select fruits:'
+    const title = 'Your Fruits'
     const { fruits, setFruits, filteredFruits, setFilteredFruits } = props
 
     return (
-        <div className="container">
-			<h3>{title}</h3>
+        <div className="widget">
+            <h3 className="widget-header">{title}</h3>
             {
                 fruits.map((fruit) => { 
                     const key = fruit.name.toLowerCase().replace(' ', '-')
@@ -26,7 +26,7 @@ const Widget = (props) => {
                     )
                 })
             }
-            {filteredFruits.length < 2 && <p>Select at least two fruits to get started!</p>}
+            {filteredFruits.length < 2 && <p className="widget__message">Select at least two fruits to get started!</p>}
 		</div>
     )
 }
