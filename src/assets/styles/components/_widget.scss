@@ -1,24 +1,25 @@
 // Widget 
 
 .widget {
-    background: $pink-dark;
     margin-bottom: $m-size;
 }
 
 .widget-header {
     background: $red-dark;
-    border-bottom: .3rem solid darken($red-dark, 20%);
+    border: .2rem solid darken($red-dark, 10%);
     color: $white;
-    margin: 0;
     padding: $s-size;
-    text-align: left;
+    text-align: center;
+    h2 {
+        margin: 0;
+    }
 }
 
-.widget__message {
-    background: $red-dark;
-    border-bottom: .3rem solid darken($red-dark, 20%);
-    color: $white;
-    margin: 0;
-    padding: $s-size;
+.widget-container {
+    background-color: $white;
+    border-bottom: .2rem solid darken($pink-light, 10%);
+    border-left: .2rem solid darken($pink-light, 10%);
+    border-right: .2rem solid darken($pink-light, 10%);
+    padding: $xs-size 0;
     text-align: center;
 }

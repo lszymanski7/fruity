@@ -38,12 +38,21 @@ const Fruity = () => {
         <div>
             <Header />
             <div className="container">
-                <div className="widget">
-                    <Widget fruits={fruits} setFruits={setFruits} filteredFruits={filteredFruits} setFilteredFruits={setFilteredFruits} />
-                </div>
-                <Draw filteredFruits={filteredFruits} handleDraw={handleDraw} />
+                <Widget
+                    fruits={fruits} 
+                    setFruits={setFruits}
+                    setFilteredFruits={setFilteredFruits}
+                />
+                <Draw
+                    filteredFruits={filteredFruits} 
+                    handleDraw={handleDraw}
+                />
             </div>
-            <Modal selectedFruit={selectedFruit} isOpenModal={isOpenModal} closeModal={closeModal} />
+            <Modal 
+                selectedFruit={selectedFruit} 
+                isOpenModal={isOpenModal} 
+                closeModal={closeModal} 
+            />
             <Footer />
         </div>
     ) 

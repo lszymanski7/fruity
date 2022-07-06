@@ -6,7 +6,7 @@ const Draw = (props) => {
     return (
         <div>
 		    <button className="big-button" disabled={filteredFruits.length < 2} onClick={handleDraw} >
-			    Draw a fruit!
+				{filteredFruits.length < 2 ? 'Select more fruits!' : 'Draw a fruit!'}
 		    </button>
 	    </div>
     )

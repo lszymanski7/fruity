@@ -8,7 +8,7 @@ const Modal = (props) => {
         <ReactModal
             appElement={document.getElementById('root')}
             className="modal"
-            contentLabel="Fruit Modal"
+            contentLabel="Fruity Modal"
             isOpen={isOpenModal}
             onRequestClose={closeModal}
         >

@@ -14,9 +14,9 @@ const Item = (props) => {
     }
 
     return (
-        <div>
-            <img id={id} src={icon} alt={name} width="50px" height="50px" onClick={handleCheck} />
-            <p>{name}</p>
+        <div className="item">
+            <img className="item__image" id={id} src={icon} alt={name} onClick={handleCheck} />
+            <p className="item__name">{name}</p>
 		</div>
     ) 
 }

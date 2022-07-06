@@ -23,19 +23,20 @@
 
 .modal {
     background: $pink-light;
-    border: 3px solid $pink-dark;
-    width: 20rem;
+    border: .2rem solid darken($pink-light, 10%);
     outline: none;
     padding: $l-size;
     text-align: center;
+    width: 20rem;
 }
 
 .modal__title {
+    color: $black;
     margin: 0 0 $l-size 0;
 }
 
 .modal__image {
-    height: 125px;
+    height: 100px;
     margin: 0 0 $l-size 0;
-    width: 125px;
+    width: 100px;
 }
