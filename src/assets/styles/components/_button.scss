@@ -23,6 +23,7 @@
     color: $white;
     font-size: $l-size;
     font-weight: bold;
+    margin-bottom: $xxl-size;
     padding: 2.4rem;
     width: 100%;
 }
@@ -36,4 +37,10 @@
     opacity: .5;
     background: darken($red-dark, 10%);
     border-bottom: .75rem solid darken($red-dark, 20%);
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
 }

@@ -1,8 +1,8 @@
 // Item
 .item {
     display: inline-block;
-    padding: $s-size $xs-size;
-    width: 80px;
+    padding: $s-size 0.4rem;
+    width: 75px;
 }
 
 .item__image {
@@ -14,4 +14,11 @@
     font-size: $s-size;
     margin: 0;
     padding: $xs-size 0 0 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .item {
+        padding: $s-size $xs-size;
+        width: 80px;
+    }
 }

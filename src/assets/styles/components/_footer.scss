@@ -2,24 +2,20 @@
 
 .footer {
     background: $pink-dark;
-    margin-top: $xxl-size;
+    border-top: .2rem solid darken($pink-dark, 10%);
+    bottom: 0;
     padding: $s-size 0;
+    position: absolute;
+    width: 100%;
 }
 
 .footer__attribution {
-    color: $gray-dark;
+    color: $black;
     font-size: $s-size;
-    font-weight: 500;
     margin: 0;
     text-align: center;
     a {
         font-weight: bold;
         text-decoration: none;
-    }
-}
-
-@media (max-width: $desktop-breakpoint) {
-    .footer {
-        margin-top: $xl-size;
     }
 }
