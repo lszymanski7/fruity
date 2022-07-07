@@ -1,12 +1,20 @@
 <!-- PROJECT TITLE -->
-![Fruity Header](./docs/fruity-header.png)
+<div align="center">
+
+![Fruity Header](./docs/fruity-app.png)
+
+</div>
 
 <!-- PROJECT SHIELDS -->
+<div align="center">
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![GitHub Repository Size](https://img.shields.io/github/repo-size/lszymanski7/fruity-app?label=size)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/fruity-app)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/fruity-app)
 ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/fruity-app)
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of contents
