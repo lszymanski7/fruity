@@ -3,7 +3,7 @@ import { logo } from '../assets/importFiles'
 
 const Header = () => {
 	const title = 'Fruity'
-    const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
+	const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
 
 	return (
 		<div className="header">
