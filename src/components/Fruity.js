@@ -32,6 +32,7 @@ const Fruity = () => {
 		if (window.localStorage.getItem('fruits') === null) {
 			setFruits(fruitsData)
 		}
+  		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
 	return (

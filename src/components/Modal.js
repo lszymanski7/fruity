@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import ReactModal from 'react-modal'
 
@@ -22,6 +23,12 @@ const Modal = (props) => {
             <button className="button" onClick={closeModal}>Okay</button>
         </ReactModal>
     )
+}
+
+Modal.propTypes = {
+	selectedFruit: PropTypes.object,
+	isOpenModal: PropTypes.bool.isRequired,
+    closeModal: PropTypes.func.isRequired
 }
 
 export { Modal as default }

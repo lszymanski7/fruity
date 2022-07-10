@@ -1,10 +1,11 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import Item from './Item'
 
 const Widget = (props) => {
-    const title = 'Fruits to select:'
     const { fruits, setFruits, setFilteredFruits } = props
-
+    const title = 'Fruits to select:'
+    
     return (
         <div className="widget">
             <div className="widget-header">
@@ -32,6 +33,12 @@ const Widget = (props) => {
             </div>
 		</div>
     )
+}
+
+Widget.propTypes = {
+	fruits: PropTypes.array.isRequired,
+	setFruits: PropTypes.func.isRequired,
+    setFilteredFruits: PropTypes.func.isRequired
 }
 
 export { Widget as default }

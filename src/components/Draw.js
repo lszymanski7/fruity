@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
 const Draw = (props) => {
@@ -10,6 +11,11 @@ const Draw = (props) => {
 		    </button>
 	    </div>
     )
+}
+
+Draw.propTypes = {
+	filteredFruits: PropTypes.array.isRequired,
+	handleDraw: PropTypes.func.isRequired
 }
 
 export { Draw as default }
