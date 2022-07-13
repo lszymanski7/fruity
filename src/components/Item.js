@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React, { useState }  from 'react'
 
 const Item = (props) => {
@@ -14,11 +15,21 @@ const Item = (props) => {
     }
 
     return (
-        <div>
-            <img id={id} src={icon} alt={name} width="50px" height="50px" onClick={handleCheck} />
-            <p>{name}</p>
+        <div className="item">
+            <img className="item__image" id={id} src={icon} alt={name} onClick={handleCheck} />
+            <p className="item__name">{name}</p>
 		</div>
     ) 
+}
+
+Item.propTypes = {
+	id: PropTypes.string.isRequired,
+	name: PropTypes.string.isRequired,
+    img: PropTypes.object.isRequired,
+    checked: PropTypes.bool.isRequired,
+    fruits: PropTypes.array.isRequired,
+    setFruits: PropTypes.func.isRequired,
+    setFilteredFruits: PropTypes.func.isRequired
 }
 
 export { Item as default }
