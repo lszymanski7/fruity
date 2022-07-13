@@ -46,7 +46,7 @@ const Fruity = () => {
 				/>
 				<Draw
 					filteredFruits={filteredFruits}
-					handleDraw={handleDraw}
+					handleDraw={handleDraw} 
 				/>
 			</div>
 			<Modal

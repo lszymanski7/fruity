@@ -86,7 +86,6 @@ npm run test
 ## Deployment
 In progress...	
 
-
 <!-- ATTRIBUTION -->
 ## Attribution
 - Logo made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a>
