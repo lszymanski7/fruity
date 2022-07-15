@@ -4,12 +4,16 @@
 	"description": "An app for fruit lovers who can't decide what fruit they would like to eat. One click will help you make that tough decision!",
 	"main": "src/index.js",
 	"private": true,
+	"author": "Łukasz Szymański",
+	"license": "MIT",
 	"scripts": {
-		"build": "webpack",
+		"build:dev": "webpack --config webpack.dev.js",
+		"build:prod": "webpack --config webpack.prod.js",
 		"eslint": "npx eslint .",
 		"prettier:check": "npx prettier --check .",
 		"prettier:write": "npx prettier --write .",
-		"start": "webpack serve",
+		"start": "node server/server.js",
+		"dev-server": "webpack serve",
 		"test": "jest",
 		"test:watch": "jest --watch"
 	},
@@ -17,8 +21,6 @@
 		"type": "git",
 		"url": "git+https://github.com/lszymanski7/fruity-app.git"
 	},
-	"author": "Łukasz Szymański",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/lszymanski7/fruity-app/issues"
 	},
@@ -41,7 +43,7 @@
 		"@testing-library/dom": "^8.14.1",
 		"@testing-library/jest-dom": "^5.16.4",
 		"@testing-library/react": "^13.3.0",
-		"@testing-library/user-event": "^14.2.1",
+		"@testing-library/user-event": "^14.2.3",
 		"babel-jest": "^28.1.2",
 		"babel-loader": "^8.2.5",
 		"babel-plugin-transform-require-context": "^0.1.1",
@@ -50,20 +52,21 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-import-resolver-webpack": "^0.13.2",
 		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-jest": "^26.5.3",
+		"eslint-plugin-jest": "^26.6.0",
 		"eslint-plugin-react": "^7.30.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
-		"file-loader": "^6.2.0",
 		"html-webpack-plugin": "^5.5.0",
 		"jest": "^28.1.2",
 		"jest-environment-jsdom": "^28.1.2",
+		"mini-css-extract-plugin": "^2.6.1",
 		"node-sass": "^7.0.1",
 		"prettier": "^2.7.1",
 		"sass-loader": "^13.0.0",
 		"style-loader": "^3.3.1",
 		"webpack": "^5.72.1",
 		"webpack-cli": "^4.9.2",
-		"webpack-dev-server": "^4.9.0"
+		"webpack-dev-server": "^4.9.0",
+		"webpack-merge": "^5.8.0"
 	},
 	"browserslist": {
 		"production": [
