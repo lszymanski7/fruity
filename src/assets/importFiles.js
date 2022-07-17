@@ -1,9 +1,9 @@
-import logo from './icons/logo/fruity.png'
+import logo from './icons/logo/fruity-logo.png'
 
 const importAll = (r) => {
     const files = {}
     r.keys().forEach((key) => files[key.replace('./', '')] = r(key))
-    
+
     return files
 }
 

@@ -6,8 +6,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Apple',
 		img: {
-			color: fruitsColor['apple.png'],
-			linear: fruitsLinear['apple.png']
+			color: fruitsColor['apple-color.png'],
+			linear: fruitsLinear['apple-linear.png']
 		},
 		checked: true
 	},
@@ -15,8 +15,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Banana',
 		img: {
-			color: fruitsColor['banana.png'],
-			linear: fruitsLinear['banana.png']
+			color: fruitsColor['banana-color.png'],
+			linear: fruitsLinear['banana-linear.png']
 		},
 		checked: true
 	},
@@ -24,8 +24,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Blackberry',
 		img: {
-			color: fruitsColor['blackberry.png'],
-			linear: fruitsLinear['blackberry.png']
+			color: fruitsColor['blackberry-color.png'],
+			linear: fruitsLinear['blackberry-linear.png']
 		},
 		checked: true
 	},
@@ -33,8 +33,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Blueberries',
 		img: {
-			color: fruitsColor['blueberries.png'],
-			linear: fruitsLinear['blueberries.png']
+			color: fruitsColor['blueberries-color.png'],
+			linear: fruitsLinear['blueberries-linear.png']
 		},
 		checked: true
 	},
@@ -42,8 +42,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Cherries',
 		img: {
-			color: fruitsColor['cherries.png'],
-			linear: fruitsLinear['cherries.png']
+			color: fruitsColor['cherries-color.png'],
+			linear: fruitsLinear['cherries-linear.png']
 		},
 		checked: true
 	},
@@ -51,8 +51,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Coconut',
 		img: {
-			color: fruitsColor['coconut.png'],
-			linear: fruitsLinear['coconut.png']
+			color: fruitsColor['coconut-color.png'],
+			linear: fruitsLinear['coconut-linear.png']
 		},
 		checked: true
 	},
@@ -60,8 +60,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Dragon Fruit',
 		img: {
-			color: fruitsColor['dragon-fruit.png'],
-			linear: fruitsLinear['dragon-fruit.png']
+			color: fruitsColor['dragon-fruit-color.png'],
+			linear: fruitsLinear['dragon-fruit-linear.png']
 		},
 		checked: true
 	},
@@ -69,8 +69,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Fig',
 		img: {
-			color: fruitsColor['fig.png'],
-			linear: fruitsLinear['fig.png']
+			color: fruitsColor['fig-color.png'],
+			linear: fruitsLinear['fig-linear.png']
 		},
 		checked: true
 	},
@@ -78,8 +78,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Grapes',
 		img: {
-			color: fruitsColor['grapes.png'],
-			linear: fruitsLinear['grapes.png']
+			color: fruitsColor['grapes-color.png'],
+			linear: fruitsLinear['grapes-linear.png']
 		},
 		checked: true
 	},
@@ -87,8 +87,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Kiwi',
 		img: {
-			color: fruitsColor['kiwi.png'],
-			linear: fruitsLinear['kiwi.png']
+			color: fruitsColor['kiwi-color.png'],
+			linear: fruitsLinear['kiwi-linear.png']
 		},
 		checked: true
 	},
@@ -96,8 +96,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Lemon',
 		img: {
-			color: fruitsColor['lemon.png'],
-			linear: fruitsLinear['lemon.png']
+			color: fruitsColor['lemon-color.png'],
+			linear: fruitsLinear['lemon-linear.png']
 		},
 		checked: true
 	},
@@ -105,8 +105,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Lychee',
 		img: {
-			color: fruitsColor['lychee.png'],
-			linear: fruitsLinear['lychee.png']
+			color: fruitsColor['lychee-color.png'],
+			linear: fruitsLinear['lychee-linear.png']
 		},
 		checked: true
 	},
@@ -114,8 +114,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Mango',
 		img: {
-			color: fruitsColor['mango.png'],
-			linear: fruitsLinear['mango.png']
+			color: fruitsColor['mango-color.png'],
+			linear: fruitsLinear['mango-linear.png']
 		},
 		checked: true
 	},
@@ -123,8 +123,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Melon',
 		img: {
-			color: fruitsColor['melon.png'],
-			linear: fruitsLinear['melon.png']
+			color: fruitsColor['melon-color.png'],
+			linear: fruitsLinear['melon-linear.png']
 		},
 		checked: true
 	},
@@ -132,8 +132,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Orange',
 		img: {
-			color: fruitsColor['orange.png'],
-			linear: fruitsLinear['orange.png']
+			color: fruitsColor['orange-color.png'],
+			linear: fruitsLinear['orange-linear.png']
 		},
 		checked: true
 	},
@@ -141,8 +141,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Papaya',
 		img: {
-			color: fruitsColor['papaya.png'],
-			linear: fruitsLinear['papaya.png']
+			color: fruitsColor['papaya-color.png'],
+			linear: fruitsLinear['papaya-linear.png']
 		},
 		checked: true
 	},
@@ -150,8 +150,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Peach',
 		img: {
-			color: fruitsColor['peach.png'],
-			linear: fruitsLinear['peach.png']
+			color: fruitsColor['peach-color.png'],
+			linear: fruitsLinear['peach-linear.png']
 		},
 		checked: true
 	},
@@ -159,8 +159,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Pear',
 		img: {
-			color: fruitsColor['pear.png'],
-			linear: fruitsLinear['pear.png']
+			color: fruitsColor['pear-color.png'],
+			linear: fruitsLinear['pear-linear.png']
 		},
 		checked: true
 	},
@@ -168,8 +168,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Pineapple',
 		img: {
-			color: fruitsColor['pineapple.png'],
-			linear: fruitsLinear['pineapple.png']
+			color: fruitsColor['pineapple-color.png'],
+			linear: fruitsLinear['pineapple-linear.png']
 		},
 		checked: true
 	},
@@ -177,8 +177,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Plum',
 		img: {
-			color: fruitsColor['plum.png'],
-			linear: fruitsLinear['plum.png']
+			color: fruitsColor['plum-color.png'],
+			linear: fruitsLinear['plum-linear.png']
 		},
 		checked: true
 	},
@@ -186,8 +186,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Pomegranate',
 		img: {
-			color: fruitsColor['pomegranate.png'],
-			linear: fruitsLinear['pomegranate.png']
+			color: fruitsColor['pomegranate-color.png'],
+			linear: fruitsLinear['pomegranate-linear.png']
 		},
 		checked: true
 	},
@@ -195,8 +195,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Star Fruit',
 		img: {
-			color: fruitsColor['star-fruit.png'],
-			linear: fruitsLinear['star-fruit.png']
+			color: fruitsColor['star-fruit-color.png'],
+			linear: fruitsLinear['star-fruit-linear.png']
 		},
 		checked: true
 	},
@@ -204,8 +204,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Strawberry',
 		img: {
-			color: fruitsColor['strawberry.png'],
-			linear: fruitsLinear['strawberry.png']
+			color: fruitsColor['strawberry-color.png'],
+			linear: fruitsLinear['strawberry-linear.png']
 		},
 		checked: true
 	},
@@ -213,8 +213,8 @@ const fruits = [
 		id: uuidv4(),
 		name: 'Watermelon',
 		img: {
-			color: fruitsColor['watermelon.png'],
-			linear: fruitsLinear['watermelon.png']
+			color: fruitsColor['watermelon-color.png'],
+			linear: fruitsLinear['watermelon-linear.png']
 		},
 		checked: true
 	}
