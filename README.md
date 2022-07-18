@@ -1,7 +1,7 @@
 <!-- PROJECT TITLE -->
 <div align="center">
 
-![Fruity Header](./docs/fruity-app.png)
+![Fruity Header](./docs/application.png)
 
 </div>
 

@@ -1,5 +1,3 @@
-import logo from './icons/logo/fruity-logo.png'
-
 const importAll = (r) => {
     const files = {}
     r.keys().forEach((key) => files[key.replace('./', '')] = r(key))
@@ -7,7 +5,7 @@ const importAll = (r) => {
     return files
 }
 
-const fruitsColor = importAll(require.context('./icons/fruits-color', false, /\.(png|jpe?g|gif|svg)$/))
-const fruitsLinear = importAll(require.context('./icons/fruits-linear', false, /\.(png|jpe?g|gif|svg)$/))
+const icons = importAll(require.context('./images/icons', false, /\.(png|jpe?g|gif|svg)$/))
+const logo = importAll(require.context('./images/logo', false, /\.(png|jpe?g|gif|svg)$/))
 
-export { logo, fruitsColor, fruitsLinear }
+export { icons, logo }
