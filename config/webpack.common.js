@@ -12,6 +12,7 @@ module.exports = {
 	},
 	module: {
 		rules: [
+			// JavaScript
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
@@ -24,17 +25,20 @@ module.exports = {
 			},
 			// Fonts
 			{
-				test: /\.(woff(2)?|eot|ttf|otf)$/, 
+				test: /\.(woff(2)?|eot|ttf|otf)$/,
 				type: 'asset/inline'
 			}
 		]
 	},
 	plugins: [
 		new CopyPlugin({
-            patterns: [
-                { from: path.resolve(__dirname, '../public/robots.txt'), to: 'robots.txt' }
-            ]
-        }),
+			patterns: [
+				{
+					from: path.resolve(__dirname, '../public/robots.txt'),
+					to: 'robots.txt'
+				}
+			]
+		}),
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
 			favicon: path.resolve(__dirname, '../public/favicon.ico'),
@@ -43,7 +47,7 @@ module.exports = {
 			minify: {
 				removeComments: true,
 				collapseWhitespace: false
-            }
+			}
 		})
-    ]
+	]
 }
