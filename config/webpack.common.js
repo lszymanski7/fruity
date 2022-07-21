@@ -1,4 +1,5 @@
 const path = require('path')
+const CopyPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -29,14 +30,19 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new CopyPlugin({
+            patterns: [
+                { from: path.resolve(__dirname, '../public/robots.txt'), to: 'robots.txt' }
+            ]
+        }),
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
 			favicon: path.resolve(__dirname, '../public/favicon.ico'),
 			template: path.resolve(__dirname, '../public/index.html'),
 			inject: 'body',
 			minify: {
-                removeComments: true,
-                collapseWhitespace: false
+				removeComments: true,
+				collapseWhitespace: false
             }
 		})
     ]
