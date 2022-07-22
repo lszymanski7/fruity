@@ -18,13 +18,13 @@ const Item = (props) => {
         <div className="item">
             <img className="item__image" id={id} src={icon} alt={name} onClick={handleCheck} />
             <p className="item__name">{name}</p>
-		</div>
+        </div>
     ) 
 }
 
 Item.propTypes = {
-	id: PropTypes.string.isRequired,
-	name: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
     img: PropTypes.object.isRequired,
     checked: PropTypes.bool.isRequired,
     fruits: PropTypes.array.isRequired,

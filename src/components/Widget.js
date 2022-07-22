@@ -36,8 +36,8 @@ const Widget = (props) => {
 }
 
 Widget.propTypes = {
-	fruits: PropTypes.array.isRequired,
-	setFruits: PropTypes.func.isRequired,
+    fruits: PropTypes.array.isRequired,
+    setFruits: PropTypes.func.isRequired,
     setFilteredFruits: PropTypes.func.isRequired
 }
 

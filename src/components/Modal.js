@@ -26,8 +26,8 @@ const Modal = (props) => {
 }
 
 Modal.propTypes = {
-	selectedFruit: PropTypes.object,
-	isOpenModal: PropTypes.bool.isRequired,
+    selectedFruit: PropTypes.object,
+    isOpenModal: PropTypes.bool.isRequired,
     closeModal: PropTypes.func.isRequired
 }
 
