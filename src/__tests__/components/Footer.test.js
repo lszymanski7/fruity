@@ -15,7 +15,7 @@ describe('Footer', () => {
 	})
 })
 
-describe('Footer anchor tag', () => {
+describe('Anchor tag', () => {
 	it('should navigate to https://www.flaticon.com/authors/freepik.', () => {
 		render(<Footer />)
 		const link = screen.getByRole('link', { name: 'Freepik' })
