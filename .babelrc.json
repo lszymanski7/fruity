@@ -8,7 +8,7 @@
 	],
 	"env": {
 		"test": {
-			"plugins": ["require-context-hook"]
+			"plugins": ["transform-require-context"]
 		}
 	}
 }
