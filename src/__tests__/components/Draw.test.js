@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
 import Draw from '../../components/Draw'
 import fruits from '../__fixtures__/fruits'
 
@@ -24,12 +24,7 @@ describe('Button', () => {
 	})
 
 	it('should be disabled and have the correct displayed text.', () => {
-		render(
-			<Draw
-				filteredFruits={props.filteredFruits.splice(0, 1)}
-				handleDraw={props.handleDraw}
-			/>
-		)
+		render(<Draw filteredFruits={props.filteredFruits.splice(0, 1)} handleDraw={props.handleDraw} />)
 		const button = screen.getByRole('button')
 		expect(button).toBeDisabled()
 		expect(button).toHaveTextContent('Select more fruits!')
