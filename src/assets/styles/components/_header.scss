@@ -1,37 +1,37 @@
 // Header
 
 .header {
-    background: $pink-dark;
-    border-bottom: .2rem solid darken($pink-dark, 10%);
-    margin-bottom: $l-size;
-    padding: $m-size 0;
+	background: $pink-dark;
+	border-bottom: .2rem solid darken($pink-dark, 10%);
+	margin-bottom: $l-size;
+	padding: $m-size 0;
 }
 
 .header-container {
-    align-items: center;
-    display: flex;
-    gap: 15px;
-    padding: 0 0 $m-size 0;
+	align-items: center;
+	display: flex;
+	gap: 15px;
+	padding: 0 0 $m-size 0;
 }
 
 .header__logo {
-    height: 80px;
-    width: 75px;
+	height: 80px;
+	width: 80px;
 }
 
 .header__title {
-    color: $red-dark;
-    font-size: $xl-size;
-    font-weight: 800;
-    margin: 0;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: $white;
+	color: $red-dark;
+	font-size: $xl-size;
+	font-weight: 800;
+	margin: 0;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: $white;
 }
 
 .header__subtitle {
-    color: $black;
-    font-size: $m-size;
-    font-weight: 500;
-    margin: 0;
-    text-align: justify;
+	color: $black;
+	font-size: $m-size;
+	font-weight: 500;
+	margin: 0;
+	text-align: justify;
 }

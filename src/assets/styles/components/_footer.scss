@@ -1,21 +1,21 @@
 // Footer
 
 .footer {
-    background: $pink-dark;
-    border-top: .2rem solid darken($pink-dark, 10%);
-    bottom: 0;
-    padding: $s-size 0;
-    position: absolute;
-    width: 100%;
+	background: $pink-dark;
+	border-top: .2rem solid darken($pink-dark, 10%);
+	bottom: 0;
+	padding: $s-size 0;
+	position: absolute;
+	width: 100%;
 }
 
 .footer__attribution {
-    color: $black;
-    font-size: $s-size;
-    margin: 0;
-    text-align: center;
-    a {
-        font-weight: bold;
-        text-decoration: none;
-    }
+	color: $black;
+	font-size: $s-size;
+	margin: 0;
+	text-align: center;
+	a {
+		font-weight: bold;
+		text-decoration: none;
+	}
 }

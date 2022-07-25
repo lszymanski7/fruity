@@ -7,5 +7,5 @@ import './assets/styles/styles.scss'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-    <Fruity />
+	<Fruity />
 )

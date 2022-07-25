@@ -3,7 +3,9 @@
 		"@babel/preset-env",
 		"@babel/preset-react"
 	],
-	"plugins": [],
+	"plugins": [
+		"@babel/plugin-proposal-object-rest-spread"
+	],
 	"env": {
 		"test": {
 			"plugins": ["transform-require-context"]

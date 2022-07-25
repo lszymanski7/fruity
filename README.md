@@ -1,7 +1,7 @@
 <!-- PROJECT TITLE -->
 <div align="center">
 
-![Fruity Header](./docs/fruity-app.png)
+![Fruity Header](./docs/application.png)
 
 </div>
 
@@ -13,6 +13,7 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/fruity-app)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/fruity-app)
 ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/fruity-app)
+[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
 </div>
 
