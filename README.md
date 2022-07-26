@@ -14,7 +14,6 @@
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/fruity-app?labelColor=424242)
 ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/fruity-app?labelColor=424242)
 ![Tests](https://img.shields.io/badge/21%20passed,%200%20failed-FFFFFF?style=flat&label=tests&labelColor=424242&color=red)
-![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?labelColor=424242)
 
 </div>
 
@@ -29,20 +28,14 @@
 5. [Deployment](#deployment)
 6. [Attribution](#attribution)
 
-<br/>
-
 <!-- DESCRIPTION -->
 ## Description
 Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore. Fruity! An application to help you make this difficult decision with just one click.
-
-<br/>
 
 <!-- FEATURES -->
 ## Features
 - Drawing a fruit from the data contained in the list of objects.
 - Possibility to filter the fruit list. Selecting fruits that should not be included in the draw.
-
-<br/>
 
 <!-- TECHNOLOGIES -->
 ## Technologies
@@ -62,8 +55,6 @@ This project was created using the following technologies and tools:
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.1-424242?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com/)
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org/)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io/)
-
-<br/>
 
 <!-- INSTALLATION -->
 ## Installation
@@ -87,8 +78,6 @@ npm run start
 ```
 
 The project will be launched at the following url: <a href="http://localhost:8080/">http://localhost:8080/<a/>
-
-<br/>
   
 <!-- SCRIPTS -->
 ## Scripts
@@ -136,8 +125,6 @@ npm run test
 npm run test:watch
 ```
 
-<br/>
-  
 <!-- DEPLOYMENT -->
 ## Deployment
 <a src="https://lszymanski7-fruity.herokuapp.com">https://lszymanski7-fruity.herokuapp.com</a>
