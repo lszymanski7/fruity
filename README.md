@@ -82,10 +82,7 @@ npm run start
 ```
 
 The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
-  
-<!-- SCRIPTS -->
-## Scripts
-The available scripts with descriptions are listed below.
+
 <!-- SCRIPTS -->
 ## Scripts
 The available scripts with descriptions are listed below.
