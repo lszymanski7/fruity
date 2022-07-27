@@ -14,7 +14,6 @@
   ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/fruity-app?label=Last%20Commit&labelColor=424242)
   ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/fruity-app?label=Pull%20Requests&labelColor=424242)
   ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/fruity-app?label=Issues&labelColor=424242)
-  ![Tests](https://img.shields.io/badge/21%20passed,%200%20failed-FFFFFF?style=flat&label=Tests&labelColor=424242&color=red)
   
 </div>
 
@@ -86,47 +85,39 @@ The project will be launched at the following url: <a href="http://localhost:300
   
 <!-- SCRIPTS -->
 ## Scripts
+The available scripts with descriptions are listed below.
 ```
+# In progress...
 npm run build:dev
-```
-
-```
+  
+# In progress...
 npm run build:prod
-```
-
-```
+  
+# In progress...
 npm run dev-server
-```
-
-```
+  
+# Run ESLint to check JavaScript code and find problems.
 npm run eslint:check
-```
-
-```
+  
+# Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
 npm run eslint:fix
-```
-
-```
+  
+# In progress...
 npm run heroku-postbuild
-```
-
-```
+  
+# In progress...
 npm run prettier:check
-```
-
-```
+ 
+# In progress...
 npm run prettier:fix
-```
-
-```
+  
+# In progress...
 npm run start
-```
-
-```
+  
+# In progress...
 npm run test
-```
-
-```
+  
+# In progress...
 npm run test:watch
 ```
   
