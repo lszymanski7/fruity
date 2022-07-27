@@ -94,7 +94,7 @@ The available scripts with descriptions are listed below.
 # Run Webpack with production configuration.
 > npm run build:prod
 
-# Start the Webpack development server and run the application at the following url: http://localhost:8080
+# Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
 > npm run dev-server
 
 # Run ESLint to check JavaScript code and find problems.
