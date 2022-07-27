@@ -76,49 +76,53 @@ cd fruity-app
 ```
 npm install
 ```
-4. Run Express server.
+4. Start Express server.
 ```
 npm run start
 ```
 
-The project will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
+The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
   
 <!-- SCRIPTS -->
 ## Scripts
 The available scripts with descriptions are listed below.
-```
-# In progress...
-npm run build:dev
-  
-# In progress...
-npm run build:prod
-  
-# In progress...
-npm run dev-server
-  
+<!-- SCRIPTS -->
+## Scripts
+The available scripts with descriptions are listed below.
+
+```properties
+# Run webpack with development configuration.
+> npm run build:dev
+
+# Run webpack with production configuration.
+> npm run build:prod
+
+# Start webpack-dev-server and run the application at the following url: http://localhost:8080
+> npm run dev-server
+
 # Run ESLint to check JavaScript code and find problems.
-npm run eslint:check
-  
+> npm run eslint:check
+
 # Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-npm run eslint:fix
-  
-# In progress...
-npm run heroku-postbuild
-  
-# In progress...
-npm run prettier:check
- 
-# In progress...
-npm run prettier:fix
-  
-# In progress...
-npm run start
-  
-# In progress...
-npm run test
-  
-# In progress...
-npm run test:watch
+> npm run eslint:fix
+
+# Execute build:prod script on Heroku.
+> npm run heroku-postbuild
+
+# Run Prettier to check if all supported files are formatted. 
+> npm run prettier:check
+
+# Run Prettier to format all supported files in the current directory and its subdirectories.
+> npm run prettier:fix
+
+# Start the Express server and run the application at the following url: http://localhost:3000
+> npm run start
+
+# Run all tests with the settings specified in the configuration file.
+> npm run test
+
+# Run all tests in watch mode.
+> npm run test:watch
 ```
   
 <!-- BUGS AND FEATURES -->
