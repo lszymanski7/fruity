@@ -76,7 +76,7 @@ cd fruity-app
 ```
 npm install
 ```
-4. Start Express server.
+4. Start the Express server.
 ```
 npm run start
 ```
