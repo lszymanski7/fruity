@@ -106,37 +106,37 @@ The available scripts with descriptions are listed below.
 
 ```properties
 # Run Webpack with development configuration.
-$ npm run build:dev
+npm run build:dev
 
 # Run Webpack with production configuration.
-$ npm run build:prod
+npm run build:prod
 
 # Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
-$ npm run dev-server
+npm run dev-server
 
 # Run ESLint to check JavaScript code and find problems.
-$ npm run eslint:check
+npm run eslint:check
 
 # Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-$ npm run eslint:fix
+npm run eslint:fix
 
 # Execute build:prod script on Heroku.
-$ npm run heroku-postbuild
+npm run heroku-postbuild
 
 # Run Prettier to check if all supported files are formatted. 
-$ npm run prettier:check
+npm run prettier:check
 
 # Run Prettier to format all supported files in the current directory and its subdirectories.
-$ npm run prettier:fix
+npm run prettier:fix
 
 # Start the Express server and run the application at the following url: http://localhost:3000
-$ npm run start
+npm run start
 
 # Run all tests with the settings specified in the configuration file.
-$ npm run test
+npm run test
 
 # Run all tests in watch mode.
-$ npm run test:watch
+npm run test:watch
 ```
   
 <!-- BUGS AND FEATURES -->
