@@ -10,7 +10,7 @@
   
   ![Version](https://img.shields.io/badge/version-1.0.0-blue?label=Version&labelColor=424242)
   ![GitHub Repository Size](https://img.shields.io/github/repo-size/lszymanski7/fruity-app?label=Size&labelColor=424242)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg?label=License&labelColor=424242)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg?label=License&labelColor=424242)](https://github.com/lszymanski7/fruity-app/blob/main/LICENSE.md)
   ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/fruity-app?label=Last%20Commit&labelColor=424242)
   ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/fruity-app?label=Pull%20Requests&labelColor=424242)
   ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/fruity-app?label=Issues&labelColor=424242)
@@ -26,20 +26,28 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 Live demo: <a href="https://lszymanski7-fruity.herokuapp.com">https://lszymanski7-fruity.herokuapp.com<a/>
 
 <!-- TABLE OF CONTENTS -->
-## Table of contents
-1. [Features](#features)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Scripts](#scripts)
-5. [Bugs and Features](#bugs-and-features)
-6. [Attribution](#attribution)
-7. [License](#license)
-
+## Table of Contents
+<ol>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#technologies">Technologies</a></li>
+  <li>
+    <a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#installation">Installation</a></li>
+    </ul>
+  </li>
+  <li><a href="#scripts">Scripts</a></li>
+  <li><a href="#bugs-and-features">Bugs and Features</a></li>
+  <li><a href="#attribution">Attribution</a></li>
+  <li><a href="#license">License</a></li>
+</ol>
+  
 <!-- FEATURES -->
 ## Features
-- Possibility to filter the fruit list. Selecting fruits that should not be included in the draw. 
-- Drawing a fruit from the filtered list of objects. At least two fruits must be selected to start the draw.
-- Saving data in Local Storage.
+- Selecting fruits that should be included in the draw.
+- Drawing fruit from a filtered list. At least two fruits must be selected to start the draw.
+- Saving data to local storage.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
@@ -60,8 +68,17 @@ This project was created using the following technologies and tools:
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
-<!-- INSTALLATION -->
-## Installation
+<!-- Getting Started -->
+## Getting Started
+
+<!-- Prerequisites -->
+### Prerequisites
+> You can download Node.js installer [here](https://nodejs.org/en/download).
+
+This project was created using the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
+  
+<!-- Installation -->
+### Installation
 Follow all of the steps below to get a local copy of the project and be able to run it.
 
 1. Clone the repository.
@@ -89,37 +106,37 @@ The available scripts with descriptions are listed below.
 
 ```properties
 # Run Webpack with development configuration.
-> npm run build:dev
+$ npm run build:dev
 
 # Run Webpack with production configuration.
-> npm run build:prod
+$ npm run build:prod
 
 # Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
-> npm run dev-server
+$ npm run dev-server
 
 # Run ESLint to check JavaScript code and find problems.
-> npm run eslint:check
+$ npm run eslint:check
 
 # Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-> npm run eslint:fix
+$ npm run eslint:fix
 
 # Execute build:prod script on Heroku.
-> npm run heroku-postbuild
+$ npm run heroku-postbuild
 
 # Run Prettier to check if all supported files are formatted. 
-> npm run prettier:check
+$ npm run prettier:check
 
 # Run Prettier to format all supported files in the current directory and its subdirectories.
-> npm run prettier:fix
+$ npm run prettier:fix
 
 # Start the Express server and run the application at the following url: http://localhost:3000
-> npm run start
+$ npm run start
 
 # Run all tests with the settings specified in the configuration file.
-> npm run test
+$ npm run test
 
 # Run all tests in watch mode.
-> npm run test:watch
+$ npm run test:watch
 ```
   
 <!-- BUGS AND FEATURES -->
