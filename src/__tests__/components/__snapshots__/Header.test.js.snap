@@ -17,6 +17,7 @@ Object {
             <img
               alt="Fruity Logo"
               class="header__logo"
+              src="logo512-outlined.png"
             />
             <h1
               class="header__title"
@@ -48,6 +49,7 @@ Object {
           <img
             alt="Fruity Logo"
             class="header__logo"
+            src="logo512-outlined.png"
           />
           <h1
             class="header__title"
