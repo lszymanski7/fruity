@@ -27,5 +27,6 @@ describe('Header', () => {
 		const logo = screen.getByRole('img')
 		expect(logo).toHaveAttribute('src', 'logo512-outlined.png')
 		expect(logo).toHaveAttribute('alt', 'Fruity Logo')
+		expect(logo).toBeInTheDocument()
 	})
 })

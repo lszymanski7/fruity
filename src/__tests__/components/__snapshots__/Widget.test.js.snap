@@ -25,7 +25,7 @@ Object {
               alt="Apple"
               class="item__image"
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              src="http://localhost:8080/assets/apple-color.3aed0776e9335292e633.png"
+              src="apple-color.png"
             />
             <p
               class="item__name"
@@ -40,7 +40,7 @@ Object {
               alt="Banana"
               class="item__image"
               id="96e46eeb-6ef0-42cf-b603-1aafcf1f4243"
-              src="http://localhost:8080/assets/banana-color.5789535c9cae73aa1640.png"
+              src="banana-color.png"
             />
             <p
               class="item__name"
@@ -55,7 +55,7 @@ Object {
               alt="Blackberry"
               class="item__image"
               id="54bd781a-c214-4f86-a7cb-04aa3cf9fe94"
-              src="http://localhost:8080/assets/blackberry-color.4022e52dd981b5a5c6ce.png"
+              src="blackberry-color.png"
             />
             <p
               class="item__name"
@@ -70,7 +70,7 @@ Object {
               alt="Blueberries"
               class="item__image"
               id="dee3e5ec-5009-430d-be10-03a7046bfcb7"
-              src="http://localhost:8080/assets/blueberries-color.b9b5ec2707a5270b2d8f.png"
+              src="blueberries-color.png"
             />
             <p
               class="item__name"
@@ -85,7 +85,7 @@ Object {
               alt="Cherries"
               class="item__image"
               id="b07b36bc-2294-4cb6-bb30-c7e632b135c8"
-              src="http://localhost:8080/assets/cherries-color.858014e9805430083045.png"
+              src="cherries-color.png"
             />
             <p
               class="item__name"
@@ -100,7 +100,7 @@ Object {
               alt="Coconut"
               class="item__image"
               id="782a90f6-b968-4750-b7c3-5215416d0dc4"
-              src="http://localhost:8080/assets/coconut-color.89f21915bb34f79cf431.png"
+              src="coconut-color.png"
             />
             <p
               class="item__name"
@@ -115,7 +115,7 @@ Object {
               alt="Dragon Fruit"
               class="item__image"
               id="68fa7475-94ca-441a-a038-eb3730164e91"
-              src="http://localhost:8080/assets/dragon-fruit-color.c313b975af225aac39ff.png"
+              src="dragon-fruit-color.png"
             />
             <p
               class="item__name"
@@ -130,7 +130,7 @@ Object {
               alt="Fig"
               class="item__image"
               id="f5209f29-317d-40cc-8430-743e54f06787"
-              src="http://localhost:8080/assets/fig-color.63831354b6fac1f2f5c9.png"
+              src="fig-color.png"
             />
             <p
               class="item__name"
@@ -145,7 +145,7 @@ Object {
               alt="Grapes"
               class="item__image"
               id="af5aabeb-cef5-4aa0-ab95-6139e3758625"
-              src="http://localhost:8080/assets/grapes-color.b76ad170c25eb54f9b3f.png"
+              src="grapes-color.png"
             />
             <p
               class="item__name"
@@ -160,7 +160,7 @@ Object {
               alt="Kiwi"
               class="item__image"
               id="7fa2ab07-41a9-4809-ad18-0245ba4b8a66"
-              src="http://localhost:8080/assets/kiwi-color.772eaad957780f24eb7b.png"
+              src="kiwi-color.png"
             />
             <p
               class="item__name"
@@ -175,7 +175,7 @@ Object {
               alt="Lemon"
               class="item__image"
               id="3a546af4-d0e5-42b0-b030-693aef8bc118"
-              src="http://localhost:8080/assets/lemon-color.becd7441124ffdb18903.png"
+              src="lemon-color.png"
             />
             <p
               class="item__name"
@@ -190,7 +190,7 @@ Object {
               alt="Lychee"
               class="item__image"
               id="96a49d88-ed3c-434c-a4ab-02ba3f81ef0a"
-              src="http://localhost:8080/assets/lychee-color.80451e2966ce30314ad4.png"
+              src="lychee-color.png"
             />
             <p
               class="item__name"
@@ -205,7 +205,7 @@ Object {
               alt="Mango"
               class="item__image"
               id="8630f009-dd2a-4552-ab30-d45269ddcf91"
-              src="http://localhost:8080/assets/mango-color.ef2e8d88b503cb9b2869.png"
+              src="mango-color.png"
             />
             <p
               class="item__name"
@@ -220,7 +220,7 @@ Object {
               alt="Melon"
               class="item__image"
               id="4988db07-d09f-4538-ab06-6e29a3eb8f1c"
-              src="http://localhost:8080/assets/melon-color.f16676146e906f44cc44.png"
+              src="melon-color.png"
             />
             <p
               class="item__name"
@@ -235,7 +235,7 @@ Object {
               alt="Orange"
               class="item__image"
               id="f5571ca7-5216-4125-b28c-c2e51489fd15"
-              src="http://localhost:8080/assets/orange-color.757dade892a0d6e202b7.png"
+              src="orange-color.png"
             />
             <p
               class="item__name"
@@ -250,7 +250,7 @@ Object {
               alt="Papaya"
               class="item__image"
               id="ef858b1e-a7b7-4c77-ab7d-36ec8fea11fa"
-              src="http://localhost:8080/assets/papaya-color.a709dc5522e986bd1cd3.png"
+              src="papaya-color.png"
             />
             <p
               class="item__name"
@@ -265,7 +265,7 @@ Object {
               alt="Peach"
               class="item__image"
               id="131dd57d-aa14-4579-af7a-5590e73424aa"
-              src="http://localhost:8080/assets/peach-color.954eeada20f8161da401.png"
+              src="peach-color.png"
             />
             <p
               class="item__name"
@@ -280,7 +280,7 @@ Object {
               alt="Pear"
               class="item__image"
               id="96302038-f1ab-4cbd-ac30-584eec9d2809"
-              src="http://localhost:8080/assets/pear-color.7feb59870ee0e816740d.png"
+              src="pear-color.png"
             />
             <p
               class="item__name"
@@ -295,7 +295,7 @@ Object {
               alt="Pineapple"
               class="item__image"
               id="74e201cc-2972-413f-a037-5bb41bd6eaca"
-              src="http://localhost:8080/assets/pineapple-color.d4b6ad8429a2a2b22eb5.png"
+              src="pineapple-color.png"
             />
             <p
               class="item__name"
@@ -310,7 +310,7 @@ Object {
               alt="Plum"
               class="item__image"
               id="03f0cea5-cd8c-4b71-b1d0-e6d563e10547"
-              src="http://localhost:8080/assets/plum-color.dd4c4eabd34f52a973ce.png"
+              src="plum-color.png"
             />
             <p
               class="item__name"
@@ -325,7 +325,7 @@ Object {
               alt="Pomegranate"
               class="item__image"
               id="35b3b4c3-678a-4dc8-b9aa-f25c7b490e23"
-              src="http://localhost:8080/assets/pomegranate-color.99c9860d17a40f78c0f8.png"
+              src="pomegranate-color.png"
             />
             <p
               class="item__name"
@@ -340,7 +340,7 @@ Object {
               alt="Star Fruit"
               class="item__image"
               id="cb5f4716-83f1-4fde-ba45-ac28b4123ce1"
-              src="http://localhost:8080/assets/star-fruit-color.0fff78e836d19dbb7d09.png"
+              src="star-fruit-color.png"
             />
             <p
               class="item__name"
@@ -355,7 +355,7 @@ Object {
               alt="Strawberry"
               class="item__image"
               id="1e932ec2-946d-4eb0-a688-d821cf3d457f"
-              src="http://localhost:8080/assets/strawberry-color.7b44a7389f6d60d9ce4f.png"
+              src="strawberry-color.png"
             />
             <p
               class="item__name"
@@ -370,7 +370,7 @@ Object {
               alt="Watermelon"
               class="item__image"
               id="afcd0595-ffb1-4002-b127-53e5dd9c4f73"
-              src="http://localhost:8080/assets/watermelon-color.2d34ca19454b4d6cc54a.png"
+              src="watermelon-color.png"
             />
             <p
               class="item__name"
@@ -403,7 +403,7 @@ Object {
             alt="Apple"
             class="item__image"
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-            src="http://localhost:8080/assets/apple-color.3aed0776e9335292e633.png"
+            src="apple-color.png"
           />
           <p
             class="item__name"
@@ -418,7 +418,7 @@ Object {
             alt="Banana"
             class="item__image"
             id="96e46eeb-6ef0-42cf-b603-1aafcf1f4243"
-            src="http://localhost:8080/assets/banana-color.5789535c9cae73aa1640.png"
+            src="banana-color.png"
           />
           <p
             class="item__name"
@@ -433,7 +433,7 @@ Object {
             alt="Blackberry"
             class="item__image"
             id="54bd781a-c214-4f86-a7cb-04aa3cf9fe94"
-            src="http://localhost:8080/assets/blackberry-color.4022e52dd981b5a5c6ce.png"
+            src="blackberry-color.png"
           />
           <p
             class="item__name"
@@ -448,7 +448,7 @@ Object {
             alt="Blueberries"
             class="item__image"
             id="dee3e5ec-5009-430d-be10-03a7046bfcb7"
-            src="http://localhost:8080/assets/blueberries-color.b9b5ec2707a5270b2d8f.png"
+            src="blueberries-color.png"
           />
           <p
             class="item__name"
@@ -463,7 +463,7 @@ Object {
             alt="Cherries"
             class="item__image"
             id="b07b36bc-2294-4cb6-bb30-c7e632b135c8"
-            src="http://localhost:8080/assets/cherries-color.858014e9805430083045.png"
+            src="cherries-color.png"
           />
           <p
             class="item__name"
@@ -478,7 +478,7 @@ Object {
             alt="Coconut"
             class="item__image"
             id="782a90f6-b968-4750-b7c3-5215416d0dc4"
-            src="http://localhost:8080/assets/coconut-color.89f21915bb34f79cf431.png"
+            src="coconut-color.png"
           />
           <p
             class="item__name"
@@ -493,7 +493,7 @@ Object {
             alt="Dragon Fruit"
             class="item__image"
             id="68fa7475-94ca-441a-a038-eb3730164e91"
-            src="http://localhost:8080/assets/dragon-fruit-color.c313b975af225aac39ff.png"
+            src="dragon-fruit-color.png"
           />
           <p
             class="item__name"
@@ -508,7 +508,7 @@ Object {
             alt="Fig"
             class="item__image"
             id="f5209f29-317d-40cc-8430-743e54f06787"
-            src="http://localhost:8080/assets/fig-color.63831354b6fac1f2f5c9.png"
+            src="fig-color.png"
           />
           <p
             class="item__name"
@@ -523,7 +523,7 @@ Object {
             alt="Grapes"
             class="item__image"
             id="af5aabeb-cef5-4aa0-ab95-6139e3758625"
-            src="http://localhost:8080/assets/grapes-color.b76ad170c25eb54f9b3f.png"
+            src="grapes-color.png"
           />
           <p
             class="item__name"
@@ -538,7 +538,7 @@ Object {
             alt="Kiwi"
             class="item__image"
             id="7fa2ab07-41a9-4809-ad18-0245ba4b8a66"
-            src="http://localhost:8080/assets/kiwi-color.772eaad957780f24eb7b.png"
+            src="kiwi-color.png"
           />
           <p
             class="item__name"
@@ -553,7 +553,7 @@ Object {
             alt="Lemon"
             class="item__image"
             id="3a546af4-d0e5-42b0-b030-693aef8bc118"
-            src="http://localhost:8080/assets/lemon-color.becd7441124ffdb18903.png"
+            src="lemon-color.png"
           />
           <p
             class="item__name"
@@ -568,7 +568,7 @@ Object {
             alt="Lychee"
             class="item__image"
             id="96a49d88-ed3c-434c-a4ab-02ba3f81ef0a"
-            src="http://localhost:8080/assets/lychee-color.80451e2966ce30314ad4.png"
+            src="lychee-color.png"
           />
           <p
             class="item__name"
@@ -583,7 +583,7 @@ Object {
             alt="Mango"
             class="item__image"
             id="8630f009-dd2a-4552-ab30-d45269ddcf91"
-            src="http://localhost:8080/assets/mango-color.ef2e8d88b503cb9b2869.png"
+            src="mango-color.png"
           />
           <p
             class="item__name"
@@ -598,7 +598,7 @@ Object {
             alt="Melon"
             class="item__image"
             id="4988db07-d09f-4538-ab06-6e29a3eb8f1c"
-            src="http://localhost:8080/assets/melon-color.f16676146e906f44cc44.png"
+            src="melon-color.png"
           />
           <p
             class="item__name"
@@ -613,7 +613,7 @@ Object {
             alt="Orange"
             class="item__image"
             id="f5571ca7-5216-4125-b28c-c2e51489fd15"
-            src="http://localhost:8080/assets/orange-color.757dade892a0d6e202b7.png"
+            src="orange-color.png"
           />
           <p
             class="item__name"
@@ -628,7 +628,7 @@ Object {
             alt="Papaya"
             class="item__image"
             id="ef858b1e-a7b7-4c77-ab7d-36ec8fea11fa"
-            src="http://localhost:8080/assets/papaya-color.a709dc5522e986bd1cd3.png"
+            src="papaya-color.png"
           />
           <p
             class="item__name"
@@ -643,7 +643,7 @@ Object {
             alt="Peach"
             class="item__image"
             id="131dd57d-aa14-4579-af7a-5590e73424aa"
-            src="http://localhost:8080/assets/peach-color.954eeada20f8161da401.png"
+            src="peach-color.png"
           />
           <p
             class="item__name"
@@ -658,7 +658,7 @@ Object {
             alt="Pear"
             class="item__image"
             id="96302038-f1ab-4cbd-ac30-584eec9d2809"
-            src="http://localhost:8080/assets/pear-color.7feb59870ee0e816740d.png"
+            src="pear-color.png"
           />
           <p
             class="item__name"
@@ -673,7 +673,7 @@ Object {
             alt="Pineapple"
             class="item__image"
             id="74e201cc-2972-413f-a037-5bb41bd6eaca"
-            src="http://localhost:8080/assets/pineapple-color.d4b6ad8429a2a2b22eb5.png"
+            src="pineapple-color.png"
           />
           <p
             class="item__name"
@@ -688,7 +688,7 @@ Object {
             alt="Plum"
             class="item__image"
             id="03f0cea5-cd8c-4b71-b1d0-e6d563e10547"
-            src="http://localhost:8080/assets/plum-color.dd4c4eabd34f52a973ce.png"
+            src="plum-color.png"
           />
           <p
             class="item__name"
@@ -703,7 +703,7 @@ Object {
             alt="Pomegranate"
             class="item__image"
             id="35b3b4c3-678a-4dc8-b9aa-f25c7b490e23"
-            src="http://localhost:8080/assets/pomegranate-color.99c9860d17a40f78c0f8.png"
+            src="pomegranate-color.png"
           />
           <p
             class="item__name"
@@ -718,7 +718,7 @@ Object {
             alt="Star Fruit"
             class="item__image"
             id="cb5f4716-83f1-4fde-ba45-ac28b4123ce1"
-            src="http://localhost:8080/assets/star-fruit-color.0fff78e836d19dbb7d09.png"
+            src="star-fruit-color.png"
           />
           <p
             class="item__name"
@@ -733,7 +733,7 @@ Object {
             alt="Strawberry"
             class="item__image"
             id="1e932ec2-946d-4eb0-a688-d821cf3d457f"
-            src="http://localhost:8080/assets/strawberry-color.7b44a7389f6d60d9ce4f.png"
+            src="strawberry-color.png"
           />
           <p
             class="item__name"
@@ -748,7 +748,7 @@ Object {
             alt="Watermelon"
             class="item__image"
             id="afcd0595-ffb1-4002-b127-53e5dd9c4f73"
-            src="http://localhost:8080/assets/watermelon-color.2d34ca19454b4d6cc54a.png"
+            src="watermelon-color.png"
           />
           <p
             class="item__name"

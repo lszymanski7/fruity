@@ -25,6 +25,7 @@ describe('Modal', () => {
 	it('should have the correct image.', () => {
 		render(<Modal {...props} />)
 		const img = screen.getByRole('img')
+		expect(img).toHaveAttribute('src', props.selectedFruit.img.color)
 		expect(img).toHaveAttribute('alt', props.selectedFruit.name)
 		expect(img).toBeInTheDocument()
 	})

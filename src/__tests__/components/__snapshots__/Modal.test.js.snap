@@ -41,7 +41,7 @@ Object {
               alt="Apple"
               class="modal__image"
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              src="http://localhost:8080/assets/apple-color.3aed0776e9335292e633.png"
+              src="apple-color.png"
             />
           </div>
           <button
