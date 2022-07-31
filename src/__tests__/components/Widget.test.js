@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import Widget from '../../components/Widget'
-import fruits from '../__fixtures__/fruits'
+import fruits from '../../data/fruits'
 
 const props = {
 	fruits,

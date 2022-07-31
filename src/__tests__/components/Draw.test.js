@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Draw from '../../components/Draw'
-import fruits from '../__fixtures__/fruits'
+import fruits from '../../data/fruits'
 
 const props = {
 	filteredFruits: fruits,

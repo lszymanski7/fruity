@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Modal from '../../components/Modal'
-import fruits from '../__fixtures__/fruits'
+import fruits from '../../data/fruits'
 
 const props = {
 	selectedFruit: fruits[0],

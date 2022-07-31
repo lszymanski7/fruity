@@ -28,7 +28,7 @@ Object {
               src="apple-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Apple
             </p>
@@ -39,11 +39,11 @@ Object {
             <img
               alt="Banana"
               class="item__image"
-              id="96e46eeb-6ef0-42cf-b603-1aafcf1f4243"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="banana-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Banana
             </p>
@@ -54,11 +54,11 @@ Object {
             <img
               alt="Blackberry"
               class="item__image"
-              id="54bd781a-c214-4f86-a7cb-04aa3cf9fe94"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="blackberry-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Blackberry
             </p>
@@ -69,11 +69,11 @@ Object {
             <img
               alt="Blueberries"
               class="item__image"
-              id="dee3e5ec-5009-430d-be10-03a7046bfcb7"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="blueberries-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Blueberries
             </p>
@@ -84,11 +84,11 @@ Object {
             <img
               alt="Cherries"
               class="item__image"
-              id="b07b36bc-2294-4cb6-bb30-c7e632b135c8"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="cherries-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Cherries
             </p>
@@ -99,11 +99,11 @@ Object {
             <img
               alt="Coconut"
               class="item__image"
-              id="782a90f6-b968-4750-b7c3-5215416d0dc4"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="coconut-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Coconut
             </p>
@@ -114,11 +114,11 @@ Object {
             <img
               alt="Dragon Fruit"
               class="item__image"
-              id="68fa7475-94ca-441a-a038-eb3730164e91"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="dragon-fruit-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Dragon Fruit
             </p>
@@ -129,11 +129,11 @@ Object {
             <img
               alt="Fig"
               class="item__image"
-              id="f5209f29-317d-40cc-8430-743e54f06787"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="fig-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Fig
             </p>
@@ -144,11 +144,11 @@ Object {
             <img
               alt="Grapes"
               class="item__image"
-              id="af5aabeb-cef5-4aa0-ab95-6139e3758625"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="grapes-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Grapes
             </p>
@@ -159,11 +159,11 @@ Object {
             <img
               alt="Kiwi"
               class="item__image"
-              id="7fa2ab07-41a9-4809-ad18-0245ba4b8a66"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="kiwi-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Kiwi
             </p>
@@ -174,11 +174,11 @@ Object {
             <img
               alt="Lemon"
               class="item__image"
-              id="3a546af4-d0e5-42b0-b030-693aef8bc118"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="lemon-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Lemon
             </p>
@@ -189,11 +189,11 @@ Object {
             <img
               alt="Lychee"
               class="item__image"
-              id="96a49d88-ed3c-434c-a4ab-02ba3f81ef0a"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="lychee-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Lychee
             </p>
@@ -204,11 +204,11 @@ Object {
             <img
               alt="Mango"
               class="item__image"
-              id="8630f009-dd2a-4552-ab30-d45269ddcf91"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="mango-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Mango
             </p>
@@ -219,11 +219,11 @@ Object {
             <img
               alt="Melon"
               class="item__image"
-              id="4988db07-d09f-4538-ab06-6e29a3eb8f1c"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="melon-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Melon
             </p>
@@ -234,11 +234,11 @@ Object {
             <img
               alt="Orange"
               class="item__image"
-              id="f5571ca7-5216-4125-b28c-c2e51489fd15"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="orange-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Orange
             </p>
@@ -249,11 +249,11 @@ Object {
             <img
               alt="Papaya"
               class="item__image"
-              id="ef858b1e-a7b7-4c77-ab7d-36ec8fea11fa"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="papaya-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Papaya
             </p>
@@ -264,11 +264,11 @@ Object {
             <img
               alt="Peach"
               class="item__image"
-              id="131dd57d-aa14-4579-af7a-5590e73424aa"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="peach-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Peach
             </p>
@@ -279,11 +279,11 @@ Object {
             <img
               alt="Pear"
               class="item__image"
-              id="96302038-f1ab-4cbd-ac30-584eec9d2809"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pear-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Pear
             </p>
@@ -294,11 +294,11 @@ Object {
             <img
               alt="Pineapple"
               class="item__image"
-              id="74e201cc-2972-413f-a037-5bb41bd6eaca"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pineapple-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Pineapple
             </p>
@@ -309,11 +309,11 @@ Object {
             <img
               alt="Plum"
               class="item__image"
-              id="03f0cea5-cd8c-4b71-b1d0-e6d563e10547"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="plum-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Plum
             </p>
@@ -324,11 +324,11 @@ Object {
             <img
               alt="Pomegranate"
               class="item__image"
-              id="35b3b4c3-678a-4dc8-b9aa-f25c7b490e23"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pomegranate-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Pomegranate
             </p>
@@ -339,11 +339,11 @@ Object {
             <img
               alt="Star Fruit"
               class="item__image"
-              id="cb5f4716-83f1-4fde-ba45-ac28b4123ce1"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="star-fruit-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Star Fruit
             </p>
@@ -354,11 +354,11 @@ Object {
             <img
               alt="Strawberry"
               class="item__image"
-              id="1e932ec2-946d-4eb0-a688-d821cf3d457f"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="strawberry-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Strawberry
             </p>
@@ -369,11 +369,11 @@ Object {
             <img
               alt="Watermelon"
               class="item__image"
-              id="afcd0595-ffb1-4002-b127-53e5dd9c4f73"
+              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="watermelon-color.png"
             />
             <p
-              class="item__name"
+              class="item__title"
             >
               Watermelon
             </p>
@@ -406,7 +406,7 @@ Object {
             src="apple-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Apple
           </p>
@@ -417,11 +417,11 @@ Object {
           <img
             alt="Banana"
             class="item__image"
-            id="96e46eeb-6ef0-42cf-b603-1aafcf1f4243"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="banana-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Banana
           </p>
@@ -432,11 +432,11 @@ Object {
           <img
             alt="Blackberry"
             class="item__image"
-            id="54bd781a-c214-4f86-a7cb-04aa3cf9fe94"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="blackberry-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Blackberry
           </p>
@@ -447,11 +447,11 @@ Object {
           <img
             alt="Blueberries"
             class="item__image"
-            id="dee3e5ec-5009-430d-be10-03a7046bfcb7"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="blueberries-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Blueberries
           </p>
@@ -462,11 +462,11 @@ Object {
           <img
             alt="Cherries"
             class="item__image"
-            id="b07b36bc-2294-4cb6-bb30-c7e632b135c8"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="cherries-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Cherries
           </p>
@@ -477,11 +477,11 @@ Object {
           <img
             alt="Coconut"
             class="item__image"
-            id="782a90f6-b968-4750-b7c3-5215416d0dc4"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="coconut-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Coconut
           </p>
@@ -492,11 +492,11 @@ Object {
           <img
             alt="Dragon Fruit"
             class="item__image"
-            id="68fa7475-94ca-441a-a038-eb3730164e91"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="dragon-fruit-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Dragon Fruit
           </p>
@@ -507,11 +507,11 @@ Object {
           <img
             alt="Fig"
             class="item__image"
-            id="f5209f29-317d-40cc-8430-743e54f06787"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="fig-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Fig
           </p>
@@ -522,11 +522,11 @@ Object {
           <img
             alt="Grapes"
             class="item__image"
-            id="af5aabeb-cef5-4aa0-ab95-6139e3758625"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="grapes-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Grapes
           </p>
@@ -537,11 +537,11 @@ Object {
           <img
             alt="Kiwi"
             class="item__image"
-            id="7fa2ab07-41a9-4809-ad18-0245ba4b8a66"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="kiwi-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Kiwi
           </p>
@@ -552,11 +552,11 @@ Object {
           <img
             alt="Lemon"
             class="item__image"
-            id="3a546af4-d0e5-42b0-b030-693aef8bc118"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="lemon-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Lemon
           </p>
@@ -567,11 +567,11 @@ Object {
           <img
             alt="Lychee"
             class="item__image"
-            id="96a49d88-ed3c-434c-a4ab-02ba3f81ef0a"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="lychee-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Lychee
           </p>
@@ -582,11 +582,11 @@ Object {
           <img
             alt="Mango"
             class="item__image"
-            id="8630f009-dd2a-4552-ab30-d45269ddcf91"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="mango-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Mango
           </p>
@@ -597,11 +597,11 @@ Object {
           <img
             alt="Melon"
             class="item__image"
-            id="4988db07-d09f-4538-ab06-6e29a3eb8f1c"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="melon-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Melon
           </p>
@@ -612,11 +612,11 @@ Object {
           <img
             alt="Orange"
             class="item__image"
-            id="f5571ca7-5216-4125-b28c-c2e51489fd15"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="orange-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Orange
           </p>
@@ -627,11 +627,11 @@ Object {
           <img
             alt="Papaya"
             class="item__image"
-            id="ef858b1e-a7b7-4c77-ab7d-36ec8fea11fa"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="papaya-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Papaya
           </p>
@@ -642,11 +642,11 @@ Object {
           <img
             alt="Peach"
             class="item__image"
-            id="131dd57d-aa14-4579-af7a-5590e73424aa"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="peach-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Peach
           </p>
@@ -657,11 +657,11 @@ Object {
           <img
             alt="Pear"
             class="item__image"
-            id="96302038-f1ab-4cbd-ac30-584eec9d2809"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pear-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Pear
           </p>
@@ -672,11 +672,11 @@ Object {
           <img
             alt="Pineapple"
             class="item__image"
-            id="74e201cc-2972-413f-a037-5bb41bd6eaca"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pineapple-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Pineapple
           </p>
@@ -687,11 +687,11 @@ Object {
           <img
             alt="Plum"
             class="item__image"
-            id="03f0cea5-cd8c-4b71-b1d0-e6d563e10547"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="plum-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Plum
           </p>
@@ -702,11 +702,11 @@ Object {
           <img
             alt="Pomegranate"
             class="item__image"
-            id="35b3b4c3-678a-4dc8-b9aa-f25c7b490e23"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pomegranate-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Pomegranate
           </p>
@@ -717,11 +717,11 @@ Object {
           <img
             alt="Star Fruit"
             class="item__image"
-            id="cb5f4716-83f1-4fde-ba45-ac28b4123ce1"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="star-fruit-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Star Fruit
           </p>
@@ -732,11 +732,11 @@ Object {
           <img
             alt="Strawberry"
             class="item__image"
-            id="1e932ec2-946d-4eb0-a688-d821cf3d457f"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="strawberry-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Strawberry
           </p>
@@ -747,11 +747,11 @@ Object {
           <img
             alt="Watermelon"
             class="item__image"
-            id="afcd0595-ffb1-4002-b127-53e5dd9c4f73"
+            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="watermelon-color.png"
           />
           <p
-            class="item__name"
+            class="item__title"
           >
             Watermelon
           </p>
