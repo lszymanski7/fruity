@@ -18,8 +18,8 @@ describe('Header', () => {
 	it('should have the correct subtitle.', () => {
 		render(<Header />)
 		const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
-		const h3 = screen.getByRole('heading', { level: 3 })
-		expect(h3).toHaveTextContent(subtitle)
+		const h2 = screen.getByRole('heading', { level: 2 })
+		expect(h2).toHaveTextContent(subtitle)
 	})
 
 	it('should have the correct logo.', () => {

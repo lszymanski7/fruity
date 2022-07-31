@@ -27,11 +27,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="apple-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Apple
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -42,11 +42,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="banana-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Banana
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -57,11 +57,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="blackberry-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Blackberry
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -72,11 +72,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="blueberries-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Blueberries
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -87,11 +87,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="cherries-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Cherries
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -102,11 +102,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="coconut-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Coconut
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -117,11 +117,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="dragon-fruit-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Dragon Fruit
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -132,11 +132,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="fig-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Fig
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -147,11 +147,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="grapes-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Grapes
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -162,11 +162,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="kiwi-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Kiwi
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -177,11 +177,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="lemon-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Lemon
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -192,11 +192,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="lychee-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Lychee
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -207,11 +207,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="mango-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Mango
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -222,11 +222,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="melon-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Melon
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -237,11 +237,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="orange-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Orange
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -252,11 +252,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="papaya-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Papaya
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -267,11 +267,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="peach-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Peach
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -282,11 +282,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pear-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Pear
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -297,11 +297,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pineapple-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Pineapple
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -312,11 +312,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="plum-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Plum
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -327,11 +327,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="pomegranate-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Pomegranate
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -342,11 +342,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="star-fruit-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Star Fruit
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -357,11 +357,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="strawberry-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Strawberry
-            </h4>
+            </h3>
           </div>
           <div
             class="item"
@@ -372,11 +372,11 @@ Object {
               id="bbb33b2d-e07d-4d13-a869-f3790e100477"
               src="watermelon-color.png"
             />
-            <h4
+            <h3
               class="item__title"
             >
               Watermelon
-            </h4>
+            </h3>
           </div>
         </div>
       </div>
@@ -405,11 +405,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="apple-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Apple
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -420,11 +420,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="banana-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Banana
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -435,11 +435,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="blackberry-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Blackberry
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -450,11 +450,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="blueberries-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Blueberries
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -465,11 +465,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="cherries-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Cherries
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -480,11 +480,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="coconut-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Coconut
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -495,11 +495,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="dragon-fruit-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Dragon Fruit
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -510,11 +510,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="fig-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Fig
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -525,11 +525,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="grapes-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Grapes
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -540,11 +540,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="kiwi-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Kiwi
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -555,11 +555,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="lemon-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Lemon
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -570,11 +570,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="lychee-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Lychee
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -585,11 +585,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="mango-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Mango
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -600,11 +600,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="melon-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Melon
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -615,11 +615,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="orange-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Orange
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -630,11 +630,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="papaya-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Papaya
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -645,11 +645,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="peach-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Peach
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -660,11 +660,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pear-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Pear
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -675,11 +675,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pineapple-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Pineapple
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -690,11 +690,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="plum-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Plum
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -705,11 +705,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="pomegranate-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Pomegranate
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -720,11 +720,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="star-fruit-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Star Fruit
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -735,11 +735,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="strawberry-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Strawberry
-          </h4>
+          </h3>
         </div>
         <div
           class="item"
@@ -750,11 +750,11 @@ Object {
             id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             src="watermelon-color.png"
           />
-          <h4
+          <h3
             class="item__title"
           >
             Watermelon
-          </h4>
+          </h3>
         </div>
       </div>
     </div>

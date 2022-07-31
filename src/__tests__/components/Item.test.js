@@ -30,7 +30,7 @@ describe('Item', () => {
     it('should have the correct title.', () => {
 		render(<Item {...props} />)
 		const title = props.name
-		const h4 = screen.getByRole('heading', { level: 4 })
-		expect(h4).toHaveTextContent(title)
+		const h3 = screen.getByRole('heading', { level: 3 })
+		expect(h3).toHaveTextContent(title)
 	})
 })
