@@ -29,7 +29,8 @@ describe('Item', () => {
 
     it('should have the correct title.', () => {
 		render(<Item {...props} />)
-		const p = screen.getByText(props.name)
-		expect(p).toBeInTheDocument()
+		const title = props.name
+		const h4 = screen.getByRole('heading', { level: 4 })
+		expect(h4).toHaveTextContent(title)
 	})
 })

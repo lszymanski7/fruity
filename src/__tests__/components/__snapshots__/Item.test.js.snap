@@ -14,11 +14,11 @@ Object {
           id="bbb33b2d-e07d-4d13-a869-f3790e100477"
           src="apple-color.png"
         />
-        <p
+        <h4
           class="item__title"
         >
           Apple
-        </p>
+        </h4>
       </div>
     </div>
   </body>,
@@ -32,11 +32,11 @@ Object {
         id="bbb33b2d-e07d-4d13-a869-f3790e100477"
         src="apple-color.png"
       />
-      <p
+      <h4
         class="item__title"
       >
         Apple
-      </p>
+      </h4>
     </div>
   </div>,
   "debug": [Function],
