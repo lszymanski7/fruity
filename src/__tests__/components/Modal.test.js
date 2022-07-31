@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import Modal from '../../components/Modal'
-import fruits from '../__fixtures__/fruits'
+import fruits from '../../data/fruits'
 
 const props = {
 	selectedFruit: fruits[0],
@@ -25,6 +25,7 @@ describe('Modal', () => {
 	it('should have the correct image.', () => {
 		render(<Modal {...props} />)
 		const img = screen.getByRole('img')
+		expect(img).toHaveAttribute('src', props.selectedFruit.img.color)
 		expect(img).toHaveAttribute('alt', props.selectedFruit.name)
 		expect(img).toBeInTheDocument()
 	})

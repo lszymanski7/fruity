@@ -1,70 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header should be rendered correctly. 1`] = `
+exports[`Item should be rendered correctly. 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="header"
+        class="item"
       >
-        <div
-          class="container"
+        <img
+          alt="Apple"
+          class="item__image"
+          id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          src="apple-color.png"
+        />
+        <h4
+          class="item__title"
         >
-          <div
-            class="header-container"
-          >
-            <img
-              alt="Fruity Logo"
-              class="header__logo"
-              src="logo512-outlined.png"
-            />
-            <h1
-              class="header__title"
-            >
-              Fruity
-            </h1>
-          </div>
-          <div>
-            <h3
-              class="header__subtitle"
-            >
-              Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
-            </h3>
-          </div>
-        </div>
+          Apple
+        </h4>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="header"
+      class="item"
     >
-      <div
-        class="container"
+      <img
+        alt="Apple"
+        class="item__image"
+        id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+        src="apple-color.png"
+      />
+      <h4
+        class="item__title"
       >
-        <div
-          class="header-container"
-        >
-          <img
-            alt="Fruity Logo"
-            class="header__logo"
-            src="logo512-outlined.png"
-          />
-          <h1
-            class="header__title"
-          >
-            Fruity
-          </h1>
-        </div>
-        <div>
-          <h3
-            class="header__subtitle"
-          >
-            Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
-          </h3>
-        </div>
-      </div>
+        Apple
+      </h4>
     </div>
   </div>,
   "debug": [Function],

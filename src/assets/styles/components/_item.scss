@@ -2,7 +2,7 @@
 .item {
 	display: inline-block;
 	padding: $s-size 0.4rem;
-	width: 75px;
+	width: 72px;
 }
 
 .item__image {
@@ -10,8 +10,9 @@
 	width: 60px;
 }
 
-.item__name {
+.item__title {
 	font-size: $s-size;
+	font-weight: normal;
 	margin: 0;
 	padding: $xs-size 0 0 0;
 }

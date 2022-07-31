@@ -86,9 +86,7 @@
 			"webpack": {
 				"extensions": [
 					".js",
-					".jsx",
-					".ts",
-					".tsx"
+					".jsx"
 				]
 			}
 		},
