@@ -16,8 +16,13 @@ module.exports = {
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
-				use: ['babel-loader']
+				use: 'babel-loader'
 			},
+			// HTML
+			{
+                test: /\.html$/,
+                use: 'html-loader'
+            },
 			// Images
 			{
 				test: /\.(png|jpe?g|gif|svg|ico)$/,
