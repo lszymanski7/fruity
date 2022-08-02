@@ -51,7 +51,7 @@ Live demo: <a href="https://lszymanski7-fruity.herokuapp.com">https://lszymanski
 
 <!-- TECHNOLOGIES -->
 ## Technologies
-This project was created using the following technologies and tools:
+The following technologies and tools were used in the project:
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
