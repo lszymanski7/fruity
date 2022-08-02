@@ -135,6 +135,9 @@ npm run start
 # Run all tests with the settings specified in the configuration file.
 npm run test
 
+# Generate code coverage report.
+npm run test:coverage
+
 # Run all tests in watch mode.
 npm run test:watch
 ```

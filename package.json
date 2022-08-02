@@ -17,6 +17,7 @@
 		"prettier:fix": "npx prettier --write .",
 		"start": "node server/server.js",
 		"test": "jest --config config/jest.config.js",
+		"test:coverage": "jest --config config/jest.config.js --coverage",
 		"test:watch": "jest --config config/jest.config.js --watch"
 	},
 	"repository": {

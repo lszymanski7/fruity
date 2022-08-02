@@ -1,10 +1,27 @@
 module.exports = {
+	collectCoverageFrom: [
+		'<rootDir>/src/components/**',
+		'<rootDir>/src/hooks/**',
+	],
+	coverageDirectory: '<rootDir>/coverage',
+	coverageReporters: [
+		'html', 
+		'text'
+	],
+	coverageThreshold: {
+		global: {
+			branches: 80,
+			functions: 80,
+			lines: 80,
+			statements: -10
+		}
+	},
 	rootDir: '../',
 	setupFilesAfterEnv: ['<rootDir>/src/__tests__/setupTests.js'],
 	testEnvironment: 'jest-environment-jsdom',
-	testRegex: '/__tests__/.*\\.(spec|test)\\.(js|jsx)$',
+	testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
 	transform: {
-		'^.+\\.(js|jsx)$': 'babel-jest',
+		'\\.[jt]sx?$': 'babel-jest',
 		'\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/__tests__/fileTransformer.js'
 	},
 	verbose: true
