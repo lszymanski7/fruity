@@ -59,7 +59,7 @@ The following technologies and tools were used in the project:
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-424242?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![SASS](https://img.shields.io/badge/SASS%20|%20v1.53.0-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.72.1-424242?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
-[![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.0-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
+[![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.10-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
 [![Jest](https://img.shields.io/badge/Jest%20|%20v28.1.3-424242?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.16.0-424242?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.6.0-424242?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
