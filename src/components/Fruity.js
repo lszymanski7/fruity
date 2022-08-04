@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import React, { useState, useEffect } from 'react'
 import Draw from './Draw'
 import Footer from './Footer'
@@ -32,7 +34,6 @@ const Fruity = () => {
 		if (window.localStorage.getItem('fruits') === null) {
 			setFruits(fruitsData)
 		}
-  		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
 	return (

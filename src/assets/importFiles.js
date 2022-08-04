@@ -2,8 +2,6 @@
 // 1. First method
 // ====================================================================================================
 
-const logo = require('./images/logo/logo512-outlined.png')
-
 const icons = {
 	appleColor: require('./images/icons/apple-color.png'),
 	appleLinear: require('./images/icons/apple-linear.png'),
@@ -55,13 +53,20 @@ const icons = {
 	watermelonLinear: require('./images/icons/watermelon-linear.png')
 }
 
-export { logo, icons }
+const logo = {
+	basic128: require('./images/logo/logo128-basic.png'),
+	outlined128: require('./images/logo/logo128-outlined.png'),
+	basic256: require('./images/logo/logo256-basic.png'),
+	outlined256: require('./images/logo/logo256-outlined.png'),
+	basic512: require('./images/logo/logo512-basic.png'),
+	outlined512: require('./images/logo/logo512-outlined.png')
+}
+
+export { icons, logo }
 
 // ====================================================================================================
 // 2. Second method
 // ====================================================================================================
-
-// const logo = require('./images/logo/logo512-outlined.png')
 
 // const importAll = (r) => {
 // 	const files = {}
@@ -71,5 +76,6 @@ export { logo, icons }
 // }
 
 // const icons = importAll(require.context('./images/icons', false, /\.(png|jpe?g|gif|svg|ico)$/))
+// const logo = importAll(require.context('./images/logo', false, /\.(png|jpe?g|gif|svg|ico)$/))
 
-// export { logo, icons }
+// export { icons, logo }
