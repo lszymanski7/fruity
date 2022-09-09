@@ -1,22 +1,17 @@
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Draw = (props) => {
-	const { filteredFruits, handleDraw } = props
-	const isDisabled = filteredFruits.length < 2
-
-	return (
-		<div>
-			<button className="big-button" disabled={isDisabled} onClick={handleDraw}>
-				{isDisabled ? 'Select more fruits!' : 'Draw a fruit!'}
-			</button>
-		</div>
-	)
+const Draw = ({ disabled, onClick }) => {
+    return (
+        <button className="big-button" disabled={disabled} onClick={onClick} type="button">
+            {disabled ? 'Select more fruits!' : 'Draw a fruit!'}
+        </button>
+    )
 }
 
 Draw.propTypes = {
-	filteredFruits: PropTypes.array.isRequired,
-	handleDraw: PropTypes.func.isRequired
+	disabled: PropTypes.bool.isRequired,
+	onClick: PropTypes.func.isRequired
 }
 
 export { Draw as default }
