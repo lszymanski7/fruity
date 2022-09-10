@@ -1,23 +1,21 @@
 import React from 'react'
-import { logo } from '../assets/importFiles'
+import { logo } from '../data/constants'
 
 const Header = () => {
-	const title = 'Fruity'
-	const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
+    const title = 'Fruity'
+    const subtitle = 'Click the button below and draw your fruit!'
 
-	return (
-		<div className="header">
-			<div className="container">
-				<div className="header-container">
-					<img className="header__logo" src={logo.outlined512} alt="Fruity Logo" />
-					<h1 className="header__title">{title}</h1>
-				</div>
-				<div>
-					<h2 className="header__subtitle">{subtitle}</h2>
-				</div>
-			</div>
-		</div>
-	)
+    return (
+        <header className="header">
+            <div className="header-container">
+                <div className="header-container2">
+                    <img alt="Fruity Logo" className="header__logo" src={logo.size_512x512} />
+                    <h1 className="header__title">{title}</h1>
+                </div>
+                <h2 className="header__subtitle">{subtitle}</h2>
+            </div>
+        </header>
+    )
 }
 
 export { Header as default }

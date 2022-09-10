@@ -1,44 +1,43 @@
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
 import Item from './Item'
 
-const Widget = (props) => {
-	const { fruits, setFruits, setFilteredFruits } = props
-	const title = 'Fruits to select:'
+const Widget = ({ fruits, setFilter, setFruits }) => {
+    const title = 'Fruits to select:'
 
-	return (
-		<div className="widget">
-			<div className="widget-header">
-				<h2>{title}</h2>
-			</div>
-			<div className="widget-container">
-				{
+    return (
+        <div className="widget">
+            <div className="widget-header">
+                <h2>{title}</h2>
+            </div>
+            <div className="widget-container">
+                {
 					fruits.map((fruit) => {
 						const key = fruit.name.toLowerCase().replace(' ', '-')
 
 						return (
 							<Item
 								key={key}
-								id={fruit.id}
-								name={fruit.name}
-								img={fruit.img}
 								checked={fruit.checked}
 								fruits={fruits}
+								id={fruit.id}
+								img={fruit.img}
+								name={fruit.name}
+								setFilter={setFilter}
 								setFruits={setFruits}
-								setFilteredFruits={setFilteredFruits}
 							/>
 						)
-					})
+                	})
 				}
-			</div>
-		</div>
-	)
+            </div>
+        </div>
+    )
 }
 
 Widget.propTypes = {
-	fruits: PropTypes.array.isRequired,
-	setFruits: PropTypes.func.isRequired,
-	setFilteredFruits: PropTypes.func.isRequired
+    fruits: PropTypes.array.isRequired,
+    setFilter: PropTypes.func.isRequired,
+    setFruits: PropTypes.func.isRequired
 }
 
 export { Widget as default }

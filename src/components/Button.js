@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Draw = ({ disabled, onClick }) => {
+const Button = ({ disabled, onClick }) => {
     return (
         <button className="big-button" disabled={disabled} onClick={onClick} type="button">
             {disabled ? 'Select more fruits!' : 'Draw a fruit!'}
@@ -9,9 +9,9 @@ const Draw = ({ disabled, onClick }) => {
     )
 }
 
-Draw.propTypes = {
+Button.propTypes = {
 	disabled: PropTypes.bool.isRequired,
 	onClick: PropTypes.func.isRequired
 }
 
-export { Draw as default }
+export { Button as default }
