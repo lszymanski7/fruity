@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 // Fruits Data
 
-const data = [
+const fruits = [
 	{
 		id: uuidv4(),
 		name: 'Apple',
@@ -229,4 +229,4 @@ const logo = {
     size_512x512: require('../assets/images/logos/fruity-512x512.webp')
 }
 
-export { data, logo }
+export { fruits, logo }
