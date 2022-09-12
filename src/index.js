@@ -1,11 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Provider } from 'react-redux'
 import Fruity from './components/Fruity'
-import 'normalize.css/normalize.css'
-import './assets/styles/styles.scss'
+import store from './store'
+import '@csstools/normalize.css'
+import './assets/sass/main.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-	<Fruity />
+    <Provider store={store}>
+        <Fruity />
+    </Provider>
 )
