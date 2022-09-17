@@ -1,7 +1,6 @@
 module.exports = {
     collectCoverageFrom: [
-        '<rootDir>/src/components/**/*.[jt]s?(x)',
-        '<rootDir>/src/hooks/**/*.[jt]s?(x)'
+        '<rootDir>/src/components/**/*.[jt]s?(x)'
     ],
     coverageDirectory: '<rootDir>/coverage',
     coveragePathIgnorePatterns: [
