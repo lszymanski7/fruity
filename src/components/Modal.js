@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 import ReactModal from 'react-modal'
+import PropTypes from 'prop-types'
 
-const Modal = ({ isOpen, onRequestClose, selectedFruit }) => {
+const Modal = ({ isOpen, onRequestClose, selected }) => {
     return (
         <ReactModal
             appElement={document.getElementById('root')}
@@ -12,14 +12,14 @@ const Modal = ({ isOpen, onRequestClose, selectedFruit }) => {
             onRequestClose={onRequestClose}
         >
             {
-				!!selectedFruit &&
+				!!selected &&
                 <div>
-                    <h2 className="modal__title">{selectedFruit.name}</h2>
+                    <h2 className="modal__title">{selected.name}</h2>
                     <img
-						alt={selectedFruit.name}
+						alt={selected.name}
                         className="modal__image"
-                        id={selectedFruit.id}
-                        src={selectedFruit.img.color}
+                        id={selected.id}
+                        src={selected.img}
                     />
                 </div>
             }
@@ -31,7 +31,7 @@ const Modal = ({ isOpen, onRequestClose, selectedFruit }) => {
 Modal.propTypes = {
     isOpen: PropTypes.bool.isRequired,
     onRequestClose: PropTypes.func.isRequired,
-    selectedFruit: PropTypes.object
+    selected: PropTypes.object
 }
 
 export { Modal as default }
