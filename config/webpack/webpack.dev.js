@@ -4,11 +4,7 @@ const { merge } = require('webpack-merge')
 module.exports = merge(common, {
     mode: 'development',
     devtool: 'eval-source-map',
-<<<<<<< HEAD
     stats: 'minimal',
-=======
-	stats: 'minimal',
->>>>>>> main
     output: {
         filename: 'static/js/[name].js',
         chunkFilename: 'static/js/[name].chunk.js'
@@ -20,11 +16,7 @@ module.exports = merge(common, {
                 test: /\.(css|scss)$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
-<<<<<<< HEAD
             // Fonts
-=======
-			// Fonts
->>>>>>> main
             {
                 test: /\.(woff(2)?|eot|ttf|otf)$/,
                 type: 'asset/inline',
