@@ -20,10 +20,17 @@
         }
     },
     "plugins": [
+<<<<<<< HEAD
+        "import", 
+        "react", 
+        "react-hooks"
+	],
+=======
         "import", 
         "react", 
         "react-hooks"
     ],
+>>>>>>> main
     "rules": {
         "no-duplicate-imports": "warn",
         "no-self-compare": "warn",

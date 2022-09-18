@@ -19,7 +19,11 @@ module.exports = merge(common, {
                 test: /\.(css|scss)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
             },
+<<<<<<< HEAD
+            // Fonts
+=======
 			// Fonts
+>>>>>>> main
             {
                 test: /\.(woff(2)?|eot|ttf|otf)$/,
                 type: 'asset/inline',

@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Fruity from './components/Fruity'
-import 'normalize.css/normalize.css'
-import './assets/styles/styles.scss'
+import App from './components/App'
+import '@csstools/normalize.css'
+import './assets/sass/main.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-root.render(
-	<Fruity />
-)
+root.render(<App />)

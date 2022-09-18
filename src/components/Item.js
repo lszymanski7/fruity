@@ -1,35 +1,40 @@
-import PropTypes from 'prop-types'
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
-const Item = (props) => {
-	const { id, name, img, checked, fruits, setFruits, setFilteredFruits } = props
-	const [icon, setIcon] = useState(checked ? img.color : img.linear)
-	const fruitsData = JSON.parse(JSON.stringify(fruits))
+const Item = ({ checked, fruits, id, img, name, setFilter, setFruits }) => {
+    const [icon, setIcon] = useState(checked ? img.color : img.linear)
+    const data = JSON.parse(JSON.stringify(fruits))
+    const fruit = data.find((fruit) => fruit.id === id)
 
-	const handleCheck = () => {
-		const fruit = fruitsData.find((fruit) => fruit.id === id)
-		fruit.checked = !fruit.checked
-		setFruits(fruitsData)
-		setIcon(fruit.checked ? img.color : img.linear)
-		setFilteredFruits(fruitsData.filter((fruit) => fruit.checked === true))
-	}
+    const handleCheck = () => {
+        fruit.checked = !fruit.checked
+        setIcon(fruit.checked ? img.color : img.linear)
+        setFilter(data.filter((fruit) => fruit.checked === true))
+        setFruits(data)
+    }
 
-	return (
-		<div className="item">
-			<img className="item__image" id={id} src={icon} alt={name} onClick={handleCheck} />
-			<h3 className="item__title">{name}</h3>
-		</div>
-	)
+    return (
+        <div className="item">
+            <img
+                alt={name}
+                className="item__image"
+                id={id}
+                onClick={handleCheck}
+                src={icon}
+            />
+            <h3 className="item__title">{name}</h3>
+        </div>
+    )
 }
 
 Item.propTypes = {
-	id: PropTypes.string.isRequired,
-	name: PropTypes.string.isRequired,
-	img: PropTypes.object.isRequired,
-	checked: PropTypes.bool.isRequired,
-	fruits: PropTypes.array.isRequired,
-	setFruits: PropTypes.func.isRequired,
-	setFilteredFruits: PropTypes.func.isRequired
+    checked: PropTypes.bool.isRequired,
+    fruits: PropTypes.array.isRequired,
+    id: PropTypes.string.isRequired,
+    img: PropTypes.object.isRequired,
+    name: PropTypes.string.isRequired,
+    setFilter: PropTypes.func.isRequired,
+    setFruits: PropTypes.func.isRequired
 }
 
 export { Item as default }
