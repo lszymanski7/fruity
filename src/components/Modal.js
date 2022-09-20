@@ -12,11 +12,11 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
             onRequestClose={onRequestClose}
         >
             {
-				!!selected &&
+                !!selected &&
                 <div>
                     <h2 className="modal__title">{selected.name}</h2>
                     <img
-						alt={selected.name}
+                        alt={selected.name}
                         className="modal__image"
                         id={selected.id}
                         src={selected.img}
