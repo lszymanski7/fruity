@@ -1,53 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer should be rendered correctly. 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
+      <footer
         class="footer"
       >
-        <p
-          class="footer__attribution"
-        >
-          Logo created by 
-          <a
-            href="https://www.flaticon.com/authors/freepik"
-          >
-            Freepik
-          </a>
-           | Icons created by 
-          <a
-            href="https://www.flaticon.com/authors/smashicons"
-          >
-            Smashicons
-          </a>
+        <p>
+          Created with ❤ by Łukasz Szymański
         </p>
-      </div>
+      </footer>
     </div>
   </body>,
   "container": <div>
-    <div
+    <footer
       class="footer"
     >
-      <p
-        class="footer__attribution"
-      >
-        Logo created by 
-        <a
-          href="https://www.flaticon.com/authors/freepik"
-        >
-          Freepik
-        </a>
-         | Icons created by 
-        <a
-          href="https://www.flaticon.com/authors/smashicons"
-        >
-          Smashicons
-        </a>
+      <p>
+        Created with ❤ by Łukasz Szymański
       </p>
-    </div>
+    </footer>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
