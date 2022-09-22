@@ -1,23 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should be rendered correctly. 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
+      <header
         class="header"
       >
         <div
-          class="container"
+          class="header-container"
         >
           <div
-            class="header-container"
+            class="header-container2"
           >
             <img
               alt="Fruity Logo"
               class="header__logo"
-              src="logo512-outlined.png"
+              src="fruity-512x512.webp"
             />
             <h1
               class="header__title"
@@ -25,31 +25,29 @@ Object {
               Fruity
             </h1>
           </div>
-          <div>
-            <h2
-              class="header__subtitle"
-            >
-              Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
-            </h2>
-          </div>
+          <h2
+            class="header__subtitle"
+          >
+            Click the button below and draw your fruit!
+          </h2>
         </div>
-      </div>
+      </header>
     </div>
   </body>,
   "container": <div>
-    <div
+    <header
       class="header"
     >
       <div
-        class="container"
+        class="header-container"
       >
         <div
-          class="header-container"
+          class="header-container2"
         >
           <img
             alt="Fruity Logo"
             class="header__logo"
-            src="logo512-outlined.png"
+            src="fruity-512x512.webp"
           />
           <h1
             class="header__title"
@@ -57,15 +55,13 @@ Object {
             Fruity
           </h1>
         </div>
-        <div>
-          <h2
-            class="header__subtitle"
-          >
-            Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
-          </h2>
-        </div>
+        <h2
+          class="header__subtitle"
+        >
+          Click the button below and draw your fruit!
+        </h2>
       </div>
-    </div>
+    </header>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
