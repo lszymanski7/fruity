@@ -1,43 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Item from './Item'
+import Element from './Element'
 
-const Widget = ({ fruits, setFilter, setFruits }) => {
+const Widget = ({ data, handleCheck, handleReset }) => {
     const title = 'Fruits to select:'
 
     return (
         <div className="widget">
             <div className="widget-header">
                 <h2>{title}</h2>
+                <button onClick={handleReset}>Reset</button>
             </div>
             <div className="widget-container">
-                {
-					fruits.map((fruit) => {
-						const key = fruit.name.toLowerCase().replace(' ', '-')
+                {data.map((fruit) => {
+                    const key = fruit.name.toLowerCase().replace(' ', '-')
 
-						return (
-							<Item
-								key={key}
-								checked={fruit.checked}
-								fruits={fruits}
-								id={fruit.id}
-								img={fruit.img}
-								name={fruit.name}
-								setFilter={setFilter}
-								setFruits={setFruits}
-							/>
-						)
-                	})
-				}
+                    return (
+                        <Element
+                            key={key}
+                            checked={fruit.checked}
+                            id={fruit.id}
+                            img={fruit.img}
+                            name={fruit.name}
+                            handleCheck={handleCheck}
+                        />
+                    )
+                })}
             </div>
         </div>
     )
 }
 
 Widget.propTypes = {
-    fruits: PropTypes.array.isRequired,
-    setFilter: PropTypes.func.isRequired,
-    setFruits: PropTypes.func.isRequired
+    data: PropTypes.array.isRequired,
+    handleCheck: PropTypes.func.isRequired,
+    handleReset: PropTypes.func.isRequired
 }
 
 export { Widget as default }
