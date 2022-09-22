@@ -11,8 +11,7 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
             isOpen={isOpen}
             onRequestClose={onRequestClose}
         >
-            {
-                !!selected &&
+            {!!selected && (
                 <div>
                     <h2 className="modal__title">{selected.name}</h2>
                     <img
@@ -22,8 +21,13 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
                         src={selected.img}
                     />
                 </div>
-            }
-            <button className="button" onClick={onRequestClose}>Okay</button>
+            )}
+            <button
+                className="button"
+                onClick={onRequestClose}
+            >
+                Okay
+            </button>
         </ReactModal>
     )
 }
