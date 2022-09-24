@@ -1,23 +1,31 @@
 import React from 'react'
-import { fireEvent, render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import Modal from '../../components/Modal'
-import fruits from '../../data/fruits'
+import { fruits } from '../../data/constants'
 
 const props = {
-	selectedFruit: fruits[0],
-    isOpenModal: true,
-	closeModal: jest.fn()
+    isOpen: true,
+    onRequestClose: jest.fn(),
+    selected: fruits[0]
 }
 
 describe('Modal', () => {
 	it('should be rendered correctly.', () => {
-		const component = render(<Modal {...props} />)
-		expect(component).toMatchSnapshot()
+		const { baseElement } = render(<Modal {...props} />)
+		expect(baseElement).toMatchSnapshot()
+	})
+
+    it('should handle clicking (Close).', async () => {
+        render(<Modal {...props} />)
+        const button = screen.getByRole('button')
+        await userEvent.click(button)
+        expect(props.onRequestClose).toHaveBeenCalled()
 	})
 
     it('should have the correct title.', () => {
 		render(<Modal {...props} />)
-		const title = props.selectedFruit.name
+		const title = props.selected.name
 		const h2 = screen.getByRole('heading', { level: 2 })
 		expect(h2).toHaveTextContent(title)
 	})
@@ -25,17 +33,7 @@ describe('Modal', () => {
 	it('should have the correct image.', () => {
 		render(<Modal {...props} />)
 		const img = screen.getByRole('img')
-		expect(img).toHaveAttribute('src', props.selectedFruit.img.color)
-		expect(img).toHaveAttribute('alt', props.selectedFruit.name)
-		expect(img).toBeInTheDocument()
-	})
-})
-
-describe('Button', () => {
-    it('should handle clicking.', () => {
-		render(<Modal {...props} />)
-		const button = screen.getByRole('button')
-		fireEvent.click(button)
-		expect(props.closeModal).toHaveBeenCalled()
+        expect(img).toHaveAttribute('alt', props.selected.name)
+		expect(img).toHaveAttribute('src', props.selected.img)
 	})
 })
