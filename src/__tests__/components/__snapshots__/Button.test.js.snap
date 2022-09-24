@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be rendered correctly. 1`] = `
+<div>
+  <button
+    class="big-button"
+    disabled=""
+    type="button"
+  >
+    Select more fruits!
+  </button>
+</div>
+`;
