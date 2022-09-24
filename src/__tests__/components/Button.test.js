@@ -18,7 +18,7 @@ describe('Button', () => {
         render(<Button {...props} disabled={false} />)
         const button = screen.getByRole('button')
         await userEvent.click(button)
-        expect(props.handleDraw).toHaveBeenCalledTimes(1)
+        expect(props.handleDraw).toHaveBeenCalled()
     })
 
     it('should be disabled and have the correct text.', () => {
