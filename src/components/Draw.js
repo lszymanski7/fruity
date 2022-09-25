@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Button = ({ disabled, handleDraw }) => {
+const Draw = ({ disabled, handleDraw }) => {
     return (
         <button
             className="big-button"
@@ -14,9 +14,9 @@ const Button = ({ disabled, handleDraw }) => {
     )
 }
 
-Button.propTypes = {
+Draw.propTypes = {
     disabled: PropTypes.bool.isRequired,
     handleDraw: PropTypes.func.isRequired
 }
 
-export { Button as default }
+export { Draw as default }
