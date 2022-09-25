@@ -16,7 +16,7 @@ describe('Modal', () => {
 		expect(baseElement).toMatchSnapshot()
 	})
 
-    it('should handle clicking (Close).', async () => {
+    it('should handle clicking a button (Close).', async () => {
         render(<Modal {...props} />)
         const button = screen.getByRole('button')
         await userEvent.click(button)

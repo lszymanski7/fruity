@@ -18,7 +18,7 @@ describe('Element', () => {
 		expect(container).toMatchSnapshot()
 	})
 
-    it('should handle clicking.', async () => {
+    it('should handle clicking a checkbox.', async () => {
         render(<Element {...props} />)
         const checkbox = screen.getByRole('checkbox')
         await userEvent.click(checkbox)

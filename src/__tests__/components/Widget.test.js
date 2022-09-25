@@ -16,7 +16,7 @@ describe('Widget', () => {
         expect(container).toMatchSnapshot()
     })
 
-	it('should handle clicking (Reset).', async () => {
+	it('should handle clicking a button (Reset).', async () => {
         render(<Widget {...props} />)
         const button = screen.getByRole('button')
         await userEvent.click(button)
