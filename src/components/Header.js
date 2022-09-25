@@ -3,7 +3,7 @@ import { logo } from '../data/constants'
 
 const Header = () => {
     const title = 'Fruity'
-    const subtitle = 'Click the button below and draw your fruit!'
+    const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
 
     return (
         <header className="header">

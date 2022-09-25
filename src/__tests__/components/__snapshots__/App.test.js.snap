@@ -28,7 +28,7 @@ exports[`App should be rendered correctly. 1`] = `
         <h2
           class="header__subtitle"
         >
-          Click the button below and draw your fruit!
+          Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
         </h2>
       </div>
     </header>
