@@ -4,7 +4,7 @@
 
 .footer {
   background-color: map-get($colors, 'app', 'pink-dark');
-  border-top: .1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+  border-top: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
   color: map-get($colors, 'basic', 'black');
   flex-shrink: 0;
   font-size: 1.4rem;
