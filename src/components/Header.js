@@ -7,8 +7,8 @@ const Header = () => {
 
     return (
         <header className="header">
-            <div className="header-container">
-                <div className="header-container2">
+            <div className="flexbox-column header__container-parent">
+                <div className="flexbox-row header__container-child">
                     <img
                         alt="Fruity Logo"
                         className="header__logo"
