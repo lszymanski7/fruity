@@ -6,28 +6,28 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
     return (
         <ReactModal
             appElement={document.getElementById('root')}
-            className="modal"
+            className="flexbox-column modal"
             contentLabel="Fruity Modal"
             isOpen={isOpen}
             onRequestClose={onRequestClose}
         >
+            <button 
+                className="modal__close" 
+                onClick={onRequestClose}
+            >
+                &#x2715;
+            </button>
             {!!selected && (
-                <div>
-                    <h2 className="modal__title">{selected.name}</h2>
+                <>
                     <img
                         alt={selected.name}
                         className="modal__image"
                         id={selected.id}
                         src={selected.img}
                     />
-                </div>
+                    <h2 className="modal__title">{selected.name}</h2>
+                </>
             )}
-            <button
-                className="button"
-                onClick={onRequestClose}
-            >
-                Okay
-            </button>
         </ReactModal>
     )
 }

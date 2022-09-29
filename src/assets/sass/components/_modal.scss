@@ -1,0 +1,65 @@
+// ================================================================================================
+// Modal styles
+// ================================================================================================
+
+// React Modal Portal
+
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+// Modal
+
+.modal {
+  align-items: center;
+  background: map-get($colors, 'app', 'pink-light');
+  border: 0.2rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+  justify-content: center;
+  padding: map-get($spaces, 'md');
+  @include border-radius(15px);
+}
+
+.modal__close {
+  align-items: center;
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 800;
+  height: 21px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  width: 21px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.modal__image {
+  height: 125px;
+  margin: map-get($spaces, 'sm') map-get($spaces, 'xl');
+  width: 125px;
+}
+
+.modal__title {
+  margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md') 0;
+}
