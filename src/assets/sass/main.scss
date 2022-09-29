@@ -4,7 +4,9 @@
 
 @charset 'utf-8';
 
-@import './abstracts/variables';
+@import 
+  './abstracts/mixins',
+  './abstracts/variables';
 
 @import 
   './base/base',
@@ -19,4 +21,5 @@
 @import 
   './components/draw',
   './components/element',
+  './components/modal',
   './components/widget';
