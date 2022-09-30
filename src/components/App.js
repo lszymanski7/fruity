@@ -65,7 +65,7 @@ const App = () => {
     return (
         <div className="flexbox-column fullscreen">
             <Header />
-            <div>
+            <div className="flexbox-column container">
                 <Widget
                     data={data}
                     handleCheck={handleCheck}
