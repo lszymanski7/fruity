@@ -48,10 +48,10 @@
   overflow: hidden;
   padding: 0;
   width: 21px;
+}
 
-  &:hover {
-    opacity: 0.6;
-  }
+.modal__close:hover {
+  opacity: 0.6;
 }
 
 .modal__image {

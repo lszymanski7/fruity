@@ -7,18 +7,16 @@
   border-bottom: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
 }
 
-.header__container {
-  &-parent {
-    gap: map-get($spaces, 'md');
-    margin: 0 auto;
-    max-width: 80rem;
-    padding: map-get($spaces, 'md') 2.6rem;
-  }
+.header__container-parent {
+  gap: map-get($spaces, 'md');
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: map-get($spaces, 'md') 2.6rem;
+}
 
-  &-child {
-    align-items: center;
-    gap: map-get($spaces, 'md');
-  }
+.header__container-child {
+  align-items: center;
+  gap: map-get($spaces, 'md');
 }
 
 .header__logo {

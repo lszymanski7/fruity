@@ -17,16 +17,16 @@ $breakpoints: (
 
 $colors: (
   'app': (
-    'pink-dark': #FFD6E8,           // RGB: #FFD6DD | #FFD6EE
-    'pink-light': white,            // RGB: #FFC0CB
+    'pink-dark': hsl(334, 100%, 92%),   // RGB: #FFD6E8
+    'pink-light': hsl(348, 100%, 97%),  // RGB: #FFF0F3
   ),
   'basic': (
-    'black': hsl(0, 0%, 0%),          // RGB: #000000
-    'white': hsl(0, 0%, 100%)         // RGB: #FFFFFF
+    'black': hsl(0, 0%, 0%),            // RGB: #000000
+    'white': hsl(0, 0%, 100%)           // RGB: #FFFFFF
   ),
   'logo': (
-    'red-dark': #c70024,
-    'red-light': #ff0c38
+    'red-dark': hsl(349, 100%, 39%),    // RGB: #C70024
+    'red-light': hsl(349, 100%, 52%)    // RGB: #FF0C38
   )
 );
 
