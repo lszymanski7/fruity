@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 
 const Element = ({ checked, handleCheck, id, img, name }) => {
     return (
-        <div className="item">
+        <div className="flexbox-column element">
             <input
                 checked={checked}
+                className="element__checkbox"
                 id={id}
                 onChange={() => handleCheck(id)}
                 type="checkbox"
@@ -13,11 +14,11 @@ const Element = ({ checked, handleCheck, id, img, name }) => {
             <label htmlFor={id}>
                 <img
                     alt={name}
-                    className="item__image"
+                    className="element__image"
                     src={img}
                 />
             </label>
-            <h3 className="item__title">{name}</h3>
+            <h3 className="element__title">{name}</h3>
         </div>
     )
 }
