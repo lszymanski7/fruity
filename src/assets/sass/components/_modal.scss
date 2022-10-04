@@ -61,5 +61,7 @@
 }
 
 .modal__caption {
+  font-size: map-get($font-sizes, 'lg');
+  font-weight: 700;
   margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md') 0;
 }

@@ -25,7 +25,7 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
                         id={selected.id}
                         src={selected.img}
                     />
-                    <h2 className="modal__caption">{selected.name}</h2>
+                    <span className="modal__caption">{selected.name}</span>
                 </>
             )}
         </ReactModal>

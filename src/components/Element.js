@@ -19,7 +19,7 @@ const Element = ({ checked, handleCheck, id, img, name }) => {
                 className="element__image"
                 src={img}
             />
-            <span className="element__title">{name}</span>
+            <span className="element__caption">{name}</span>
         </label>
     )
 }
