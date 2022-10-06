@@ -16,23 +16,16 @@ describe('Widget', () => {
         expect(container).toMatchSnapshot()
     })
 
-	it('should handle clicking a button (Reset).', async () => {
+    it('should handle clicking a button (Reset).', async () => {
         render(<Widget {...props} />)
         const button = screen.getByRole('button')
         await userEvent.click(button)
         expect(props.handleReset).toHaveBeenCalled()
     })
 
-    it('should have the correct title.', () => {
-        render(<Widget {...props} />)
-        const title = 'Fruits to select:'
-        const h2 = screen.getByRole('heading', { level: 2 })
-        expect(h2).toHaveTextContent(title)
-    })
-
     it('should have 24 elements.', () => {
-    	render(<Widget {...props} />)
-    	const items = screen.getAllByRole('checkbox')
-    	expect(items).toHaveLength(24)
+        render(<Widget {...props} />)
+        const items = screen.getAllByRole('checkbox')
+        expect(items).toHaveLength(24)
     })
 })

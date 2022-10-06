@@ -6,8 +6,8 @@ const Widget = ({ data, handleCheck, handleReset }) => {
     return (
         <div className="flexbox-column">
             <div className="widget-header">
-                <button 
-                    className="widget-header__reset" 
+                <button
+                    className="widget-header__reset"
                     onClick={handleReset}
                 >
                     Reset All

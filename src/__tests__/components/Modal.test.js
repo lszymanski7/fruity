@@ -11,29 +11,29 @@ const props = {
 }
 
 describe('Modal', () => {
-	it('should be rendered correctly.', () => {
-		const { baseElement } = render(<Modal {...props} />)
-		expect(baseElement).toMatchSnapshot()
-	})
+    it('should be rendered correctly.', () => {
+        const { baseElement } = render(<Modal {...props} />)
+        expect(baseElement).toMatchSnapshot()
+    })
 
     it('should handle clicking a button (Close).', async () => {
         render(<Modal {...props} />)
         const button = screen.getByRole('button')
         await userEvent.click(button)
         expect(props.onRequestClose).toHaveBeenCalled()
-	})
+    })
 
-    it('should have the correct title.', () => {
-		render(<Modal {...props} />)
-		const title = props.selected.name
-		const h2 = screen.getByRole('heading', { level: 2 })
-		expect(h2).toHaveTextContent(title)
-	})
+    it('should have the correct caption.', () => {
+        render(<Modal {...props} />)
+        const caption = props.selected.name
+        const span = screen.getByText('Apple')
+        expect(span).toHaveTextContent(caption)
+    })
 
-	it('should have the correct image.', () => {
-		render(<Modal {...props} />)
-		const img = screen.getByRole('img')
+    it('should have the correct image.', () => {
+        render(<Modal {...props} />)
+        const img = screen.getByRole('img')
         expect(img).toHaveAttribute('alt', props.selected.name)
-		expect(img).toHaveAttribute('src', props.selected.img)
-	})
+        expect(img).toHaveAttribute('src', props.selected.img)
+    })
 })

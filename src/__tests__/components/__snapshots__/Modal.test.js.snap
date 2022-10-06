@@ -25,28 +25,24 @@ exports[`Modal should be rendered correctly. 1`] = `
       <div
         aria-label="Fruity Modal"
         aria-modal="true"
-        class="ReactModal__Content modal"
+        class="ReactModal__Content flexbox-column modal"
         role="dialog"
         tabindex="-1"
       >
-        <div>
-          <h2
-            class="modal__title"
-          >
-            Apple
-          </h2>
-          <img
-            alt="Apple"
-            class="modal__image"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-            src="apple.webp"
-          />
-        </div>
         <button
-          class="button"
+          class="modal__close"
+        />
+        <img
+          alt="Apple"
+          class="modal__image"
+          id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          src="apple.webp"
+        />
+        <span
+          class="modal__caption"
         >
-          Okay
-        </button>
+          Apple
+        </span>
       </div>
     </div>
   </div>

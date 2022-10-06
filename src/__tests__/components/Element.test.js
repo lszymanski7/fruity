@@ -13,10 +13,10 @@ const props = {
 }
 
 describe('Element', () => {
-	it('should be rendered correctly.', () => {
-		const { container } = render(<Element {...props} />)
-		expect(container).toMatchSnapshot()
-	})
+    it('should be rendered correctly.', () => {
+        const { container } = render(<Element {...props} />)
+        expect(container).toMatchSnapshot()
+    })
 
     it('should handle clicking a checkbox.', async () => {
         render(<Element {...props} />)
@@ -25,17 +25,17 @@ describe('Element', () => {
         expect(props.handleCheck).toHaveBeenCalled()
     })
 
-	it('should have the correct image.', () => {
-		render(<Element {...props} />)
-		const img = screen.getByRole('img')
+    it('should have the correct image.', () => {
+        render(<Element {...props} />)
+        const img = screen.getByRole('img')
         expect(img).toHaveAttribute('alt', props.name)
-		expect(img).toHaveAttribute('src', props.img)
-	})
+        expect(img).toHaveAttribute('src', props.img)
+    })
 
-    it('should have the correct title.', () => {
-		render(<Element {...props} />)
-		const title = props.name
-		const h3 = screen.getByRole('heading', { level: 3 })
-		expect(h3).toHaveTextContent(title)
-	})
+    it('should have the correct caption.', () => {
+        render(<Element {...props} />)
+        const caption = props.name
+        const span = screen.getByText('Apple')
+        expect(span).toHaveTextContent(caption)
+    })
 })

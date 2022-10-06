@@ -2,27 +2,25 @@
 
 exports[`Element should be rendered correctly. 1`] = `
 <div>
-  <div
-    class="item"
+  <label
+    class="flexbox-column element"
+    for="bbb33b2d-e07d-4d13-a869-f3790e100477"
   >
     <input
+      class="element__checkbox"
       id="bbb33b2d-e07d-4d13-a869-f3790e100477"
       type="checkbox"
     />
-    <label
-      for="bbb33b2d-e07d-4d13-a869-f3790e100477"
-    >
-      <img
-        alt="Apple"
-        class="item__image"
-        src="apple.webp"
-      />
-    </label>
-    <h3
-      class="item__title"
+    <img
+      alt="Apple"
+      class="element__image"
+      src="apple.webp"
+    />
+    <span
+      class="element__caption"
     >
       Apple
-    </h3>
-  </div>
+    </span>
+  </label>
 </div>
 `;

@@ -3,7 +3,7 @@
 exports[`Button should be rendered correctly. 1`] = `
 <div>
   <button
-    class="big-button"
+    class="draw-button"
     disabled=""
     type="button"
   >

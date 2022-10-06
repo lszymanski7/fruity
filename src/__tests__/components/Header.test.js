@@ -25,7 +25,7 @@ describe('Header', () => {
     it('should have the correct logo.', () => {
         render(<Header />)
         const logo = screen.getByRole('img')
-		expect(logo).toHaveAttribute('alt', 'Fruity Logo')
+        expect(logo).toHaveAttribute('alt', 'Fruity Logo')
         expect(logo).toHaveAttribute('src', 'fruity-512x512.webp')
     })
 })

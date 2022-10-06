@@ -6,10 +6,10 @@ exports[`Header should be rendered correctly. 1`] = `
     class="header"
   >
     <div
-      class="header-container"
+      class="flexbox-column header__container-parent"
     >
       <div
-        class="header-container2"
+        class="flexbox-row header__container-child"
       >
         <img
           alt="Fruity Logo"

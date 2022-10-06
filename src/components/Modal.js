@@ -11,7 +11,7 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
             isOpen={isOpen}
             onRequestClose={onRequestClose}
         >
-            <button 
+            <button
                 className="modal__close"
                 onClick={onRequestClose}
             />
