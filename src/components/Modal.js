@@ -12,11 +12,9 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
             onRequestClose={onRequestClose}
         >
             <button 
-                className="modal__close" 
+                className="modal__close"
                 onClick={onRequestClose}
-            >
-                &#x2715;
-            </button>
+            />
             {!!selected && (
                 <>
                     <img

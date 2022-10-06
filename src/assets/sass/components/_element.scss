@@ -10,10 +10,12 @@
   padding: map-get($spaces, 'xxs');
   width: 85px;
   @include border-radius(5px);
-}
 
-.element:hover {
-  background-color: lighten(map-get($colors, 'basic', 'black'), 95%);
+  @media (hover: hover) {
+    &:hover {
+      background-color: lighten(map-get($colors, 'basic', 'black'), 90%);
+    }
+  }
 }
 
 .element__checkbox {
