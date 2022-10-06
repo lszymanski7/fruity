@@ -12,7 +12,7 @@
   padding: 2.4rem;
   width: 100%;
 
-  @media (hover: hover) {
+  @media (hover: hover) and (pointer: fine) {
     &:hover {
       background: darken(map-get($colors, 'logo', 'red-light'), 10%);
       border-bottom: 0.75rem solid darken(map-get($colors, 'logo', 'red-light'), 20%);

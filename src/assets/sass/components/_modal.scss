@@ -45,7 +45,7 @@
   width: 25px;
   @include border-radius(50%);
 
-  @media (hover: hover) {
+  @media (hover: hover) and (pointer: fine) {
     &:hover {
       opacity: 0.5;
     }

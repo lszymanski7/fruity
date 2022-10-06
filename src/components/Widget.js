@@ -3,15 +3,17 @@ import PropTypes from 'prop-types'
 import Element from './Element'
 
 const Widget = ({ data, handleCheck, handleReset }) => {
-    const title = 'Fruits to select:'
-
     return (
-        <div className="widget">
+        <div className="flexbox-column">
             <div className="widget-header">
-                <h2>{title}</h2>
-                <button onClick={handleReset}>Reset</button>
+                <button 
+                    className="widget-header__reset" 
+                    onClick={handleReset}
+                >
+                    Reset All
+                </button>
             </div>
-            <div className="widget-container">
+            <div className="flexbox-row widget-content">
                 {data.map((fruit) => {
                     const key = fruit.name.toLowerCase().replace(' ', '-')
 
