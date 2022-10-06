@@ -157,8 +157,4 @@ const logo = {
     size_512x512: require('../assets/images/logos/fruity-512x512.webp')
 }
 
-// Reset Icon
-
-const reset = require('../assets/images/icons/reset.webp')
-
-export { fruits, logo, reset }
+export { fruits, logo }
