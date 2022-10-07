@@ -21,153 +21,123 @@
 
 <!-- FRUITY -->
 # Fruity
-Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore. This application will help you make this difficult decision with just one click.
+Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? You don't have to worry about it anymore! This application will help you make this difficult decision with just one click.
 
-Live demo: <a href="https://lszymanski7-fruity.herokuapp.com">https://lszymanski7-fruity.herokuapp.com<a/>
+🚀 **Live demo:** <a href="https://lszymanski7-fruity.netlify.app">https://lszymanski7-fruity.netlify.app<a/>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-<ol>
-  <li><a href="#features">Features</a></li>
-  <li><a href="#technologies">Technologies</a></li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-    </ul>
-  </li>
-  <li><a href="#scripts">Scripts</a></li>
-  <li><a href="#bugs-and-features">Bugs and Features</a></li>
-  <li><a href="#attribution">Attribution</a></li>
-  <li><a href="#license">License</a></li>
-</ol>
-  
+1. [Features](#features)
+2. [Technologies](#technologies)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Launch the App](#launch-the-app)
+4. [Contributing](#contributing)
+5. [Attribution](#attribution)
+6. [License](#license)
+
 <!-- FEATURES -->
 ## Features
 - Selecting fruits that should be included in the draw.
 - Drawing fruit from a filtered list. At least two fruits must be selected to start the draw.
+- Resetting selected fruits to default state.
 - Saving data to local storage.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
-The following technologies and tools were used in the project:
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-424242?style=flat&logo=css3&logoColor=1572B6)
+[![SASS](https://img.shields.io/badge/SASS%20|%20v1.54.8-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-424242?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
-[![SASS](https://img.shields.io/badge/SASS%20|%20v1.53.0-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.72.1-424242?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
-[![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.10-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
-[![Jest](https://img.shields.io/badge/Jest%20|%20v28.1.3-424242?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
+[![Babel](https://img.shields.io/badge/Babel%20|%20v7.19.3-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
+[![Jest](https://img.shields.io/badge/Jest%20|%20v29.1.2-424242?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.16.0-424242?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.6.0-424242?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.15.0-424242?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.1-424242?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
-[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
+[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.21.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
+
+All technologies and tools were used in the latest version at the time of creating this project.
 
 <!-- Getting Started -->
 ## Getting Started
 
 <!-- Prerequisites -->
 ### Prerequisites
-> You can download Node.js installer [here](https://nodejs.org/en/download).
+> **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
-This project was created using the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
-  
+This project was created with the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
+
 <!-- Installation -->
 ### Installation
-Follow all of the steps below to get a local copy of the project and be able to run it.
+Follow all of the steps below to get a local copy of the project and install any dependencies required to run it.
 
 1. Clone the repository.
+
 ```
-git clone https://github.com/lszymanski7/fruity-app.git
+$ git clone https://github.com/lszymanski7/fruity-app.git
 ```
+
 2. Navigate to the project directory.
+
 ```
-cd fruity-app
+$ cd fruity-app
 ```
+
 3. Install all dependencies.
+
 ```
-npm install
-```
-4. Start the Express server.
-```
-npm run start
+$ npm install
 ```
 
-The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
+<!-- LAUNCH THE APP -->
+### Launch the App
+Use the command below to run webpack and create a production build.
 
-<!-- SCRIPTS -->
-## Scripts
-The available scripts with descriptions are listed below.
-
-```properties
-# Run Webpack with development configuration.
-npm run build:dev
-
-# Run Webpack with production configuration.
-npm run build:prod
-
-# Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
-npm run dev-server
-
-# Run ESLint to check JavaScript code and find problems.
-npm run eslint:check
-
-# Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-npm run eslint:fix
-
-# Execute build:prod script on Heroku.
-npm run heroku-postbuild
-
-# Run Prettier to check if all supported files are formatted. 
-npm run prettier:check
-
-# Run Prettier to format all supported files in the current directory and its subdirectories.
-npm run prettier:fix
-
-# Start the Express server and run the application at the following url: http://localhost:3000
-npm run start
-
-# Run all tests with the settings specified in the configuration file.
-npm run test
-
-# Generate code coverage report.
-npm run test:coverage
-
-# Run all tests in watch mode.
-npm run test:watch
 ```
-  
-<!-- BUGS AND FEATURES -->
-## Bugs and Features  
-> You can report bugs and request new features [here](https://github.com/lszymanski7/fruity-app/issues). 
-  
-Please search the existing bugs and feature requests before you file one yourself.
-  
+$ npm run build
+```
+
+The next command starts the Express server. All static files generated by webpack will be served from the `./build` folder. The application will be launched at the following url: [http://localhost:3000](http://localhost:3000)
+
+```
+$ npm run start
+```
+
+<!-- CONTRIBUTING -->
+## Contributing
+Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/fruity-app/issues) if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
+
+You can contribute by following these steps:
+1. Fork this repository on GitHub.
+2. Clone the forked repository to your machine: `$ git clone https://github.com/username/fruity-app.git`
+3. Create a new branch: `$ git switch -c <branch-name>`
+4. Make necessary changes and commit them.
+5. Push changes to GitHub: `$ git push origin -u <branch-name>`
+6. Submit a new Pull Request on GitHub.
+
 <!-- ATTRIBUTION -->
 ## Attribution
 - Logo created by <a href="https://flaticon.com/authors/freepik">Freepik</a> from <a href="https://flaticon.com">www.flaticon.com</a>
 - Icons created by <a href="https://flaticon.com/authors/smashicons">Smashicons</a> from <a href="https://flaticon.com">www.flaticon.com</a>
-  
+
 <!-- LICENSE -->
 ## License
-> You can check out the full license [here](https://github.com/lszymanski7/fruity-app/blob/main/LICENSE.md).
-  
-This project is licensed under the terms of the **MIT** license.
-  
+This project is licensed under the terms of the [MIT License](https://github.com/lszymanski7/fruity-app/blob/main/LICENSE.md).
+
 <br/>
- 
+
 <!-- LINKS -->
 ##
 <div align="center">
   <p>Connect with me:</p>
-  
+
   [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/18706083)
-  [![GitLab](https://img.shields.io/badge/GitLab-424242?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
+  [![GitLab](https://img.shields.io/badge/GitLab-555555?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lszymanski7)
   [![Twitter](https://img.shields.io/twitter/follow/lszymanski7_?label=Twitter&style=social)](https://twitter.com/lszymanski7_)
   
