@@ -32,7 +32,7 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 3. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-    - [Launch the App](#launch-the-app)
+    - [Launch an App](#launch-an-app)
 4. [Contributing](#contributing)
 5. [Attribution](#attribution)
 6. [License](#license)
@@ -94,8 +94,8 @@ $ cd fruity-app
 $ npm install
 ```
 
-<!-- LAUNCH THE APP -->
-### Launch the App
+<!-- LAUNCH AN APP -->
+### Launch an App
 Use the command below to run webpack and create a production build.
 
 ```
