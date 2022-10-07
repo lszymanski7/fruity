@@ -37,7 +37,7 @@
 .modal__close {
   align-self: flex-end;
   background: none;
-  background-image: url('./../images/shapes/close.svg');
+  background-image: url("data:image/svg+xml;utf8,<svg id='close' height='40px' width='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path stroke='black' stroke-width='4' d='M 10 10 L 30 30 M 30 10 L 10 30' /></svg>");
   background-size: cover;
   border: 2px solid map-get($colors, 'basic', 'black');
   height: 25px;
@@ -61,5 +61,5 @@
 .modal__caption {
   font-size: map-get($font-sizes, 'lg');
   font-weight: 700;
-  margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md') 0;
+  margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md');
 }
