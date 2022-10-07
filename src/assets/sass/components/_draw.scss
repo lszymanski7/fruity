@@ -1,0 +1,27 @@
+// ================================================================================================
+// Draw styles
+// ================================================================================================
+
+.draw-button {
+  background: map-get($colors, 'logo', 'red-light');
+  border: none;
+  border-bottom: 0.75rem solid darken(map-get($colors, 'logo', 'red-light'), 10%);
+  color: map-get($colors, 'basic', 'white');
+  font-size: map-get($spaces, 'lg');
+  font-weight: bold;
+  padding: 2.4rem;
+  width: 100%;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background: darken(map-get($colors, 'logo', 'red-light'), 10%);
+      border-bottom: 0.75rem solid darken(map-get($colors, 'logo', 'red-light'), 20%);
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    background: darken(map-get($colors, 'logo', 'red-light'), 10%);
+    border-bottom: 0.75rem solid darken(map-get($colors, 'logo', 'red-light'), 20%);
+  }
+}

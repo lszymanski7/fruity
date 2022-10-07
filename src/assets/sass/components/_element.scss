@@ -1,0 +1,33 @@
+// ================================================================================================
+// Element styles
+// ================================================================================================
+
+.element {
+  align-items: center;
+  border: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+  justify-content: center;
+  margin: map-get($spaces, 'xxs');
+  padding: map-get($spaces, 'xxs');
+  width: 85px;
+  @include border-radius(5px);
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: lighten(map-get($colors, 'basic', 'black'), 90%);
+    }
+  }
+}
+
+.element__checkbox {
+  align-self: flex-end;
+}
+
+.element__image {
+  height: 50px;
+  margin: map-get($spaces, 'xxs') 0 map-get($spaces, 'xs');
+  width: 50px;
+}
+
+.element__caption {
+  font-size: map-get($spaces, 'sm');
+}

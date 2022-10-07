@@ -1,0 +1,65 @@
+// ================================================================================================
+// Modal styles
+// ================================================================================================
+
+// React Modal Portal
+
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+// Modal
+
+.modal {
+  align-items: center;
+  background: map-get($colors, 'app', 'pink-light');
+  border: 0.2rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+  justify-content: center;
+  padding: map-get($spaces, 'md');
+  @include border-radius(15px);
+}
+
+.modal__close {
+  align-self: flex-end;
+  background: none;
+  background-image: url("data:image/svg+xml;utf8,<svg id='close' height='40px' width='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path stroke='black' stroke-width='4' d='M 10 10 L 30 30 M 30 10 L 10 30' /></svg>");
+  background-size: cover;
+  border: 2px solid map-get($colors, 'basic', 'black');
+  height: 25px;
+  padding: 0;
+  width: 25px;
+  @include border-radius(50%);
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.modal__image {
+  height: 125px;
+  margin: map-get($spaces, 'sm') map-get($spaces, 'xl');
+  width: 125px;
+}
+
+.modal__caption {
+  font-size: map-get($font-sizes, 'lg');
+  font-weight: 700;
+  margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md');
+}

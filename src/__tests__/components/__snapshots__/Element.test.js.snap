@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Element should be rendered correctly. 1`] = `
+<div>
+  <label
+    class="flexbox-column element"
+    for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+  >
+    <input
+      class="element__checkbox"
+      id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+      type="checkbox"
+    />
+    <img
+      alt="Apple"
+      class="element__image"
+      src="apple.webp"
+    />
+    <span
+      class="element__caption"
+    >
+      Apple
+    </span>
+  </label>
+</div>
+`;

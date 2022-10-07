@@ -1,0 +1,60 @@
+// ================================================================================================
+// Variables
+// ================================================================================================
+
+// Breakpoints
+
+$breakpoints: (
+  'xs': 0,        // X-Small devices (portrait phones)
+  'sm': 576px,    // Small devices (landscape phones)
+  'md': 768px,    // Medium devices (tablets)
+  'lg': 992px,    // Large devices (desktops)
+  'xl': 1200px,   // X-Large devices (large desktops)
+  'xxl': 1400px   // XX-Large devices (larger desktops)
+);
+
+// Colors
+
+$colors: (
+  'app': (
+    'pink-dark': hsl(334, 100%, 92%),   // RGB: #FFD6E8
+    'pink-light': hsl(348, 100%, 97%),  // RGB: #FFF0F3
+  ),
+  'basic': (
+    'black': hsl(0, 0%, 0%),            // RGB: #000000
+    'white': hsl(0, 0%, 100%)           // RGB: #FFFFFF
+  ),
+  'logo': (
+    'red-dark': hsl(349, 100%, 39%),    // RGB: #C70024
+    'red-light': hsl(349, 100%, 52%)    // RGB: #FF0C38
+  )
+);
+
+// Spacing
+
+$spaces: (
+  'xxs': 0.4rem,   // 4px
+  'xs': 0.8rem,    // 8px
+  'sm': 1.2rem,    // 12px
+  'md': 1.6rem,    // 16px
+  'lg': 3.2rem,    // 32px
+  'xl': 4.8rem,    // 48px
+  'xxl': 6.4rem,   // 64px
+  'xxxl': 12.8rem  // 128px
+);
+
+// Typography
+
+$font-family-serif: Georgia, Times, 'Times New Roman', serif;
+$font-family-sans-serif: Arial, 'Helvetica Neue', Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+$font-sizes: (
+  'xs': 0.8rem,    // 8px  | 6pt
+  'sm': 1.2rem,    // 12px | 9pt
+  'md': 1.6rem,    // 16px | 12pt
+  'lg': 2.4rem,    // 24px | 18pt
+  'xl': 3.2rem,    // 32px | 24pt
+  'xxl': 4.8rem,   // 48px | 36pt
+  'xxxl': 6.4rem   // 64px | 48pt
+);

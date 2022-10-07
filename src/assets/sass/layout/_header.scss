@@ -1,0 +1,39 @@
+// ================================================================================================
+// Header styles
+// ================================================================================================
+
+.header {
+  background: map-get($colors, 'app', 'pink-dark');
+  border-bottom: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+}
+
+.header__container-parent {
+  gap: map-get($spaces, 'md');
+  margin: 0 auto;
+  max-width: 65rem;
+  padding: map-get($spaces, 'md') 2.6rem;
+}
+
+.header__container-child {
+  align-items: center;
+  gap: map-get($spaces, 'md');
+}
+
+.header__logo {
+  height: 80px;
+  width: 80px;
+}
+
+.header__title {
+  color: map-get($colors, 'logo', 'red-light');
+  font-size: map-get($font-sizes, 'xxxl');
+  font-weight: 800;
+  -webkit-text-stroke-color: map-get($colors, 'basic', 'white');
+  -webkit-text-stroke-width: 1.5px;
+}
+
+.header__subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: justify;
+}
