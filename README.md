@@ -32,7 +32,7 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 3. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-    - [Launch an App](#launch-an-app)
+    - [Application](#application)
 4. [Contributing](#contributing)
 5. [Attribution](#attribution)
 6. [License](#license)
@@ -55,8 +55,8 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.19.3-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
 [![Jest](https://img.shields.io/badge/Jest%20|%20v29.1.2-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.16.0-555555?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
-[![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.6.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
-[![Npm](https://img.shields.io/badge/Npm%20|%20v8.15.0-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
+[![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.9.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
+[![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.1-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.21.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
@@ -70,7 +70,7 @@ All technologies and tools were used in the latest version at the time of creati
 ### Prerequisites
 > **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
-This project was created with the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
+This project was created with the Node.js (v18.9.0) runtime environment and the NPM (v8.19.1) for package management. Use the Node.js installer to install both of them on your system.
 
 <!-- Installation -->
 ### Installation
@@ -94,9 +94,9 @@ $ cd fruity-app
 $ npm install
 ```
 
-<!-- LAUNCH AN APP -->
-### Launch an App
-Use the command below to run webpack and create a production build.
+<!-- APPLICATION -->
+### Application
+To run the application, you must first create a production build. Use the command below for this purpose.
 
 ```
 $ npm run build
