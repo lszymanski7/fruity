@@ -4,6 +4,7 @@
 
 .header {
   background: map-get($colors, 'app', 'pink-dark');
+  padding: map-get($spaces, 'md') 2.6rem;
   border-bottom: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
 }
 
@@ -11,7 +12,7 @@
   gap: map-get($spaces, 'md');
   margin: 0 auto;
   max-width: 65rem;
-  padding: map-get($spaces, 'md') 2.6rem;
+  
 }
 
 .header__container-child {

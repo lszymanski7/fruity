@@ -5,7 +5,6 @@
 .widget-header {
   background: map-get($colors, 'logo', 'red-light');
   border: 0.2rem solid darken(map-get($colors, 'logo', 'red-light'), 10%);
-  color: map-get($colors, 'basic', 'white');
   padding: map-get($spaces, 'sm');
   text-align: center;
 }
