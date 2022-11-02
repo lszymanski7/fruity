@@ -3,14 +3,16 @@ import PropTypes from 'prop-types'
 
 const Draw = ({ disabled, handleDraw }) => {
     return (
-        <button
-            className="draw-button"
-            disabled={disabled}
-            onClick={handleDraw}
-            type="button"
-        >
-            {disabled ? 'Select more fruits!' : 'Draw a fruit!'}
-        </button>
+        <div>
+            <button
+                className="draw-button"
+                disabled={disabled}
+                onClick={handleDraw}
+                type="button"
+            >
+                {disabled ? 'Select more fruits!' : 'Draw a fruit!'}
+            </button>
+        </div>
     )
 }
 
