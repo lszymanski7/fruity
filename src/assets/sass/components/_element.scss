@@ -3,11 +3,8 @@
 // ================================================================================================
 
 .element {
-  align-items: center;
   border: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
-  justify-content: center;
   margin: map-get($spaces, 'xxs');
-  padding: map-get($spaces, 'xxs');
   width: 85px;
   @include border-radius(5px);
 
@@ -16,6 +13,12 @@
       background-color: lighten(map-get($colors, 'basic', 'black'), 90%);
     }
   }
+}
+
+.element__label {
+  align-items: center;
+  justify-content: center;
+  padding: map-get($spaces, 'xxs');
 }
 
 .element__checkbox {

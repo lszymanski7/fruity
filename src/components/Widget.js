@@ -4,7 +4,7 @@ import Element from './Element'
 
 const Widget = ({ data, handleCheck, handleReset }) => {
     return (
-        <div className="flexbox-column">
+        <div>
             <div className="widget-header">
                 <button
                     className="widget-header__reset"
