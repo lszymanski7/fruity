@@ -9,10 +9,10 @@ exports[`App should be rendered correctly. 1`] = `
       class="header"
     >
       <div
-        class="flexbox-column header__container-parent"
+        class="flexbox-column header__container"
       >
         <div
-          class="flexbox-row header__container-child"
+          class="flexbox-row"
         >
           <img
             alt="Fruity Logo"
@@ -35,9 +35,7 @@ exports[`App should be rendered correctly. 1`] = `
     <div
       class="flexbox-column container"
     >
-      <div
-        class="flexbox-column"
-      >
+      <div>
         <div
           class="widget-header"
         >
@@ -50,495 +48,593 @@ exports[`App should be rendered correctly. 1`] = `
         <div
           class="flexbox-row widget-content"
         >
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Apple"
-              class="element__image"
-              src="apple.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Apple
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Apple"
+                class="element__image"
+                src="apple.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Apple
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Banana"
-              class="element__image"
-              src="banana.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Banana
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Banana"
+                class="element__image"
+                src="banana.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Banana
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Blackberry"
-              class="element__image"
-              src="blackberry.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Blackberry
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Blackberry"
+                class="element__image"
+                src="blackberry.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Blackberry
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Blueberries"
-              class="element__image"
-              src="blueberries.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Blueberries
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Blueberries"
+                class="element__image"
+                src="blueberries.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Blueberries
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Cherries"
-              class="element__image"
-              src="cherries.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Cherries
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Cherries"
+                class="element__image"
+                src="cherries.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Cherries
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Coconut"
-              class="element__image"
-              src="coconut.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Coconut
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Coconut"
+                class="element__image"
+                src="coconut.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Coconut
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Dragon Fruit"
-              class="element__image"
-              src="dragon-fruit.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Dragon Fruit
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Dragon Fruit"
+                class="element__image"
+                src="dragon-fruit.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Dragon Fruit
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Fig"
-              class="element__image"
-              src="fig.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Fig
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Fig"
+                class="element__image"
+                src="fig.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Fig
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Grapes"
-              class="element__image"
-              src="grapes.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Grapes
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Grapes"
+                class="element__image"
+                src="grapes.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Grapes
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Kiwi"
-              class="element__image"
-              src="kiwi.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Kiwi
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Kiwi"
+                class="element__image"
+                src="kiwi.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Kiwi
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Lemon"
-              class="element__image"
-              src="lemon.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Lemon
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Lemon"
+                class="element__image"
+                src="lemon.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Lemon
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Lychee"
-              class="element__image"
-              src="lychee.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Lychee
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Lychee"
+                class="element__image"
+                src="lychee.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Lychee
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Mango"
-              class="element__image"
-              src="mango.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Mango
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Mango"
+                class="element__image"
+                src="mango.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Mango
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Melon"
-              class="element__image"
-              src="melon.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Melon
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Melon"
+                class="element__image"
+                src="melon.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Melon
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Orange"
-              class="element__image"
-              src="orange.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Orange
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Orange"
+                class="element__image"
+                src="orange.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Orange
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Papaya"
-              class="element__image"
-              src="papaya.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Papaya
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Papaya"
+                class="element__image"
+                src="papaya.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Papaya
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Peach"
-              class="element__image"
-              src="peach.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Peach
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Peach"
+                class="element__image"
+                src="peach.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Peach
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Pear"
-              class="element__image"
-              src="pear.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Pear
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Pear"
+                class="element__image"
+                src="pear.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Pear
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Pineapple"
-              class="element__image"
-              src="pineapple.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Pineapple
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Pineapple"
+                class="element__image"
+                src="pineapple.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Pineapple
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Plum"
-              class="element__image"
-              src="plum.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Plum
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Plum"
+                class="element__image"
+                src="plum.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Plum
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Pomegranate"
-              class="element__image"
-              src="pomegranate.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Pomegranate
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Pomegranate"
+                class="element__image"
+                src="pomegranate.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Pomegranate
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Star Fruit"
-              class="element__image"
-              src="star-fruit.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Star Fruit
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Star Fruit"
+                class="element__image"
+                src="star-fruit.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Star Fruit
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Strawberry"
-              class="element__image"
-              src="strawberry.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Strawberry
-            </span>
-          </label>
-          <label
-            class="flexbox-column element"
-            for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Strawberry"
+                class="element__image"
+                src="strawberry.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Strawberry
+              </span>
+            </label>
+          </div>
+          <div
+            class="element"
           >
-            <input
-              class="element__checkbox"
-              id="bbb33b2d-e07d-4d13-a869-f3790e100477"
-              type="checkbox"
-            />
-            <img
-              alt="Watermelon"
-              class="element__image"
-              src="watermelon.webp"
-            />
-            <span
-              class="element__caption"
+            <label
+              class="flexbox-column element__label"
+              for="bbb33b2d-e07d-4d13-a869-f3790e100477"
             >
-              Watermelon
-            </span>
-          </label>
+              <input
+                class="element__checkbox"
+                id="bbb33b2d-e07d-4d13-a869-f3790e100477"
+                type="checkbox"
+              />
+              <img
+                alt="Watermelon"
+                class="element__image"
+                src="watermelon.webp"
+              />
+              <span
+                class="element__caption"
+              >
+                Watermelon
+              </span>
+            </label>
+          </div>
         </div>
       </div>
-      <button
-        class="draw-button"
-        disabled=""
-        type="button"
-      >
-        Select more fruits!
-      </button>
+      <div>
+        <button
+          class="draw-button"
+          disabled=""
+          type="button"
+        >
+          Select more fruits!
+        </button>
+      </div>
     </div>
     <footer
       class="footer"

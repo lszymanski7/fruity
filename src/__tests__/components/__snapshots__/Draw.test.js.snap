@@ -2,12 +2,14 @@
 
 exports[`Button should be rendered correctly. 1`] = `
 <div>
-  <button
-    class="draw-button"
-    disabled=""
-    type="button"
-  >
-    Select more fruits!
-  </button>
+  <div>
+    <button
+      class="draw-button"
+      disabled=""
+      type="button"
+    >
+      Select more fruits!
+    </button>
+  </div>
 </div>
 `;
