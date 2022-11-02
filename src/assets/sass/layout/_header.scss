@@ -4,20 +4,19 @@
 
 .header {
   background: map-get($colors, 'app', 'pink-dark');
-  padding: map-get($spaces, 'md') 2.6rem;
   border-bottom: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
 }
 
-.header__container-parent {
+.header__container {
   gap: map-get($spaces, 'md');
   margin: 0 auto;
   max-width: 65rem;
-  
-}
+  padding: map-get($spaces, 'md') 2.6rem;
 
-.header__container-child {
-  align-items: center;
-  gap: map-get($spaces, 'md');
+  div:first-of-type {
+    align-items: center;
+    gap: map-get($spaces, 'md');
+  }
 }
 
 .header__logo {
