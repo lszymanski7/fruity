@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../data/constants'
+import { logos } from '../data/constants'
 
 const Header = () => {
     const title = 'Fruity'
@@ -12,7 +12,7 @@ const Header = () => {
                     <img
                         alt="Fruity Logo"
                         className="header__logo"
-                        src={logo.size_512x512}
+                        src={logos.size_512x512}
                     />
                     <h1 className="header__title">{title}</h1>
                 </div>

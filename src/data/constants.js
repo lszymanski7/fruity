@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
 // Fruits Data
-
 const fruits = [
     {
         id: uuidv4(),
@@ -149,12 +148,11 @@ const fruits = [
     }
 ]
 
-// Fruity Logo
-
-const logo = {
+// Fruity Logos
+const logos = {
     size_128x128: require('../assets/images/logos/fruity-128x128.webp'),
     size_256x256: require('../assets/images/logos/fruity-256x256.webp'),
     size_512x512: require('../assets/images/logos/fruity-512x512.webp')
 }
 
-export { fruits, logo }
+export { fruits, logos }
