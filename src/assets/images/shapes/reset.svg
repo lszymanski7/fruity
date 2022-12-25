@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="reset-icon" viewBox="0 0 128 128" width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path id="circle" d="M 64 22 a 42 42 0 1 0 42 42" fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" />
+
+  <polygon id="triangle" points="64 6 64 38 92 22" fill="#000000" stroke="#000000" stroke-width="8" stroke-linejoin="round" />
+</svg>
