@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="sun-icon" viewBox="0 0 128 128" width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle id="sun" cx="64" cy="64" r="22" fill="#FC9601" stroke="#FC9601" stroke-width="4" />
+
+    <line id="north" x1="64" y1="9" x2="64" y2="28" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    <line id="south" x1="64" y1="100" x2="64" y2="119" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    
+    <line id="west" x1="9" y1="64" x2="28" y2="64" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    <line id="east" x1="100" y1="64" x2="119" y2="64" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    
+    <line id="north-west" x1="25" y1="25" x2="38.5" y2="38.5" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    <line id="north-east" x1="89.5" y1="38.5" x2="103" y2="25" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    
+    <line id="south-east" x1="89.5" y1="89.5" x2="103" y2="103" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+    <line id="south-west" x1="25" y1="103" x2="38.5" y2="89.5" stroke="#FC9601" stroke-width="7" stroke-linecap="round" />
+</svg>
