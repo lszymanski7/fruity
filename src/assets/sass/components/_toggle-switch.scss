@@ -1,0 +1,70 @@
+// ================================================================================================
+// Toggle Switch styles
+// ================================================================================================
+
+.toggle-switch {
+  transform: scale(1);
+  @include user-select(none);
+}
+
+.toggle-switch__input {
+  display: none;
+}
+
+.toggle-switch__label {
+  align-items: center;
+  background-color: map-get($colors, 'toggle-switch', 'default-gray-light');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'default-gray-dark');
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  padding: 0.2rem;
+  position: relative;
+  width: 60px;
+  @include border-radius(15px);
+}
+
+.toggle-switch__icon {
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+  padding: 0.2rem;
+  width: 24px;
+}
+
+.toggle-switch__slider {
+  background-color: map-get($colors, 'basic', 'white');
+  height: 24px;
+  position: absolute;
+  transition: 0.2s linear;
+  width: 24px;
+  @include border-radius(12px);
+  @include drop-shadow(0, 0, 0.1rem, map-get($colors, 'shadow', 'black-25'));
+}
+
+.toggle-switch__input:checked + .toggle-switch__label .toggle-switch__slider {
+  transform: translateX(125%); // 125% = 30px
+}
+
+// Colors
+
+.toggle-switch__label--green {
+  background-color: map-get($colors, 'toggle-switch', 'on-green-light');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'on-green-dark');
+}
+
+.toggle-switch__label--red {
+  background-color: map-get($colors, 'toggle-switch', 'off-red-light');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'off-red-dark');
+}
+
+// Icons
+
+.sun-icon {
+  background-image: url('/src/assets/images/shapes/sun.svg');
+}
+
+.moon-icon {
+  background-image: url('/src/assets/images/shapes/moon.svg');
+}
