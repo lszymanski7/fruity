@@ -4,8 +4,17 @@
 
 body {
   color: map-get($colors, 'basic', 'black');
-  font-family: $font-family-sans-serif;
+  font-family: 'Titan One';
   font-size: map-get($font-sizes, 'md');
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+// Titan One
+
+@font-face {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/src/assets/fonts/TitanOne-Regular.ttf') format('truetype');
 }
