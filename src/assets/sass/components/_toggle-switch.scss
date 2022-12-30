@@ -3,7 +3,8 @@
 // ================================================================================================
 
 .toggle-switch {
-  transform: scale(1);
+  height: 30px;
+  width: 60px;
   @include user-select(none);
 }
 
@@ -19,7 +20,6 @@
   height: 30px;
   justify-content: space-between;
   padding: 0.2rem;
-  position: relative;
   width: 60px;
   @include border-radius(15px);
 }
@@ -47,6 +47,18 @@
   transform: translateX(125%); // 125% = 30px
 }
 
+@media screen and (max-width: map-get($breakpoints, 'sm')) {
+  .toggle-switch {
+    height: 24px;
+    width: 48px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(0.8);
+  }
+}
+
 // Colors
 
 .toggle-switch__label--green {
@@ -61,10 +73,10 @@
 
 // Icons
 
-.sun-icon {
-  background-image: url('/src/assets/images/shapes/sun.svg');
-}
-
 .moon-icon {
   background-image: url('/src/assets/images/shapes/moon.svg');
+}
+
+.sun-icon {
+  background-image: url('/src/assets/images/shapes/sun.svg');
 }

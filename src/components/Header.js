@@ -1,22 +1,38 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ToggleSwitch from './ToggleSwitch'
 import { logos } from '../data/constants'
 
 const Header = () => {
-    const title = 'Fruity'
-    const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
+    // Application title
+    const title = 'FRUITY'
+
+    // Toggle switch states for dark and light mode
+    const [isChecked, setIsChecked] = useState(false)
 
     return (
-        <header className="header">
-            <div className="flexbox-column header__container">
-                <div className="flexbox-row">
+        <header className="flexbox-column header">
+            <div className="flexbox-row header__container-one">
+                <a href="https://github.com/lszymanski7/fruity-app">
                     <img
-                        alt="Fruity Logo"
-                        className="header__logo"
-                        src={logos.size_512x512}
+                        alt="GitHub Logo"
+                        className="header__github"
+                        src={logos.github}
                     />
-                    <h1 className="header__title">{title}</h1>
-                </div>
-                <h2 className="header__subtitle">{subtitle}</h2>
+                </a>
+                <ToggleSwitch
+                    handleOnChange={() => setIsChecked(!isChecked)}
+                    icons={['moon-icon', 'sun-icon']}
+                    id="themeSwitcher"
+                    isChecked={isChecked}
+                />
+            </div>
+            <div className="flexbox-row header__container-two">
+                <img
+                    alt="Fruity Logo"
+                    className="header__logo"
+                    src={logos.fruity.size_256x256}
+                />
+                <h1 className="header__title">{title}</h1>
             </div>
         </header>
     )
