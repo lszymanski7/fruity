@@ -23,6 +23,7 @@
   display: block;
   height: 40px;
   width: 40px;
+  @include user-select(none);
 }
 
 .header__logo {
