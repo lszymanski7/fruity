@@ -8,31 +8,31 @@
   padding: 1.6rem 1.6rem 6.4rem;
 }
 
-.header__container-one {
+.header__widgets {
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-.header__container-two {
+.header__brand {
   align-items: center;
   gap: 3rem;
 }
 
-.header__github {
+.header__github-logo {
   display: block;
   height: 40px;
   width: 40px;
   @include user-select(none);
 }
 
-.header__logo {
+.header__app-logo {
   height: 148px;
   width: 148px;
   @include drop-shadow(0.6rem, 0.6rem, 0.6rem, map-get($colors, 'shadow', 'black-25'));
 }
 
-.header__title {
+.header__app-name {
   color: map-get($colors, 'logo', 'red-light');
   font-family: 'Titan One';
   font-size: 12.8rem;
@@ -48,22 +48,22 @@
     gap: 4rem;
   }
 
-  .header__container-two {
+  .header__brand {
     gap: 1.5rem;
   }
 
-  .header__github {
+  .header__github-logo {
     height: 32px;
     width: 32px;
   }
 
-  .header__logo {
+  .header__app-logo {
     height: 74px;
     width: 74px;
     @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-25'));
   }
 
-  .header__title {
+  .header__app-name {
     font-size: 6.4rem;
     letter-spacing: 0.75rem;
     line-height: 7.4rem;
