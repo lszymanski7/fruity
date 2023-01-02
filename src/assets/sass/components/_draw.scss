@@ -40,7 +40,7 @@
   height: 40px;
   padding: 0;
   width: 40px;
-  @include drop-shadow(0.25rem, 0.25rem, 0.25rem, map-get($colors, 'shadow', 'black-25'));
+  @include drop-shadow(0.25rem, 0.25rem, 0.25rem, map-get($colors, 'shadow', 'black-50'));
 
   &:disabled {
     opacity: 0.5;
