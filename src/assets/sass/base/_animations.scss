@@ -1,0 +1,21 @@
+// ================================================================================================
+// Animations
+// ================================================================================================
+
+// Spin animation
+
+.spin {
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-name: spin;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(390deg);
+  }
+}

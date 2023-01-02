@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { shapes } from '../data/constants'
 
 const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
     return (
         <div className="flexbox-row draw">
             <button
-                className="draw__button-draw"
+                className="draw__start-button"
                 disabled={disabled}
                 onClick={handleDraw}
                 type="button"
@@ -13,17 +14,24 @@ const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
                 {disabled ? 'SELECT MORE FRUITS' : 'DRAW A FRUIT'}
             </button>
             <button
-                className={'draw__button-reset' + ' ' + animation}
+                aria-label="Reset"
+                className={'draw__reset-button' + (animation ? ' ' + animation : '')}
                 disabled={disabled}
                 onClick={handleReset}
                 type="button"
-            />
+            >
+                <img
+                    alt="Reset Icon"
+                    className="draw__reset-icon"
+                    src={shapes.reset}
+                />
+            </button>
         </div>
     )
 }
 
 Draw.propTypes = {
-    animation: PropTypes.string.isRequired,
+    animation: PropTypes.string,
     disabled: PropTypes.bool.isRequired,
     handleDraw: PropTypes.func.isRequired,
     handleReset: PropTypes.func.isRequired
