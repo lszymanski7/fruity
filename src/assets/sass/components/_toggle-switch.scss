@@ -48,7 +48,23 @@
   transform: translateX(125%); // 125% = 30px
 }
 
+// Portrait Phone
+
 @media screen and (max-width: map-get($breakpoints, 'sm')) {
+  .toggle-switch {
+    height: 21px;
+    width: 42px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(0.7);
+  }
+}
+
+// Landscape Phone
+
+@media screen and (min-width: map-get($breakpoints, 'sm')) and (max-width: map-get($breakpoints, 'md')) {
   .toggle-switch {
     height: 24px;
     width: 48px;
@@ -57,6 +73,20 @@
   .toggle-switch__label {
     transform-origin: left top;
     transform: scale(0.8);
+  }
+}
+
+// Tablet
+
+@media screen and (min-width: map-get($breakpoints, 'md')) and (max-width: map-get($breakpoints, 'lg')) {
+  .toggle-switch {
+    height: 27px;
+    width: 54px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(0.9);
   }
 }
 
