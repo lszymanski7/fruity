@@ -94,12 +94,12 @@
 
 .toggle-switch__label--green {
   background-color: map-get($colors, 'toggle-switch', 'on-green-light');
-  border: 0.1rem solid map-get($colors, 'toggle-switch', 'on-green-dark');
+  border-color: map-get($colors, 'toggle-switch', 'on-green-dark');
 }
 
 .toggle-switch__label--red {
   background-color: map-get($colors, 'toggle-switch', 'off-red-light');
-  border: 0.1rem solid map-get($colors, 'toggle-switch', 'off-red-dark');
+  border-color: map-get($colors, 'toggle-switch', 'off-red-dark');
 }
 
 // Icons
