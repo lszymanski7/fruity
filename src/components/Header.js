@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <header className="flexbox-column header">
-            <div className="flexbox-row header__widgets">
+            <div className="flexbox-row header__widgets-container">
                 <a href="https://github.com/lszymanski7/fruity-app">
                     <img
                         alt="GitHub Logo"
@@ -26,7 +26,7 @@ const Header = () => {
                     isChecked={isChecked}
                 />
             </div>
-            <div className="flexbox-row header__brand">
+            <div className="flexbox-row header__brand-container">
                 <img
                     alt="Fruity Logo"
                     className="header__app-logo"
