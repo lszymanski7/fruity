@@ -89,7 +89,7 @@ const App = () => {
 
     /* istanbul ignore next */
 
-    // Effect ➞ saves the initial data in local storage if the key does not exist (key: 'fruits')
+    // Effect ➞ saves data in local storage if the key does not exist (key: 'fruits')
     useEffect(() => {
         if (window.localStorage.getItem('fruits') === null) {
             window.localStorage.setItem('fruits', JSON.stringify(fruits))
@@ -98,7 +98,7 @@ const App = () => {
 
     /* istanbul ignore next */
 
-    // Effect ➞ updates data in local storage (key: 'fruits')
+    // Effect ➞ updates data in local storage whenever it changes (key: 'fruits')
     useEffect(() => {
         window.localStorage.setItem('fruits', JSON.stringify(data))
     }, [data])
