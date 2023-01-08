@@ -1,7 +1,5 @@
-import { v4 as uuidv4 } from 'uuid'
-
 // Icons images
-const icons = {
+const ICONS = {
     apple: require('../assets/images/icons/apple.webp'),
     banana: require('../assets/images/icons/banana.webp'),
     blackberry: require('../assets/images/icons/blackberry.webp'),
@@ -29,7 +27,7 @@ const icons = {
 }
 
 // Logos images
-const logos = {
+const LOGOS = {
     fruity: {
         size_128x128: require('../assets/images/logos/fruity-128x128.webp'),
         size_256x256: require('../assets/images/logos/fruity-256x256.webp'),
@@ -39,158 +37,10 @@ const logos = {
 }
 
 // Shapes images
-const shapes = {
+const SHAPES = {
     moon: require('../assets/images/shapes/moon.svg'),
     reset: require('../assets/images/shapes/reset.svg'),
     sun: require('../assets/images/shapes/sun.svg')
 }
 
-// Fruits data
-const fruits = [
-    {
-        id: uuidv4(),
-        name: 'Apple',
-        img: icons.apple,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Banana',
-        img: icons.banana,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Blackberry',
-        img: icons.blackberry,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Blueberries',
-        img: icons.blueberries,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Cherries',
-        img: icons.cherries,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Coconut',
-        img: icons.coconut,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Dragon Fruit',
-        img: icons.dragon_fruit,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Fig',
-        img: icons.fig,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Grapes',
-        img: icons.grapes,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Kiwi',
-        img: icons.kiwi,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Lemon',
-        img: icons.lemon,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Lychee',
-        img: icons.lychee,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Mango',
-        img: icons.mango,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Melon',
-        img: icons.melon,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Orange',
-        img: icons.orange,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Papaya',
-        img: icons.papaya,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Peach',
-        img: icons.peach,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Pear',
-        img: icons.pear,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Pineapple',
-        img: icons.pineapple,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Plum',
-        img: icons.plum,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Pomegranate',
-        img: icons.pomegranate,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Star Fruit',
-        img: icons.star_fruit,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Strawberry',
-        img: icons.strawberry,
-        checked: false
-    },
-    {
-        id: uuidv4(),
-        name: 'Watermelon',
-        img: icons.watermelon,
-        checked: false
-    }
-]
-
-export { fruits, icons, logos, shapes }
+export { ICONS, LOGOS, SHAPES }

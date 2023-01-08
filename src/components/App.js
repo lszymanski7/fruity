@@ -3,7 +3,7 @@ import Board from './Board'
 import Draw from './Draw'
 import Header from './Header'
 import Modal from './Modal'
-import { fruits } from '../data/constants'
+import fruits from '../data/fruits'
 
 const App = () => {
     /* istanbul ignore next */
