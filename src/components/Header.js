@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ToggleSwitch from './ToggleSwitch'
-import { logos } from '../data/constants'
+import { LOGOS } from '../data/constants'
 
 const Header = () => {
     // Application name
@@ -16,21 +16,21 @@ const Header = () => {
                     <img
                         alt="GitHub Logo"
                         className="header__github-logo"
-                        src={logos.github}
+                        src={LOGOS.github}
                     />
                 </a>
                 <ToggleSwitch
                     handleOnChange={() => setIsChecked(!isChecked)}
                     icons={['moon-icon', 'sun-icon']}
-                    id="themeSwitcher"
+                    id="theme-switcher"
                     isChecked={isChecked}
                 />
             </div>
             <div className="flexbox-row header__brand-container">
                 <img
-                    alt="Fruity Logo"
+                    alt="Application Logo"
                     className="header__app-logo"
-                    src={logos.fruity.size_256x256}
+                    src={LOGOS.fruity.size_256x256}
                 />
                 <h1 className="header__app-name">{name}</h1>
             </div>
