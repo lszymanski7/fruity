@@ -14,8 +14,8 @@
 
 .toggle-switch__label {
   align-items: center;
-  background-color: map-get($colors, 'toggle-switch', 'default-gray-light');
-  border: 0.1rem solid map-get($colors, 'toggle-switch', 'default-gray-dark');
+  background-color: map-get($colors, 'toggle-switch', 'default-gray-100');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'default-gray-200');
   display: flex;
   height: 20px;
   justify-content: space-between;
@@ -51,13 +51,13 @@
 // Colors
 
 .toggle-switch__label--green {
-  background-color: map-get($colors, 'toggle-switch', 'on-green-light');
-  border-color: map-get($colors, 'toggle-switch', 'on-green-dark');
+  background-color: map-get($colors, 'toggle-switch', 'on-green-100');
+  border-color: map-get($colors, 'toggle-switch', 'on-green-200');
 }
 
 .toggle-switch__label--red {
-  background-color: map-get($colors, 'toggle-switch', 'off-red-light');
-  border-color: map-get($colors, 'toggle-switch', 'off-red-dark');
+  background-color: map-get($colors, 'toggle-switch', 'off-red-100');
+  border-color: map-get($colors, 'toggle-switch', 'off-red-200');
 }
 
 // Icons
