@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { shapes } from '../data/constants'
+import { SHAPES } from '../data/constants'
 
 const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
     return (
@@ -23,7 +23,7 @@ const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
                 <img
                     alt="Reset Icon"
                     className="draw__reset-icon"
-                    src={shapes.reset}
+                    src={SHAPES.reset}
                 />
             </button>
         </div>
