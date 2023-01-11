@@ -5,7 +5,6 @@
 .toggle-switch {
   height: 20px;
   width: 40px;
-  @include user-select(none);
 }
 
 .toggle-switch__input {

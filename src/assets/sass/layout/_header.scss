@@ -5,7 +5,7 @@
 .header {
   align-items: center;
   gap: 3rem;
-  padding: 1.6rem 1.6rem 4.8rem;
+  padding: 1.6rem 1.6rem 4rem;
 }
 
 .header__widgets-container {
@@ -23,7 +23,6 @@
   display: block;
   height: 28px;
   width: 28px;
-  @include user-select(none);
 }
 
 .header__app-logo {
