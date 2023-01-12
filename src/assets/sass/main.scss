@@ -19,8 +19,8 @@
   './layout/header';
 
 @import 
+  './components/board',
   './components/draw',
   './components/element',
   './components/modal',
-  './components/toggle-switch',
-  './components/widget';
+  './components/toggle-switch';
