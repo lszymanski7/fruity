@@ -22,11 +22,13 @@
 .header__github-logo {
   display: block;
   height: 28px;
+  pointer-events: none;
   width: 28px;
 }
 
 .header__app-logo {
   height: 72px;
+  pointer-events: none;
   width: 72px;
   @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-25'));
 }

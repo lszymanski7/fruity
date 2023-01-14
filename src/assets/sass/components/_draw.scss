@@ -50,6 +50,7 @@
 
 .draw__reset-icon {
   height: 32px;
+  pointer-events: none;
   transform: rotate(30deg);
   width: 32px;
 }
