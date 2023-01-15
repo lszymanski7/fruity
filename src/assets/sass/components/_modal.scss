@@ -27,39 +27,85 @@
 
 .modal {
   align-items: center;
-  background: map-get($colors, 'app', 'pink-light');
-  border: 0.2rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
+  background: map-get($colors, 'app', 'pink-100');
+  border: 0.4rem solid map-get($colors, 'app', 'pink-400');
+  gap: 1.5rem;
+  height: 175px;
   justify-content: center;
-  padding: map-get($spaces, 'md');
-  @include border-radius(15px);
-}
-
-.modal__close {
-  align-self: flex-end;
-  background: none;
-  background-image: url('data:image/svg+xml;utf8,<svg id="x-icon" viewBox="0 0 128 128" width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line x1="36" y1="36" x2="92" y2="92" stroke="black" stroke-width="12" stroke-linecap="round" /><line x1="92" y1="36" x2="36" y2="92" stroke="black" stroke-width="12" stroke-linecap="round" /></svg>');
-  background-size: cover;
-  border: 2px solid map-get($colors, 'basic', 'black');
-  height: 25px;
-  padding: 0;
-  width: 25px;
-  @include border-radius(50%);
-
-  @media (hover: hover) and (pointer: fine) {
-    &:hover {
-      opacity: 0.5;
-    }
-  }
+  width: 200px;
+  @include border-radius(25px);
+  @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
 }
 
 .modal__image {
-  height: 125px;
-  margin: map-get($spaces, 'sm') map-get($spaces, 'xl');
-  width: 125px;
+  height: 78px;
+  pointer-events: none;
+  width: 78px;
 }
 
 .modal__caption {
-  font-size: map-get($font-sizes, 'lg');
+  font-size: 1.8rem;
   font-weight: 700;
-  margin: map-get($spaces, 'sm') 0 map-get($spaces, 'md');
+}
+
+// Landscape phones
+
+@media (min-width: map-get($breakpoints, 'sm')) {
+  .modal {
+    gap: 1.75rem;
+    height: 200px;
+    width: 225px;
+    @include drop-shadow(0, 0, 1.2rem, map-get($colors, 'shadow', 'black-50'));
+  }
+
+  .modal__image {
+    height: 94px;
+    width: 94px;
+  }
+
+  .modal__caption {
+    font-size: 2rem;
+  }
+}
+
+// Tablets
+
+@media (min-width: map-get($breakpoints, 'md')) {
+  .modal {
+    border-width: 0.5rem;
+    gap: 2rem;
+    height: 225px;
+    width: 250px;
+    @include drop-shadow(0, 0, 1.4rem, map-get($colors, 'shadow', 'black-50'));
+  }
+
+  .modal__image {
+    height: 112px;
+    width: 112px;
+  }
+
+  .modal__caption {
+    font-size: 2.4rem;
+  }
+}
+
+// Desktops
+
+@media (min-width: map-get($breakpoints, 'lg')) {
+  .modal {
+    border-width: 0.5rem;
+    gap: 2.25rem;
+    height: 250px;
+    width: 275px;
+    @include drop-shadow(0, 0, 1.6rem, map-get($colors, 'shadow', 'black-50'));
+  }
+
+  .modal__image {
+    height: 128px;
+    width: 128px;
+  }
+
+  .modal__caption {
+    font-size: 2.6rem;
+  }
 }

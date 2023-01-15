@@ -7,14 +7,10 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
         <ReactModal
             appElement={document.getElementById('root')}
             className="flexbox-column modal"
-            contentLabel="Fruity Modal"
+            contentLabel="Application Modal"
             isOpen={isOpen}
             onRequestClose={onRequestClose}
         >
-            <button
-                className="modal__close"
-                onClick={onRequestClose}
-            />
             {!!selected && (
                 <>
                     <img
@@ -23,7 +19,7 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
                         id={selected.id}
                         src={selected.img}
                     />
-                    <span className="modal__caption">{selected.name}</span>
+                    <span className="modal__caption">{selected.name.toUpperCase()}</span>
                 </>
             )}
         </ReactModal>
