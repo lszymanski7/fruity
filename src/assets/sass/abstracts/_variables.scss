@@ -15,32 +15,36 @@ $breakpoints: (
 // Colors
 
 $colors: (
-  'app': (
-    'pink-100': hsl(337, 84%, 95%),         // HEX: #FDE8F0
-    'pink-200': hsl(338, 84%, 90%),         // HEX: #FBD0E0
-    'pink-300': hsl(338, 84%, 85%),         // HEX: #F9B9D0
-    'pink-400': hsl(338, 84%, 80%)          // HEX: #F7A1C1
+  'application': (
+    'pink-100': hsl(337, 84%, 95%),
+    'pink-200': hsl(338, 84%, 80%)
   ),
   'basic': (
-    'black': hsl(0, 0%, 0%),                // HEX: #000000
-    'white': hsl(0, 0%, 100%)               // HEX: #FFFFFF
+    'black': hsl(0, 0%, 0%),
+    'white': hsl(0, 0%, 100%)
+  ),
+  'checkbox': (
+    'blue-100': hsl(212, 100%, 50%),
+    'blue-200': hsl(212, 100%, 39%),
+    'gray-100': hsl(0, 0%, 46%),
+    'gray-200': hsl(0, 0%, 31%)
   ),
   'logo': (
-    'red-100': hsl(349, 100%, 52%),         // HEX: #FF0C38
-    'red-200': hsl(349, 100%, 39%)          // HEX: #C70024
+    'red-100': hsl(349, 100%, 52%),
+    'red-200': hsl(349, 100%, 39%)
   ),
   'shadow': (
-    'black-25': hsla(0, 0%, 0%, 0.25),      // HEX: #000000
-    'black-50': hsla(0, 0%, 0%, 0.5),       // HEX: #000000
-    'black-75': hsla(0, 0%, 0%, 0.75)       // HEX: #000000
+    'black-25': hsla(0, 0%, 0%, 0.25),
+    'black-50': hsla(0, 0%, 0%, 0.5),
+    'black-75': hsla(0, 0%, 0%, 0.75)
   ),
   'toggle-switch': (
-    'default-gray-100': hsl(0, 0%, 98%),    // HEX: #FAFAFA
-    'default-gray-200': hsl(0, 0%, 84%),    // HEX: #D6D6D6
-    'off-red-100': hsl(0, 99%, 64%),        // HEX: #FE4848
-    'off-red-200': hsl(0, 99%, 50%),        // HEX: #FE0101
-    'on-green-100': hsl(124, 79%, 58%),     // HEX: #3FE94B
-    'on-green-200': hsl(124, 79%, 44%)      // HEX: #18C923
+    'default-gray-100': hsl(0, 0%, 98%),
+    'default-gray-200': hsl(0, 0%, 84%),
+    'off-red-100': hsl(0, 99%, 64%),
+    'off-red-200': hsl(0, 99%, 50%),
+    'on-green-100': hsl(124, 79%, 58%),
+    'on-green-200': hsl(124, 79%, 44%)
   )
 );
 

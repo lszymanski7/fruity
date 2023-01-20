@@ -14,6 +14,6 @@ html {
 }
 
 body {
-  background: map-get($colors, 'app', 'pink-100');
+  background: map-get($colors, 'application', 'pink-100');
   @include user-select(none);
 }

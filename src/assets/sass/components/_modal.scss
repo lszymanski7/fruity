@@ -27,8 +27,8 @@
 
 .modal {
   align-items: center;
-  background: map-get($colors, 'app', 'pink-100');
-  border: 0.4rem solid map-get($colors, 'app', 'pink-400');
+  background: map-get($colors, 'application', 'pink-100');
+  border: 0.4rem solid map-get($colors, 'application', 'pink-200');
   gap: 1.5rem;
   height: 175px;
   justify-content: center;
