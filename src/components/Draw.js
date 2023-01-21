@@ -16,7 +16,7 @@ const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
             <button
                 aria-label="Reset"
                 className={'draw__reset-button' + (animation ? ' ' + animation : '')}
-                disabled={disabled}
+                disabled={animation !== null}
                 onClick={handleReset}
                 type="button"
             >

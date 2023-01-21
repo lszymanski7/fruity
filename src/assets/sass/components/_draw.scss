@@ -42,10 +42,6 @@
   padding: 0;
   width: 32px;
   @include drop-shadow(0.175rem, 0.175rem, 0.175rem, map-get($colors, 'shadow', 'black-50'));
-
-  &:disabled {
-    opacity: 0.5;
-  }
 }
 
 .draw__reset-icon {
@@ -55,17 +51,13 @@
   width: 32px;
 }
 
-.draw__reset-button:disabled .draw__reset-icon {
-  filter: invert(15%) sepia(98%) saturate(5302%) hue-rotate(342deg) brightness(80%) contrast(112%); // HEX: #D60027
-}
-
 @media (hover: hover) and (pointer: fine) {
-  .draw__start-button:hover:not([disabled]) {
+  .draw__start-button:hover:not(:disabled) {
     background-color: darken(map-get($colors, 'logo', 'red-100'), 10%);
     border-bottom-color: darken(map-get($colors, 'logo', 'red-200'), 10%);
   }
 
-  .draw__reset-button:hover:not([disabled]) .draw__reset-icon {
+  .draw__reset-button:hover .draw__reset-icon {
     filter: invert(15%) sepia(98%) saturate(5302%) hue-rotate(342deg) brightness(80%) contrast(112%); // HEX: #D60027
   }
 }

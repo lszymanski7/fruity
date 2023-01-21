@@ -27,7 +27,7 @@ const App = () => {
     const [animation, setAnimation] = useState(defaultAnimation)
 
     // Array method ➞ filter that returns only checked fruits
-    const filteredData = data.filter((fruit) => fruit.checked === true)
+    const checkedFruits = data.filter((fruit) => fruit.checked === true)
 
     /* istanbul ignore next */
 
@@ -51,7 +51,7 @@ const App = () => {
     const updateAnimation = () => {
         setAnimation('spin')
         setTimeout(() => {
-            setAnimation('')
+            setAnimation(null)
         }, 300)
     }
 
@@ -74,8 +74,8 @@ const App = () => {
 
     // Function ➞ draws a fruit
     const handleDraw = () => {
-        const rand = Math.floor(Math.random() * filteredData.length)
-        openModal(filteredData[rand])
+        const rand = Math.floor(Math.random() * checkedFruits.length)
+        openModal(checkedFruits[rand])
     }
 
     /* istanbul ignore next */
@@ -112,7 +112,7 @@ const App = () => {
             />
             <Draw
                 animation={animation}
-                disabled={filteredData.length < 2}
+                disabled={checkedFruits.length < 2}
                 handleDraw={handleDraw}
                 handleReset={handleReset}
             />
