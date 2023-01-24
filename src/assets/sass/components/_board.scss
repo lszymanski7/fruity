@@ -1,0 +1,35 @@
+// ================================================================================================
+// Board styles
+// ================================================================================================
+
+.board {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.6rem;
+}
+
+// Landscape phones
+
+@media (min-width: map-get($breakpoints, 'sm')) {
+  .board {
+    max-width: 60rem;
+  }
+}
+
+// Tablets
+
+@media (min-width: map-get($breakpoints, 'md')) {
+  .board {
+    max-width: 70rem;
+  }
+}
+
+// Desktops
+
+@media (min-width: map-get($breakpoints, 'lg')) {
+  .board {
+    max-width: 90rem;
+  }
+}

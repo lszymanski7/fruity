@@ -3,34 +3,93 @@
 // ================================================================================================
 
 .element {
-  border: 0.1rem solid darken(map-get($colors, 'app', 'pink-dark'), 10%);
-  margin: map-get($spaces, 'xxs');
-  width: 85px;
-  @include border-radius(5px);
-
-  @media (hover: hover) and (pointer: fine) {
-    &:hover {
-      background-color: lighten(map-get($colors, 'basic', 'black'), 90%);
-    }
-  }
+  height: 80px;
+  margin: 0.8rem;
+  width: 100px;
+  @include drop-shadow(0.2rem, 0.2rem, 0.2rem, map-get($colors, 'shadow', 'black-25'));
 }
 
 .element__label {
   align-items: center;
-  justify-content: center;
-  padding: map-get($spaces, 'xxs');
+  background-color: map-get($colors, 'basic', 'white');
+  border: 0.2rem solid map-get($colors, 'application', 'gray');
+  height: 100%;
+  justify-content: space-between;
+  padding: 0.4rem;
+  @include border-radius(10px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .element__label:hover {
+    background-color: darken(map-get($colors, 'basic', 'white'), 5%);
+    border-color: darken(map-get($colors, 'application', 'gray'), 5%);
+  }
 }
 
 .element__checkbox {
   align-self: flex-end;
+  border: 0.2rem solid map-get($colors, 'checkbox', 'gray-100');
+  height: 1.3rem;
+  width: 1.3rem;
+  @include appearance(none);
+  @include border-radius(50%);
+}
+
+.element__checkbox:checked {
+  background-color: map-get($colors, 'checkbox', 'blue-100');
+  background-image: url('data:image/svg+xml, <svg id="checkmark-icon" viewBox="0 0 24 24" width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path id="checkmark" d="M 21.5 4.5 L 9 18 2.5 11.5" fill="none" stroke="%23FFFFFF" stroke-width="6" /></svg>');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-color: map-get($colors, 'checkbox', 'blue-100');
+  padding: 0.1rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .element__checkbox:hover:checked {
+    background-color: map-get($colors, 'checkbox', 'blue-200');
+    border-color: map-get($colors, 'checkbox', 'blue-200');
+  }
+
+  .element__checkbox:hover:not(:checked) {
+    background-color: map-get($colors, 'basic', 'white');
+    border-color: map-get($colors, 'checkbox', 'gray-200');
+  }
 }
 
 .element__image {
-  height: 50px;
-  margin: map-get($spaces, 'xxs') 0 map-get($spaces, 'xs');
-  width: 50px;
+  height: 32px;
+  pointer-events: none;
+  width: 32px;
 }
 
 .element__caption {
-  font-size: map-get($spaces, 'sm');
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.6rem 0 0.4rem;
+}
+
+// Landscape phones, Tablets and Desktops
+
+@media (min-width: map-get($breakpoints, 'sm')) or (min-width: map-get($breakpoints, 'md')) or (min-width: map-get($breakpoints, 'lg')) {
+  .element {
+    height: 100px;
+    margin: 1rem;
+    width: 120px;
+    @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-25'));
+  }
+
+  .element__label {
+    padding: 0.6rem;
+  }
+
+  .element__image {
+    height: 44px;
+    width: 44px;
+  }
+
+  .element__caption {
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0.2rem;
+  }
 }

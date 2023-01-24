@@ -28,7 +28,7 @@
 .modal {
   align-items: center;
   background: map-get($colors, 'application', 'pink-100');
-  border: 0.4rem solid map-get($colors, 'application', 'pink-200');
+  border: 0.5rem solid map-get($colors, 'application', 'pink-200');
   gap: 1.5rem;
   height: 175px;
   justify-content: center;
@@ -39,6 +39,7 @@
 
 .modal__image {
   height: 78px;
+  margin: 0.3rem 0 0;
   pointer-events: none;
   width: 78px;
 }
@@ -60,6 +61,7 @@
 
   .modal__image {
     height: 94px;
+    margin: 0.4rem 0 0;
     width: 94px;
   }
 
@@ -72,7 +74,6 @@
 
 @media (min-width: map-get($breakpoints, 'md')) {
   .modal {
-    border-width: 0.5rem;
     gap: 2rem;
     height: 225px;
     width: 250px;
@@ -81,6 +82,7 @@
 
   .modal__image {
     height: 112px;
+    margin: 0.5rem 0 0;
     width: 112px;
   }
 
@@ -93,7 +95,6 @@
 
 @media (min-width: map-get($breakpoints, 'lg')) {
   .modal {
-    border-width: 0.5rem;
     gap: 2.25rem;
     height: 250px;
     width: 275px;
@@ -102,6 +103,7 @@
 
   .modal__image {
     height: 128px;
+    margin: 0.6rem 0 0;
     width: 128px;
   }
 

@@ -4,7 +4,7 @@
 
 .draw {
   align-items: center;
-  gap: 1.2rem;
+  gap: 1rem;
   justify-content: center;
   padding: 4rem 1.6rem 6.4rem;
 }
@@ -21,34 +21,34 @@
   font-size: 1.8rem;
   font-weight: 700;
   height: 70px;
-  margin-left: 4.4rem;
+  margin-left: 4rem;
   padding: 0;
   width: 250px;
   @include border-radius(35px);
   @include drop-shadow(0.3rem, 0.3rem, 0.3rem, map-get($colors, 'shadow', 'black-25'));
+}
 
-  &:disabled {
-    background-color: darken(map-get($colors, 'logo', 'red-100'), 10%);
-    border-bottom-color: darken(map-get($colors, 'logo', 'red-200'), 10%);
-    opacity: 0.5;
-  }
+.draw__start-button:disabled {
+  background-color: darken(map-get($colors, 'logo', 'red-100'), 10%);
+  border-bottom-color: darken(map-get($colors, 'logo', 'red-200'), 10%);
+  opacity: 0.5;
 }
 
 .draw__reset-button {
   background: 0;
   border: 0;
   display: block;
-  height: 32px;
+  height: 30px;
   padding: 0;
-  width: 32px;
+  width: 30px;
   @include drop-shadow(0.175rem, 0.175rem, 0.175rem, map-get($colors, 'shadow', 'black-50'));
 }
 
 .draw__reset-icon {
-  height: 32px;
+  height: 30px;
   pointer-events: none;
   transform: rotate(30deg);
-  width: 32px;
+  width: 30px;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -66,28 +66,28 @@
 
 @media (min-width: map-get($breakpoints, 'sm')) {
   .draw {
-    gap: 1.4rem;
+    gap: 1.2rem;
   }
 
   .draw__start-button {
-    border-bottom-width: 0.75rem;
-    font-size: 2.2rem;
+    border-bottom-width: 1rem;
+    font-size: 2.4rem;
     height: 80px;
-    margin-left: 5rem;
-    width: 300px;
+    margin-left: 4.6rem;
+    width: 350px;
     @include border-radius(40px);
     @include drop-shadow(0.4rem, 0.4rem, 0.4rem, map-get($colors, 'shadow', 'black-25'));
   }
 
   .draw__reset-button {
-    height: 36px;
-    width: 36px;
+    height: 34px;
+    width: 34px;
     @include drop-shadow(0.2rem, 0.2rem, 0.2rem, map-get($colors, 'shadow', 'black-50'));
   }
 
   .draw__reset-icon {
-    height: 36px;
-    width: 36px;
+    height: 34px;
+    width: 34px;
   }
 }
 
@@ -95,28 +95,28 @@
 
 @media (min-width: map-get($breakpoints, 'md')) {
   .draw {
-    gap: 1.6rem;
+    gap: 1.4rem;
   }
 
   .draw__start-button {
     border-bottom-width: 1rem;
     font-size: 2.8rem;
     height: 90px;
-    margin-left: 5.6rem;
+    margin-left: 5.2rem;
     width: 400px;
     @include border-radius(45px);
     @include drop-shadow(0.5rem, 0.5rem, 0.5rem, map-get($colors, 'shadow', 'black-25'));
   }
 
   .draw__reset-button {
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
     @include drop-shadow(0.225rem, 0.225rem, 0.225rem, map-get($colors, 'shadow', 'black-50'));
   }
 
   .draw__reset-icon {
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
   }
 }
 
@@ -124,27 +124,27 @@
 
 @media (min-width: map-get($breakpoints, 'lg')) {
   .draw {
-    gap: 1.8rem;
+    gap: 1.6rem;
   }
 
   .draw__start-button {
     border-bottom-width: 1rem;
     font-size: 3.4rem;
     height: 100px;
-    margin-left: 6.2rem;
+    margin-left: 5.8rem;
     width: 500px;
     @include border-radius(50px);
     @include drop-shadow(0.6rem, 0.6rem, 0.6rem, map-get($colors, 'shadow', 'black-25'));
   }
 
   .draw__reset-button {
-    height: 44px;
-    width: 44px;
+    height: 42px;
+    width: 42px;
     @include drop-shadow(0.25rem, 0.25rem, 0.25rem, map-get($colors, 'shadow', 'black-50'));
   }
 
   .draw__reset-icon {
-    height: 44px;
-    width: 44px;
+    height: 42px;
+    width: 42px;
   }
 }

@@ -80,7 +80,7 @@
 
 @media (min-width: map-get($breakpoints, 'md')) {
   .header {
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
   .header__brand-container {
@@ -111,7 +111,7 @@
 
 @media (min-width: map-get($breakpoints, 'lg')) {
   .header {
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .header__brand-container {
