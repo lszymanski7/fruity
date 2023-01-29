@@ -4,14 +4,10 @@ import PropTypes from 'prop-types'
 const Element = ({ checked, handleCheck, id, img, name }) => {
     return (
         <div className="element">
-            <label
-                className="flexbox-column element__label"
-                htmlFor={id}
-            >
+            <label className="flexbox-column element__label">
                 <input
                     checked={checked}
                     className="element__checkbox"
-                    id={id}
                     onChange={() => handleCheck(id)}
                     type="checkbox"
                 />
@@ -20,7 +16,7 @@ const Element = ({ checked, handleCheck, id, img, name }) => {
                     className="element__image"
                     src={img}
                 />
-                <span className="element__caption">{name}</span>
+                <span className="element__caption">{name.toUpperCase()}</span>
             </label>
         </div>
     )

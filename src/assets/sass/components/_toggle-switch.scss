@@ -1,0 +1,112 @@
+// ================================================================================================
+// Toggle Switch styles
+// ================================================================================================
+
+.toggle-switch {
+  height: 20px;
+  width: 40px;
+}
+
+.toggle-switch__input {
+  display: none;
+}
+
+.toggle-switch__label {
+  align-items: center;
+  background-color: map-get($colors, 'toggle-switch', 'default-gray-100');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'default-gray-200');
+  display: flex;
+  height: 20px;
+  justify-content: space-between;
+  padding: 0.2rem;
+  position: relative;
+  width: 40px;
+  @include border-radius(10px);
+}
+
+.toggle-switch__icon {
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 14px;
+  padding: 0.1rem;
+  width: 14px;
+}
+
+.toggle-switch__slider {
+  background-color: map-get($colors, 'basic', 'white');
+  height: 14px;
+  position: absolute;
+  transition: 0.2s linear;
+  width: 14px;
+  @include border-radius(7px);
+  @include drop-shadow(0, 0, 0.1rem, map-get($colors, 'shadow', 'black-25'));
+}
+
+.toggle-switch__input:checked + .toggle-switch__label .toggle-switch__slider {
+  transform: translateX(calc(100% + (100% * 6 / 14)));
+}
+
+// Colors
+
+.toggle-switch__label--green {
+  background-color: map-get($colors, 'toggle-switch', 'on-green-100');
+  border-color: map-get($colors, 'toggle-switch', 'on-green-200');
+}
+
+.toggle-switch__label--red {
+  background-color: map-get($colors, 'toggle-switch', 'off-red-100');
+  border-color: map-get($colors, 'toggle-switch', 'off-red-200');
+}
+
+// Icons
+
+.moon-icon {
+  background-image: url('/src/assets/images/shapes/moon.svg');
+}
+
+.sun-icon {
+  background-image: url('/src/assets/images/shapes/sun.svg');
+}
+
+// Landscape phones
+
+@media (min-width: map-get($breakpoints, 'sm')) {
+  .toggle-switch {
+    height: 22px;
+    width: 44px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(1.1);
+  }
+}
+
+// Tablets
+
+@media (min-width: map-get($breakpoints, 'md')) {
+  .toggle-switch {
+    height: 24px;
+    width: 48px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(1.2);
+  }
+}
+
+// Desktops
+
+@media (min-width: map-get($breakpoints, 'lg')) {
+  .toggle-switch {
+    height: 26px;
+    width: 52px;
+  }
+
+  .toggle-switch__label {
+    transform-origin: left top;
+    transform: scale(1.3);
+  }
+}

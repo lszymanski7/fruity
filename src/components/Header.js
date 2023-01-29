@@ -1,22 +1,38 @@
-import React from 'react'
-import { logo } from '../data/constants'
+import React, { useState } from 'react'
+import ToggleSwitch from './ToggleSwitch'
+import { LOGOS } from '../data/constants'
 
 const Header = () => {
-    const title = 'Fruity'
-    const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
+    // Application name
+    const name = 'FRUITY'
+
+    // Toggle switch states for dark and light mode
+    const [isChecked, setIsChecked] = useState(false)
 
     return (
-        <header className="header">
-            <div className="flexbox-column header__container">
-                <div className="flexbox-row">
+        <header className="flexbox-column header">
+            <div className="flexbox-row header__widgets-container">
+                <a href="https://github.com/lszymanski7/fruity-app">
                     <img
-                        alt="Fruity Logo"
-                        className="header__logo"
-                        src={logo.size_512x512}
+                        alt="GitHub Logo"
+                        className="header__github-logo"
+                        src={LOGOS.github}
                     />
-                    <h1 className="header__title">{title}</h1>
-                </div>
-                <h2 className="header__subtitle">{subtitle}</h2>
+                </a>
+                <ToggleSwitch
+                    handleOnChange={() => setIsChecked(!isChecked)}
+                    icons={['moon-icon', 'sun-icon']}
+                    id="theme-switcher"
+                    isChecked={isChecked}
+                />
+            </div>
+            <div className="flexbox-row header__brand-container">
+                <img
+                    alt="Application Logo"
+                    className="header__app-logo"
+                    src={LOGOS.fruity.size_256x256}
+                />
+                <h1 className="header__app-name">{name}</h1>
             </div>
         </header>
     )

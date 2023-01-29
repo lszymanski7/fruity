@@ -9,18 +9,18 @@
   './abstracts/variables';
 
 @import 
+  './base/animations',
   './base/base',
   './base/reset',
   './base/typography';
 
 @import 
-  './layout/container',
   './layout/flexbox',
-  './layout/footer',
   './layout/header';
 
 @import 
+  './components/board',
   './components/draw',
   './components/element',
   './components/modal',
-  './components/widget';
+  './components/toggle-switch';
