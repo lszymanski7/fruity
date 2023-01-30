@@ -4,7 +4,7 @@ import { SHAPES } from '../data/constants'
 
 const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
     return (
-        <div className="flexbox-row draw">
+        <div className="draw">
             <button
                 className="draw__start-button"
                 disabled={disabled}

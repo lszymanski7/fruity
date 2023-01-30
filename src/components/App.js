@@ -32,8 +32,7 @@ const App = () => {
     /* istanbul ignore next */
 
     // Function ➞ opens the modal
-    const openModal = (fruit) => {
-        setSelected(fruit)
+    const openModal = () => {
         setIsOpen(true)
     }
 
@@ -41,7 +40,6 @@ const App = () => {
 
     // Function ➞ closes the modal
     const closeModal = () => {
-        setSelected(defaultSelected)
         setIsOpen(false)
     }
 
@@ -75,7 +73,9 @@ const App = () => {
     // Function ➞ draws a fruit
     const handleDraw = () => {
         const rand = Math.floor(Math.random() * checkedFruits.length)
-        openModal(checkedFruits[rand])
+        const nextState = checkedFruits[rand]
+        setSelected(nextState)
+        openModal()
     }
 
     /* istanbul ignore next */
@@ -104,7 +104,7 @@ const App = () => {
     }, [data])
 
     return (
-        <div className="flexbox-column fullscreen">
+        <div className="fullscreen">
             <Header />
             <Board
                 data={data}
@@ -118,8 +118,9 @@ const App = () => {
             />
             <Modal
                 isOpen={isOpen}
+                onAfterClose={() => setSelected(defaultSelected)}
                 onRequestClose={closeModal}
-                selected={selected}
+                selectedFruit={selected}
             />
         </div>
     )

@@ -4,7 +4,7 @@ import Element from './Element'
 
 const Widget = ({ data, handleCheck }) => {
     return (
-        <div className="flexbox-row board">
+        <div className="board">
             {data.map((fruit) => {
                 const key = fruit.name.toLowerCase().replace(' ', '-')
 
@@ -12,10 +12,10 @@ const Widget = ({ data, handleCheck }) => {
                     <Element
                         key={key}
                         checked={fruit.checked}
+                        handleCheck={handleCheck}
                         id={fruit.id}
                         img={fruit.img}
                         name={fruit.name}
-                        handleCheck={handleCheck}
                     />
                 )
             })}

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Element = ({ checked, handleCheck, id, img, name }) => {
     return (
         <div className="element">
-            <label className="flexbox-column element__label">
+            <label className="element__label">
                 <input
                     checked={checked}
                     className="element__checkbox"
@@ -25,7 +25,7 @@ const Element = ({ checked, handleCheck, id, img, name }) => {
 Element.propTypes = {
     checked: PropTypes.bool.isRequired,
     handleCheck: PropTypes.func.isRequired,
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     img: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired
 }

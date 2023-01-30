@@ -4,9 +4,11 @@
 
 .draw {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
-  padding: 4rem 1.6rem 6.4rem;
+  padding: 4.2rem 1.6rem 6.4rem;
 }
 
 .draw__start-button {

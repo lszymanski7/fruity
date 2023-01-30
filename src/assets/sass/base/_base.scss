@@ -12,8 +12,3 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-body {
-  background: map-get($colors, 'application', 'pink-100');
-  @include user-select(none);
-}

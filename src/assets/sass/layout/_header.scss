@@ -4,18 +4,28 @@
 
 .header {
   align-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
-  padding: 1.6rem 1.6rem 4rem;
+  padding: 1.6rem 1.6rem 4.2rem;
 }
 
 .header__widgets-container {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .header__brand-container {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   gap: 1.5rem;
 }
 

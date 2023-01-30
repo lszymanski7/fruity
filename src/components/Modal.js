@@ -2,24 +2,25 @@ import React from 'react'
 import ReactModal from 'react-modal'
 import PropTypes from 'prop-types'
 
-const Modal = ({ isOpen, onRequestClose, selected }) => {
+const Modal = ({ isOpen, onAfterClose, onRequestClose, selectedFruit }) => {
     return (
         <ReactModal
             appElement={document.getElementById('root')}
-            className="flexbox-column modal"
+            className="modal"
+            closeTimeoutMS={200}
             contentLabel="Application Modal"
             isOpen={isOpen}
+            onAfterClose={onAfterClose}
             onRequestClose={onRequestClose}
         >
-            {!!selected && (
+            {!!selectedFruit && (
                 <>
                     <img
-                        alt={selected.name}
+                        alt={selectedFruit.name}
                         className="modal__image"
-                        id={selected.id}
-                        src={selected.img}
+                        src={selectedFruit.img}
                     />
-                    <span className="modal__caption">{selected.name.toUpperCase()}</span>
+                    <span className="modal__caption">{selectedFruit.name.toUpperCase()}</span>
                 </>
             )}
         </ReactModal>
@@ -28,8 +29,9 @@ const Modal = ({ isOpen, onRequestClose, selected }) => {
 
 Modal.propTypes = {
     isOpen: PropTypes.bool.isRequired,
+    onAfterClose: PropTypes.func.isRequired,
     onRequestClose: PropTypes.func.isRequired,
-    selected: PropTypes.object
+    selectedFruit: PropTypes.object
 }
 
 export { Modal as default }

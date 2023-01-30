@@ -3,7 +3,7 @@
 // ================================================================================================
 
 .element {
-  height: 80px;
+  height: 85px;
   margin: 0.8rem;
   width: 100px;
   @include drop-shadow(0.2rem, 0.2rem, 0.2rem, map-get($colors, 'shadow', 'black-25'));
@@ -13,8 +13,10 @@
   align-items: center;
   background-color: map-get($colors, 'basic', 'white');
   border: 0.2rem solid map-get($colors, 'application', 'gray');
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0.4rem;
   @include border-radius(10px);
 }
@@ -66,7 +68,7 @@
 .element__caption {
   font-size: 1rem;
   font-weight: 700;
-  margin: 0.6rem 0 0.4rem;
+  margin: 0.8rem 0 0;
 }
 
 // Landscape phones, Tablets and Desktops
@@ -90,6 +92,6 @@
 
   .element__caption {
     font-size: 1.2rem;
-    margin: 0.8rem 0 0.2rem;
+    margin: 1rem 0 0;
   }
 }
