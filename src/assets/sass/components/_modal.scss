@@ -25,10 +25,9 @@
 
 .modal {
   align-items: center;
+  border: 0.5rem solid;
   display: flex;
   flex-direction: column;
-  background: map-get($colors, 'application', 'pink-100');
-  border: 0.5rem solid map-get($colors, 'application', 'pink-200');
   gap: 1.5rem;
   height: 175px;
   justify-content: center;
@@ -36,6 +35,18 @@
   @include border-radius(25px);
   @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
   @include user-select(none);
+}
+
+.modal--dark {
+  background-color: map-get($colors, 'application', 'gray-300');
+  border-color: map-get($colors, 'application', 'gray-200');
+  color: white;
+}
+
+.modal--light {
+  background-color: map-get($colors, 'application', 'pink-100');
+  border-color: map-get($colors, 'application', 'pink-200');
+  color: black;
 }
 
 .modal__image {

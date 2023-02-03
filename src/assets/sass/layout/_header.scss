@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 1.6rem 1.6rem 4.2rem;
+  padding: 1.6rem 1.6rem 3.6rem;
 }
 
 .header__widgets-container {
@@ -34,6 +34,14 @@
   height: 24px;
   pointer-events: none;
   width: 24px;
+}
+
+.header__github-logo--dark {
+  filter: invert(100%) sepia(1%) saturate(106%) hue-rotate(299deg) brightness(116%) contrast(96%); // HEX: #FAFAFA
+}
+
+.header__github-logo--light {
+  filter: invert(0%) sepia(0%) saturate(7480%) hue-rotate(59deg) brightness(97%) contrast(105%); // HEX: #000000
 }
 
 .header__app-logo {

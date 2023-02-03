@@ -4,12 +4,19 @@
 
 .board {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
   margin: 0 auto;
   max-width: 40rem;
   padding: 0 1.6rem;
+}
+
+.board__elements-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 // Landscape phones

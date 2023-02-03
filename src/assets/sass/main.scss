@@ -15,7 +15,7 @@
   './base/typography';
 
 @import 
-  './layout/flexbox',
+  './layout/fullscreen',
   './layout/header';
 
 @import 
@@ -24,3 +24,7 @@
   './components/element',
   './components/modal',
   './components/toggle-switch';
+
+  @import 
+  './themes/dark',
+  './themes/light';

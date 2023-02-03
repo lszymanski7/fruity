@@ -16,9 +16,11 @@ $breakpoints: (
 
 $colors: (
   'application': (
-    'gray': hsl(0, 0%, 70%),
+    'gray-100': hsl(0, 0%, 70%),
+    'gray-200': hsl(0, 5%, 40%),
+    'gray-300': hsl(0, 5%, 15%),
     'pink-100': hsl(337, 84%, 95%),
-    'pink-200': hsl(338, 84%, 80%)
+    'pink-200': hsl(337, 84%, 80%)
   ),
   'basic': (
     'black': hsl(0, 0%, 0%),
@@ -40,12 +42,8 @@ $colors: (
     'black-75': hsla(0, 0%, 0%, 0.75)
   ),
   'toggle-switch': (
-    'default-gray-100': hsl(0, 0%, 98%),
-    'default-gray-200': hsl(0, 0%, 84%),
-    'off-red-100': hsl(0, 99%, 64%),
-    'off-red-200': hsl(0, 99%, 50%),
-    'on-green-100': hsl(124, 79%, 58%),
-    'on-green-200': hsl(124, 79%, 44%)
+    'gray-100': hsl(0, 0%, 98%),
+    'gray-200': hsl(0, 0%, 84%)
   )
 );
 
