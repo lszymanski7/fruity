@@ -1,7 +1,7 @@
 <!-- APPLICATION PREVIEW -->
 <div align="center">
   
-  ![Fruity Header](./docs/application.png)
+  ![Fruity Header](./docs/application.gif)
   
 </div>
 
@@ -49,7 +49,7 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 ![JavaScript](https://img.shields.io/badge/JavaScript-555555?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-555555?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-555555?style=flat&logo=css3&logoColor=1572B6)
-[![SASS](https://img.shields.io/badge/SASS%20|%20v1.57.1-555555?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
+[![SASS](https://img.shields.io/badge/SASS%20|%20v1.58.0-555555?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
 [![React](https://img.shields.io/badge/React%20|%20v18.1.0-555555?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.75.0-555555?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.20.12-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
