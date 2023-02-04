@@ -5,27 +5,29 @@ import { SHAPES } from '../data/constants'
 const Draw = ({ animation, disabled, handleDraw, handleReset }) => {
     return (
         <div className="draw">
-            <button
-                className="draw__start-button"
-                disabled={disabled}
-                onClick={handleDraw}
-                type="button"
-            >
-                {disabled ? 'SELECT MORE FRUITS' : 'DRAW A FRUIT'}
-            </button>
-            <button
-                aria-label="Reset"
-                className={'draw__reset-button' + (animation ? ' ' + animation : '')}
-                disabled={animation !== null}
-                onClick={handleReset}
-                type="button"
-            >
-                <img
-                    alt="Reset Icon"
-                    className="draw__reset-icon"
-                    src={SHAPES.reset}
-                />
-            </button>
+            <div className="draw__buttons-container">
+                <button
+                    className="draw__start-button"
+                    disabled={disabled}
+                    onClick={handleDraw}
+                    type="button"
+                >
+                    {disabled ? 'SELECT MORE FRUITS' : 'DRAW A FRUIT'}
+                </button>
+                <button
+                    aria-label="Reset"
+                    className={'draw__reset-button' + (animation ? ' ' + animation : '')}
+                    disabled={animation !== null}
+                    onClick={handleReset}
+                    type="button"
+                >
+                    <img
+                        alt="Reset Icon"
+                        className="draw__reset-icon"
+                        src={SHAPES.reset}
+                    />
+                </button>
+            </div>
         </div>
     )
 }

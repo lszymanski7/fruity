@@ -5,20 +5,22 @@ import Element from './Element'
 const Widget = ({ data, handleCheck }) => {
     return (
         <div className="board">
-            {data.map((fruit) => {
-                const key = fruit.name.toLowerCase().replace(' ', '-')
+            <div className="board__elements-container">
+                {data.map((fruit) => {
+                    const key = fruit.name.toLowerCase().replace(' ', '-')
 
-                return (
-                    <Element
-                        key={key}
-                        checked={fruit.checked}
-                        handleCheck={handleCheck}
-                        id={fruit.id}
-                        img={fruit.img}
-                        name={fruit.name}
-                    />
-                )
-            })}
+                    return (
+                        <Element
+                            checked={fruit.checked}
+                            handleCheck={handleCheck}
+                            id={fruit.id}
+                            img={fruit.img}
+                            key={key}
+                            name={fruit.name}
+                        />
+                    )
+                })}
+            </div>
         </div>
     )
 }

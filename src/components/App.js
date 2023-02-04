@@ -1,30 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Board from './Board'
 import Draw from './Draw'
 import Header from './Header'
 import Modal from './Modal'
 import fruits from '../data/fruits'
+import useLocalStorage from '../hooks/useLocalStorage'
 
 const App = () => {
     /* istanbul ignore next */
 
-    // Default values
-    const defaultData = () => {
-        if (window.localStorage.getItem('fruits') === null) {
-            return fruits
-        } else {
-            return JSON.parse(window.localStorage.getItem('fruits'))
-        }
-    }
-    const defaultSelected = null
-    const defaultIsOpen = false
-    const defaultAnimation = null
-
     // Application states
-    const [data, setData] = useState(defaultData)
-    const [selected, setSelected] = useState(defaultSelected)
-    const [isOpen, setIsOpen] = useState(defaultIsOpen)
-    const [animation, setAnimation] = useState(defaultAnimation)
+    const [data, setData] = useLocalStorage('fruits', fruits)
+    const [selected, setSelected] = useState(null)
+    const [isOpen, setIsOpen] = useState(false)
+    const [animation, setAnimation] = useState(null)
 
     // Array method ➞ filter that returns only checked fruits
     const checkedFruits = data.filter((fruit) => fruit.checked === true)
@@ -87,22 +76,6 @@ const App = () => {
         updateAnimation()
     }
 
-    /* istanbul ignore next */
-
-    // Effect ➞ saves data in local storage if the key does not exist (key: 'fruits')
-    useEffect(() => {
-        if (window.localStorage.getItem('fruits') === null) {
-            window.localStorage.setItem('fruits', JSON.stringify(fruits))
-        }
-    }, [])
-
-    /* istanbul ignore next */
-
-    // Effect ➞ updates data in local storage whenever it changes (key: 'fruits')
-    useEffect(() => {
-        window.localStorage.setItem('fruits', JSON.stringify(data))
-    }, [data])
-
     return (
         <div className="fullscreen">
             <Header />
@@ -118,7 +91,7 @@ const App = () => {
             />
             <Modal
                 isOpen={isOpen}
-                onAfterClose={() => setSelected(defaultSelected)}
+                onAfterClose={() => setSelected(null)}
                 onRequestClose={closeModal}
                 selectedFruit={selected}
             />

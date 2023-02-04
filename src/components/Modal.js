@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactModal from 'react-modal'
 import PropTypes from 'prop-types'
+import useTheme from '../hooks/useTheme'
 
 const Modal = ({ isOpen, onAfterClose, onRequestClose, selectedFruit }) => {
+    // Context value for dark and light theme
+    const { theme } = useTheme()
+
     return (
         <ReactModal
             appElement={document.getElementById('root')}
-            className="modal"
+            className={`modal modal--${theme}`}
             closeTimeoutMS={200}
             contentLabel="Application Modal"
             isOpen={isOpen}
