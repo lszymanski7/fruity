@@ -1,7 +1,7 @@
 <!-- APPLICATION PREVIEW -->
 <div align="center">
   
-  ![Fruity Header](./docs/application.gif)
+  ![Fruity Header](./docs/application.png)
   
 </div>
 
