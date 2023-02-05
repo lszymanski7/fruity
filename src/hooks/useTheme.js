@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { ThemeContext } from '../contexts/theme-context'
 
-// Function ➞ returns context for dark and light theme
+// Function (hook) ➞ dark and light themes
 const useTheme = () => {
     const context = useContext(ThemeContext)
 

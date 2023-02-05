@@ -41,7 +41,7 @@ Are you a fruit lover? Have you ever been unable to decide what kind of fruit yo
 ## Features
 - Selecting fruits that should be included in the draw.
 - Resetting selected fruits to default state.
-- Saving data to local storage.
+- Saving data to localStorage.
 - Toggling between light and dark theme.
 
 <!-- TECHNOLOGIES -->
