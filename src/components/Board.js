@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Element from './Element'
 
-const Widget = ({ data, handleCheck }) => {
+const Board = ({ data, handleCheck }) => {
     return (
         <div className="board">
             <div className="board__elements-container">
                 {data.map((fruit) => {
-                    const key = fruit.name.toLowerCase().replace(' ', '-')
+                    const key = fruit.name.replace(' ', '-')
 
                     return (
                         <Element
@@ -25,9 +25,9 @@ const Widget = ({ data, handleCheck }) => {
     )
 }
 
-Widget.propTypes = {
+Board.propTypes = {
     data: PropTypes.array.isRequired,
     handleCheck: PropTypes.func.isRequired
 }
 
-export { Widget as default }
+export { Board as default }

@@ -1,6 +1,8 @@
+/* istanbul ignore file */
+
 import { useState } from 'react'
 
-// Function (hook) ➞ basic localStorage operations
+// React Hook ➞ localStorage
 const useLocalStorage = (key, initalValue) => {
     const [storedValue, setStoredValue] = useState(() => {
         if (typeof window === 'undefined') {

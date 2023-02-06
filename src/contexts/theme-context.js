@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import React, { createContext, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import useLocalStorage from '../hooks/useLocalStorage'

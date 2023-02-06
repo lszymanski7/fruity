@@ -2,7 +2,7 @@
 
 exports[`Modal should be rendered correctly. 1`] = `
 <body
-  class="ReactModal__Body--open"
+  class="background-light"
 >
   <div
     data-react-modal-body-trap=""
@@ -23,25 +23,21 @@ exports[`Modal should be rendered correctly. 1`] = `
       style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(255, 255, 255, 0.75);"
     >
       <div
-        aria-label="Fruity Modal"
+        aria-label="Application Modal"
         aria-modal="true"
-        class="ReactModal__Content flexbox-column modal"
+        class="ReactModal__Content modal modal--light"
         role="dialog"
         tabindex="-1"
       >
-        <button
-          class="modal__close"
-        />
         <img
-          alt="Apple"
+          alt="apple"
           class="modal__image"
-          id="bbb33b2d-e07d-4d13-a869-f3790e100477"
           src="apple.webp"
         />
         <span
           class="modal__caption"
         >
-          Apple
+          APPLE
         </span>
       </div>
     </div>

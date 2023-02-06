@@ -4,145 +4,145 @@ import { ICONS } from './constants'
 const fruits = [
     {
         id: 1,
-        name: 'Apple',
+        name: 'apple',
         img: ICONS.apple,
         checked: false
     },
     {
         id: 2,
-        name: 'Banana',
+        name: 'banana',
         img: ICONS.banana,
         checked: false
     },
     {
         id: 3,
-        name: 'Blackberry',
+        name: 'blackberry',
         img: ICONS.blackberry,
         checked: false
     },
     {
         id: 4,
-        name: 'Blueberries',
+        name: 'blueberries',
         img: ICONS.blueberries,
         checked: false
     },
     {
         id: 5,
-        name: 'Cherries',
+        name: 'cherries',
         img: ICONS.cherries,
         checked: false
     },
     {
         id: 6,
-        name: 'Coconut',
+        name: 'coconut',
         img: ICONS.coconut,
         checked: false
     },
     {
         id: 7,
-        name: 'Dragon Fruit',
+        name: 'dragon fruit',
         img: ICONS.dragon_fruit,
         checked: false
     },
     {
         id: 8,
-        name: 'Fig',
+        name: 'fig',
         img: ICONS.fig,
         checked: false
     },
     {
         id: 9,
-        name: 'Grapes',
+        name: 'grapes',
         img: ICONS.grapes,
         checked: false
     },
     {
         id: 10,
-        name: 'Kiwi',
+        name: 'kiwi',
         img: ICONS.kiwi,
         checked: false
     },
     {
         id: 11,
-        name: 'Lemon',
+        name: 'lemon',
         img: ICONS.lemon,
         checked: false
     },
     {
         id: 12,
-        name: 'Lychee',
+        name: 'lychee',
         img: ICONS.lychee,
         checked: false
     },
     {
         id: 13,
-        name: 'Mango',
+        name: 'mango',
         img: ICONS.mango,
         checked: false
     },
     {
         id: 14,
-        name: 'Melon',
+        name: 'melon',
         img: ICONS.melon,
         checked: false
     },
     {
         id: 15,
-        name: 'Orange',
+        name: 'orange',
         img: ICONS.orange,
         checked: false
     },
     {
         id: 16,
-        name: 'Papaya',
+        name: 'papaya',
         img: ICONS.papaya,
         checked: false
     },
     {
         id: 17,
-        name: 'Peach',
+        name: 'peach',
         img: ICONS.peach,
         checked: false
     },
     {
         id: 18,
-        name: 'Pear',
+        name: 'pear',
         img: ICONS.pear,
         checked: false
     },
     {
         id: 19,
-        name: 'Pineapple',
+        name: 'pineapple',
         img: ICONS.pineapple,
         checked: false
     },
     {
         id: 20,
-        name: 'Plum',
+        name: 'plum',
         img: ICONS.plum,
         checked: false
     },
     {
         id: 21,
-        name: 'Pomegranate',
+        name: 'pomegranate',
         img: ICONS.pomegranate,
         checked: false
     },
     {
         id: 22,
-        name: 'Star Fruit',
+        name: 'star fruit',
         img: ICONS.star_fruit,
         checked: false
     },
     {
         id: 23,
-        name: 'Strawberry',
+        name: 'strawberry',
         img: ICONS.strawberry,
         checked: false
     },
     {
         id: 24,
-        name: 'Watermelon',
+        name: 'watermelon',
         img: ICONS.watermelon,
         checked: false
     }

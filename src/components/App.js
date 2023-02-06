@@ -34,6 +34,13 @@ const App = () => {
 
     /* istanbul ignore next */
 
+    // Function ➞ resets the selected fruit after closing the modal
+    const afterCloseModal = () => {
+        setSelected(null)
+    }
+
+    /* istanbul ignore next */
+
     // Function ➞ updates the reset button animation
     const updateAnimation = () => {
         setAnimation('spin')
@@ -91,7 +98,7 @@ const App = () => {
             />
             <Modal
                 isOpen={isOpen}
-                onAfterClose={() => setSelected(null)}
+                onAfterClose={afterCloseModal}
                 onRequestClose={closeModal}
                 selectedFruit={selected}
             />
