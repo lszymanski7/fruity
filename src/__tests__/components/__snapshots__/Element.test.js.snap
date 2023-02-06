@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Element should be rendered correctly. 1`] = `
+<div>
+  <div
+    class="element"
+    data-testid="element"
+  >
+    <label
+      class="element__label"
+    >
+      <input
+        class="element__checkbox"
+        type="checkbox"
+      />
+      <img
+        alt="apple"
+        class="element__image"
+        src="apple.webp"
+      />
+      <span
+        class="element__caption"
+      >
+        APPLE
+      </span>
+    </label>
+  </div>
+</div>
+`;
