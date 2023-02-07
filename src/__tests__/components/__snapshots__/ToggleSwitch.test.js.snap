@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch should be rendered correctly. 1`] = `
+<div>
+  <div
+    class="toggle-switch"
+  >
+    <input
+      class="toggle-switch__input"
+      id="theme-switcher"
+      type="checkbox"
+    />
+    <label
+      class="toggle-switch__label"
+      for="theme-switcher"
+    >
+      <span
+        class="toggle-switch__icon moon-icon"
+        data-testid="moon"
+      />
+      <span
+        class="toggle-switch__icon sun-icon"
+        data-testid="sun"
+      />
+      <span
+        class="toggle-switch__slider"
+      />
+    </label>
+  </div>
+</div>
+`;

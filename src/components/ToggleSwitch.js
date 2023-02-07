@@ -15,8 +15,8 @@ const ToggleSwitch = ({ handleOnChange, isChecked }) => {
                 className="toggle-switch__label"
                 htmlFor="theme-switcher"
             >
-                <span className="toggle-switch__icon moon-icon" />
-                <span className="toggle-switch__icon sun-icon" />
+                <span className="toggle-switch__icon moon-icon" data-testid="moon" />
+                <span className="toggle-switch__icon sun-icon" data-testid="sun" />
                 <span className="toggle-switch__slider" />
             </label>
         </div>

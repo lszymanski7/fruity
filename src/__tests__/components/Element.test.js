@@ -18,17 +18,11 @@ describe('Element', () => {
         expect(container).toMatchSnapshot()
     })
 
-    it('should handle clicking.', async () => {
+    it('should handle clicking the checkbox.', async () => {
         render(<Element {...props} />)
         const checkbox = screen.getByRole('checkbox')
         await userEvent.click(checkbox)
         expect(props.handleCheck).toHaveBeenCalled()
-    })
-
-    it('should have a checkbox.', () => {
-        render(<Element {...props} />)
-        const checkbox = screen.getByRole('checkbox')
-        expect(checkbox).toBeInTheDocument()
     })
 
     it('should have the correct image.', () => {

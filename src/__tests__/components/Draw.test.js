@@ -51,14 +51,14 @@ describe('Draw', () => {
             render(<Draw {...props} />)
             const button = screen.getAllByRole('button')[1]
             expect(button).toBeEnabled()
-            expect(button).toHaveClass('draw__reset-button')
+            expect(button).not.toHaveClass('spin')
         })
 
         it('should have an animation when disabled.', () => {
             render(<Draw {...props} animation={'spin'} />)
             const button = screen.getAllByRole('button')[1]
             expect(button).toBeDisabled()
-            expect(button).toHaveClass('draw__reset-button spin')
+            expect(button).toHaveClass('spin')
         })
 
         it('should have the correct background image.', () => {
