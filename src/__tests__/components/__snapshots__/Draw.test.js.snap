@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Draw should be rendered correctly. 1`] = `
+<div>
+  <div
+    class="draw"
+  >
+    <div
+      class="draw__buttons-container"
+    >
+      <button
+        class="draw__start-button"
+        type="button"
+      >
+        DRAW A FRUIT
+      </button>
+      <button
+        aria-label="Reset"
+        class="draw__reset-button"
+        type="button"
+      >
+        <img
+          alt="Reset Icon"
+          class="draw__reset-icon"
+          src="reset.svg"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
