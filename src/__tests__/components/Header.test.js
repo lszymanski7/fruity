@@ -1,31 +1,44 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import Header from '../../components/Header'
+import { ThemeProvider } from '../../contexts/theme-context'
 
 describe('Header', () => {
     it('should be rendered correctly.', () => {
-        const { container } = render(<Header />)
+        const { container } = render(<Header />, { wrapper: ThemeProvider })
         expect(container).toMatchSnapshot()
     })
 
-    it('should have the correct title.', () => {
-        render(<Header />)
-        const title = 'Fruity'
+    it('should have the GitHub logo.', () => {
+        render(<Header />, { wrapper: ThemeProvider })
+        const img = screen.getAllByRole('img')[0]
+        expect(img).toHaveAttribute('alt', 'GitHub Logo')
+        expect(img).toHaveAttribute('src', 'github.svg')
+    })
+
+    it('should have link with the correct href attribute.', () => {
+        render(<Header />, { wrapper: ThemeProvider })
+        const link = screen.getByRole('link')
+        expect(link).toHaveAttribute('href', 'https://github.com/lszymanski7/fruity-app')
+    })
+
+    it('should have a toggle switch (dark/light mode).', () => {
+        render(<Header />, { wrapper: ThemeProvider })
+        const themeSwitch = screen.getByTestId('theme-switch')
+        expect(themeSwitch).toBeInTheDocument()
+    })
+
+    it('should have the correct application logo.', () => {
+        render(<Header />, { wrapper: ThemeProvider })
+        const img = screen.getAllByRole('img')[1]
+        expect(img).toHaveAttribute('alt', 'Application Logo')
+        expect(img).toHaveAttribute('src', 'fruity-256x256.webp')
+    })
+
+    it('should have the correct application name.', () => {
+        render(<Header />, { wrapper: ThemeProvider })
+        const name = 'FRUITY'
         const h1 = screen.getByRole('heading', { level: 1 })
-        expect(h1).toHaveTextContent(title)
-    })
-
-    it('should have the correct subtitle.', () => {
-        render(<Header />)
-        const subtitle = `Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!`
-        const h2 = screen.getByRole('heading', { level: 2 })
-        expect(h2).toHaveTextContent(subtitle)
-    })
-
-    it('should have the correct logo.', () => {
-        render(<Header />)
-        const logo = screen.getByRole('img')
-        expect(logo).toHaveAttribute('alt', 'Fruity Logo')
-        expect(logo).toHaveAttribute('src', 'fruity-512x512.webp')
+        expect(h1).toHaveTextContent(name)
     })
 })

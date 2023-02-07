@@ -22,21 +22,24 @@ exports[`App should be rendered correctly. 1`] = `
         </a>
         <div
           class="toggle-switch"
+          data-testid="theme-switch"
         >
           <input
             class="toggle-switch__input"
-            id="theme-switcher"
+            id="theme-switch"
             type="checkbox"
           />
           <label
             class="toggle-switch__label"
-            for="theme-switcher"
+            for="theme-switch"
           >
             <span
               class="toggle-switch__icon moon-icon"
+              data-testid="moon"
             />
             <span
               class="toggle-switch__icon sun-icon"
+              data-testid="sun"
             />
             <span
               class="toggle-switch__slider"
@@ -67,6 +70,7 @@ exports[`App should be rendered correctly. 1`] = `
       >
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -89,6 +93,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -111,6 +116,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -133,6 +139,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -155,6 +162,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -177,6 +185,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -199,6 +208,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -221,6 +231,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -243,6 +254,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -265,6 +277,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -287,6 +300,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -309,6 +323,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -331,6 +346,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -353,6 +369,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -375,6 +392,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -397,6 +415,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -419,6 +438,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -441,6 +461,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -463,6 +484,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -485,6 +507,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -507,6 +530,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -529,6 +553,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -551,6 +576,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"
@@ -573,6 +599,7 @@ exports[`App should be rendered correctly. 1`] = `
         </div>
         <div
           class="element"
+          data-testid="element"
         >
           <label
             class="element__label"

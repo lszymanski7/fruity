@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should be rendered correctly. 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <div
+      class="header__widgets-container"
+    >
+      <a
+        href="https://github.com/lszymanski7/fruity-app"
+      >
+        <img
+          alt="GitHub Logo"
+          class="header__github-logo header__github-logo--light"
+          src="github.svg"
+        />
+      </a>
+      <div
+        class="toggle-switch"
+        data-testid="theme-switch"
+      >
+        <input
+          class="toggle-switch__input"
+          id="theme-switch"
+          type="checkbox"
+        />
+        <label
+          class="toggle-switch__label"
+          for="theme-switch"
+        >
+          <span
+            class="toggle-switch__icon moon-icon"
+            data-testid="moon"
+          />
+          <span
+            class="toggle-switch__icon sun-icon"
+            data-testid="sun"
+          />
+          <span
+            class="toggle-switch__slider"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      class="header__brand-container"
+    >
+      <img
+        alt="Application Logo"
+        class="header__app-logo"
+        src="fruity-256x256.webp"
+      />
+      <h1
+        class="header__app-name"
+      >
+        FRUITY
+      </h1>
+    </div>
+  </header>
+</div>
+`;

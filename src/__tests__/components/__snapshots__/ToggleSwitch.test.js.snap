@@ -4,15 +4,16 @@ exports[`ToggleSwitch should be rendered correctly. 1`] = `
 <div>
   <div
     class="toggle-switch"
+    data-testid="theme-switch"
   >
     <input
       class="toggle-switch__input"
-      id="theme-switcher"
+      id="theme-switch"
       type="checkbox"
     />
     <label
       class="toggle-switch__label"
-      for="theme-switcher"
+      for="theme-switch"
     >
       <span
         class="toggle-switch__icon moon-icon"
