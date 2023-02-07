@@ -1,18 +1,7 @@
 // ================================================================================================
-// Flexbox styles
+// Dark theme styles
 // ================================================================================================
 
-.flexbox-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flexbox-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.fullscreen {
-  height: 100vh;
-  width: 100%;
+.background-dark {
+  background: map-get($colors, 'application', 'gray-300');
 }

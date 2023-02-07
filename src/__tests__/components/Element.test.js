@@ -2,7 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import Element from '../../components/Element'
-import { fruits } from '../../data/constants'
+import fruits from '../../data/fruits'
 
 const props = {
     checked: fruits[0].checked,
@@ -18,7 +18,7 @@ describe('Element', () => {
         expect(container).toMatchSnapshot()
     })
 
-    it('should handle clicking a checkbox.', async () => {
+    it('should handle clicking the checkbox.', async () => {
         render(<Element {...props} />)
         const checkbox = screen.getByRole('checkbox')
         await userEvent.click(checkbox)
@@ -34,8 +34,7 @@ describe('Element', () => {
 
     it('should have the correct caption.', () => {
         render(<Element {...props} />)
-        const caption = props.name
-        const span = screen.getByText('Apple')
-        expect(span).toHaveTextContent(caption)
+        const span = screen.getByText('APPLE')
+        expect(span).toHaveTextContent(props.name.toUpperCase())
     })
 })

@@ -1,32 +1,31 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ToggleSwitch from './ToggleSwitch'
 import { LOGOS } from '../data/constants'
+import useTheme from '../hooks/useTheme'
 
 const Header = () => {
     // Application name
     const name = 'FRUITY'
 
-    // Toggle switch states for dark and light mode
-    const [isChecked, setIsChecked] = useState(false)
+    // Context value for dark and light theme
+    const { theme, toggleTheme } = useTheme()
 
     return (
-        <header className="flexbox-column header">
-            <div className="flexbox-row header__widgets-container">
+        <header className="header">
+            <div className="header__widgets-container">
                 <a href="https://github.com/lszymanski7/fruity-app">
                     <img
                         alt="GitHub Logo"
-                        className="header__github-logo"
+                        className={`header__github-logo header__github-logo--${theme}`}
                         src={LOGOS.github}
                     />
                 </a>
                 <ToggleSwitch
-                    handleOnChange={() => setIsChecked(!isChecked)}
-                    icons={['moon-icon', 'sun-icon']}
-                    id="theme-switcher"
-                    isChecked={isChecked}
+                    handleOnChange={toggleTheme}
+                    isChecked={theme === 'dark'}
                 />
             </div>
-            <div className="flexbox-row header__brand-container">
+            <div className="header__brand-container">
                 <img
                     alt="Application Logo"
                     className="header__app-logo"

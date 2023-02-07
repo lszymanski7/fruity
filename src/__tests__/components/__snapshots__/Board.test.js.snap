@@ -1,593 +1,562 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Widget should be rendered correctly. 1`] = `
+exports[`Board should be rendered correctly. 1`] = `
 <div>
-  <div>
+  <div
+    class="board"
+  >
     <div
-      class="widget-header"
-    >
-      <button
-        class="widget-header__reset"
-      >
-        Reset All
-      </button>
-    </div>
-    <div
-      class="flexbox-row widget-content"
+      class="board__elements-container"
     >
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Apple"
+            alt="apple"
             class="element__image"
             src="apple.webp"
           />
           <span
             class="element__caption"
           >
-            Apple
+            APPLE
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Banana"
+            alt="banana"
             class="element__image"
             src="banana.webp"
           />
           <span
             class="element__caption"
           >
-            Banana
+            BANANA
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Blackberry"
+            alt="blackberry"
             class="element__image"
             src="blackberry.webp"
           />
           <span
             class="element__caption"
           >
-            Blackberry
+            BLACKBERRY
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Blueberries"
+            alt="blueberries"
             class="element__image"
             src="blueberries.webp"
           />
           <span
             class="element__caption"
           >
-            Blueberries
+            BLUEBERRIES
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Cherries"
+            alt="cherries"
             class="element__image"
             src="cherries.webp"
           />
           <span
             class="element__caption"
           >
-            Cherries
+            CHERRIES
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Coconut"
+            alt="coconut"
             class="element__image"
             src="coconut.webp"
           />
           <span
             class="element__caption"
           >
-            Coconut
+            COCONUT
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Dragon Fruit"
+            alt="dragon fruit"
             class="element__image"
             src="dragon-fruit.webp"
           />
           <span
             class="element__caption"
           >
-            Dragon Fruit
+            DRAGON FRUIT
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Fig"
+            alt="fig"
             class="element__image"
             src="fig.webp"
           />
           <span
             class="element__caption"
           >
-            Fig
+            FIG
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Grapes"
+            alt="grapes"
             class="element__image"
             src="grapes.webp"
           />
           <span
             class="element__caption"
           >
-            Grapes
+            GRAPES
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Kiwi"
+            alt="kiwi"
             class="element__image"
             src="kiwi.webp"
           />
           <span
             class="element__caption"
           >
-            Kiwi
+            KIWI
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Lemon"
+            alt="lemon"
             class="element__image"
             src="lemon.webp"
           />
           <span
             class="element__caption"
           >
-            Lemon
+            LEMON
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Lychee"
+            alt="lychee"
             class="element__image"
             src="lychee.webp"
           />
           <span
             class="element__caption"
           >
-            Lychee
+            LYCHEE
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Mango"
+            alt="mango"
             class="element__image"
             src="mango.webp"
           />
           <span
             class="element__caption"
           >
-            Mango
+            MANGO
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Melon"
+            alt="melon"
             class="element__image"
             src="melon.webp"
           />
           <span
             class="element__caption"
           >
-            Melon
+            MELON
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Orange"
+            alt="orange"
             class="element__image"
             src="orange.webp"
           />
           <span
             class="element__caption"
           >
-            Orange
+            ORANGE
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Papaya"
+            alt="papaya"
             class="element__image"
             src="papaya.webp"
           />
           <span
             class="element__caption"
           >
-            Papaya
+            PAPAYA
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Peach"
+            alt="peach"
             class="element__image"
             src="peach.webp"
           />
           <span
             class="element__caption"
           >
-            Peach
+            PEACH
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Pear"
+            alt="pear"
             class="element__image"
             src="pear.webp"
           />
           <span
             class="element__caption"
           >
-            Pear
+            PEAR
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Pineapple"
+            alt="pineapple"
             class="element__image"
             src="pineapple.webp"
           />
           <span
             class="element__caption"
           >
-            Pineapple
+            PINEAPPLE
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Plum"
+            alt="plum"
             class="element__image"
             src="plum.webp"
           />
           <span
             class="element__caption"
           >
-            Plum
+            PLUM
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Pomegranate"
+            alt="pomegranate"
             class="element__image"
             src="pomegranate.webp"
           />
           <span
             class="element__caption"
           >
-            Pomegranate
+            POMEGRANATE
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Star Fruit"
+            alt="star fruit"
             class="element__image"
             src="star-fruit.webp"
           />
           <span
             class="element__caption"
           >
-            Star Fruit
+            STAR FRUIT
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Strawberry"
+            alt="strawberry"
             class="element__image"
             src="strawberry.webp"
           />
           <span
             class="element__caption"
           >
-            Strawberry
+            STRAWBERRY
           </span>
         </label>
       </div>
       <div
         class="element"
+        data-testid="element"
       >
         <label
-          class="flexbox-column element__label"
-          for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+          class="element__label"
         >
           <input
             class="element__checkbox"
-            id="bbb33b2d-e07d-4d13-a869-f3790e100477"
             type="checkbox"
           />
           <img
-            alt="Watermelon"
+            alt="watermelon"
             class="element__image"
             src="watermelon.webp"
           />
           <span
             class="element__caption"
           >
-            Watermelon
+            WATERMELON
           </span>
         </label>
       </div>

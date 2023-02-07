@@ -13,9 +13,10 @@
 
 .toggle-switch__label {
   align-items: center;
-  background-color: map-get($colors, 'toggle-switch', 'default-gray-100');
-  border: 0.1rem solid map-get($colors, 'toggle-switch', 'default-gray-200');
+  background-color: map-get($colors, 'toggle-switch', 'gray-100');
+  border: 0.1rem solid map-get($colors, 'toggle-switch', 'gray-200');
   display: flex;
+  flex-direction: row;
   height: 20px;
   justify-content: space-between;
   padding: 0.2rem;
@@ -45,18 +46,6 @@
 
 .toggle-switch__input:checked + .toggle-switch__label .toggle-switch__slider {
   transform: translateX(calc(100% + (100% * 6 / 14)));
-}
-
-// Colors
-
-.toggle-switch__label--green {
-  background-color: map-get($colors, 'toggle-switch', 'on-green-100');
-  border-color: map-get($colors, 'toggle-switch', 'on-green-200');
-}
-
-.toggle-switch__label--red {
-  background-color: map-get($colors, 'toggle-switch', 'off-red-100');
-  border-color: map-get($colors, 'toggle-switch', 'off-red-200');
 }
 
 // Icons

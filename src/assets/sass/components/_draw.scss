@@ -3,10 +3,19 @@
 // ================================================================================================
 
 .draw {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding: 3.6rem 1.6rem 6.4rem;
+}
+
+.draw__buttons-container {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
-  padding: 4rem 1.6rem 6.4rem;
 }
 
 .draw__start-button {

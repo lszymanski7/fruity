@@ -1,29 +1,31 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const ToggleSwitch = ({ colors, handleOnChange, icons, id, isChecked }) => {
+const ToggleSwitch = ({ handleOnChange, isChecked }) => {
     return (
-        <div className="toggle-switch">
+        <div
+            className="toggle-switch"
+            data-testid="theme-switch"
+        >
             <input
                 checked={isChecked}
                 className="toggle-switch__input"
-                id={id}
+                id="theme-switch"
                 onChange={handleOnChange}
                 type="checkbox"
             />
             <label
-                className={
-                    'toggle-switch__label' +
-                    (colors ? (isChecked ? ' ' + colors[0] : ' ' + colors[1]) : '')
-                }
-                htmlFor={id}
+                className="toggle-switch__label"
+                htmlFor="theme-switch"
             >
-                {icons && (
-                    <>
-                        <span className={'toggle-switch__icon ' + icons[0]} />
-                        <span className={'toggle-switch__icon ' + icons[1]} />
-                    </>
-                )}
+                <span
+                    className="toggle-switch__icon moon-icon"
+                    data-testid="moon"
+                />
+                <span
+                    className="toggle-switch__icon sun-icon"
+                    data-testid="sun"
+                />
                 <span className="toggle-switch__slider" />
             </label>
         </div>
@@ -31,10 +33,7 @@ const ToggleSwitch = ({ colors, handleOnChange, icons, id, isChecked }) => {
 }
 
 ToggleSwitch.propTypes = {
-    colors: PropTypes.array,
     handleOnChange: PropTypes.func.isRequired,
-    icons: PropTypes.array,
-    id: PropTypes.string.isRequired,
     isChecked: PropTypes.bool.isRequired
 }
 

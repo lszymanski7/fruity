@@ -4,25 +4,24 @@ exports[`Element should be rendered correctly. 1`] = `
 <div>
   <div
     class="element"
+    data-testid="element"
   >
     <label
-      class="flexbox-column element__label"
-      for="bbb33b2d-e07d-4d13-a869-f3790e100477"
+      class="element__label"
     >
       <input
         class="element__checkbox"
-        id="bbb33b2d-e07d-4d13-a869-f3790e100477"
         type="checkbox"
       />
       <img
-        alt="Apple"
+        alt="apple"
         class="element__image"
         src="apple.webp"
       />
       <span
         class="element__caption"
       >
-        Apple
+        APPLE
       </span>
     </label>
   </div>

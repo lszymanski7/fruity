@@ -1,14 +1,7 @@
 // ================================================================================================
-// Base styles
+// Light theme styles
 // ================================================================================================
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.background-light {
+  background: map-get($colors, 'application', 'pink-100');
 }

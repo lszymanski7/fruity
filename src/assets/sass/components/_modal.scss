@@ -2,39 +2,51 @@
 // Modal styles
 // ================================================================================================
 
-// React Modal Portal
+// React Modal Overlay
 
-.ReactModalPortal > div {
-  opacity: 0;
-}
-
-.ReactModalPortal .ReactModal__Overlay {
+.ReactModal__Overlay {
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  opacity: 0;
   transition: opacity 200ms ease-in-out;
 }
 
-.ReactModalPortal .ReactModal__Overlay--after-open {
+.ReactModal__Overlay--after-open {
   opacity: 1;
 }
 
-.ReactModalPortal .ReactModal__Overlay--before-close {
+.ReactModal__Overlay--before-close {
   opacity: 0;
 }
 
-// Modal
+// React Modal Content
 
 .modal {
   align-items: center;
-  background: map-get($colors, 'application', 'pink-100');
-  border: 0.5rem solid map-get($colors, 'application', 'pink-200');
+  border: 0.5rem solid;
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   height: 175px;
   justify-content: center;
   width: 200px;
   @include border-radius(25px);
   @include drop-shadow(0, 0, 1rem, map-get($colors, 'shadow', 'black-50'));
+  @include user-select(none);
+}
+
+.modal--dark {
+  background-color: map-get($colors, 'application', 'gray-300');
+  border-color: map-get($colors, 'application', 'gray-200');
+  color: white;
+}
+
+.modal--light {
+  background-color: map-get($colors, 'application', 'pink-100');
+  border-color: map-get($colors, 'application', 'pink-200');
+  color: black;
 }
 
 .modal__image {

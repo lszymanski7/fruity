@@ -6,27 +6,57 @@ exports[`Header should be rendered correctly. 1`] = `
     class="header"
   >
     <div
-      class="flexbox-column header__container"
+      class="header__widgets-container"
     >
-      <div
-        class="flexbox-row"
+      <a
+        href="https://github.com/lszymanski7/fruity-app"
       >
         <img
-          alt="Fruity Logo"
-          class="header__logo"
-          src="fruity-512x512.webp"
+          alt="GitHub Logo"
+          class="header__github-logo header__github-logo--light"
+          src="github.svg"
         />
-        <h1
-          class="header__title"
-        >
-          Fruity
-        </h1>
-      </div>
-      <h2
-        class="header__subtitle"
+      </a>
+      <div
+        class="toggle-switch"
+        data-testid="theme-switch"
       >
-        Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about that anymore! Just click the button below!
-      </h2>
+        <input
+          class="toggle-switch__input"
+          id="theme-switch"
+          type="checkbox"
+        />
+        <label
+          class="toggle-switch__label"
+          for="theme-switch"
+        >
+          <span
+            class="toggle-switch__icon moon-icon"
+            data-testid="moon"
+          />
+          <span
+            class="toggle-switch__icon sun-icon"
+            data-testid="sun"
+          />
+          <span
+            class="toggle-switch__slider"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      class="header__brand-container"
+    >
+      <img
+        alt="Application Logo"
+        class="header__app-logo"
+        src="fruity-256x256.webp"
+      />
+      <h1
+        class="header__app-name"
+      >
+        FRUITY
+      </h1>
     </div>
   </header>
 </div>
