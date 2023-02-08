@@ -1,6 +1,5 @@
 import { ICONS } from './constants'
 
-// Fruits data
 const fruits = [
     {
         id: 1,
