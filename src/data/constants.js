@@ -1,4 +1,3 @@
-// Icons images
 const ICONS = {
     apple: require('../assets/images/icons/apple.webp'),
     banana: require('../assets/images/icons/banana.webp'),
@@ -26,7 +25,6 @@ const ICONS = {
     watermelon: require('../assets/images/icons/watermelon.webp')
 }
 
-// Logos images
 const LOGOS = {
     fruity: {
         size_128x128: require('../assets/images/logos/fruity-128x128.webp'),
@@ -36,7 +34,6 @@ const LOGOS = {
     github: require('../assets/images/logos/github.svg')
 }
 
-// Shapes images
 const SHAPES = {
     moon: require('../assets/images/shapes/moon.svg'),
     reset: require('../assets/images/shapes/reset.svg'),
