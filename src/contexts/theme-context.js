@@ -19,10 +19,10 @@ const ThemeProvider = ({ children }) => {
     useEffect(() => {
         switch (theme) {
             case 'dark':
-                document.body.className = 'background-dark'
+                document.body.className = 'theme-dark'
                 break
             case 'light':
-                document.body.className = 'background-light'
+                document.body.className = 'theme-light'
                 break
             default:
                 throw new Error(`Unhandled theme: ${theme}`)

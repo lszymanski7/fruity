@@ -2,7 +2,7 @@
 
 exports[`Modal should be rendered correctly. 1`] = `
 <body
-  class="background-light"
+  class="theme-light"
 >
   <div
     data-react-modal-body-trap=""
