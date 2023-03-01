@@ -40,13 +40,11 @@
 .modal--dark {
   background-color: map-get($colors, 'application', 'gray-300');
   border-color: map-get($colors, 'application', 'gray-200');
-  color: white;
 }
 
 .modal--light {
   background-color: map-get($colors, 'application', 'pink-100');
   border-color: map-get($colors, 'application', 'pink-200');
-  color: black;
 }
 
 .modal__image {
@@ -59,6 +57,14 @@
 .modal__caption {
   font-family: 'Titan One';
   font-size: 1.8rem;
+}
+
+.modal__caption--dark {
+  color: map-get($colors, 'basic', 'white');
+}
+
+.modal__caption--light {
+  color: map-get($colors, 'basic', 'black');
 }
 
 // Landscape phones
