@@ -35,7 +35,7 @@ exports[`Modal should be rendered correctly. 1`] = `
           src="apple.webp"
         />
         <span
-          class="modal__caption"
+          class="modal__caption modal__caption--light"
         >
           APPLE
         </span>

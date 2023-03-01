@@ -24,7 +24,7 @@ const Modal = ({ isOpen, onAfterClose, onRequestClose, selectedFruit }) => {
                         className="modal__image"
                         src={selectedFruit.img}
                     />
-                    <span className="modal__caption">{selectedFruit.name.toUpperCase()}</span>
+                    <span className={`modal__caption modal__caption--${theme}`}>{selectedFruit.name.toUpperCase()}</span>
                 </>
             )}
         </ReactModal>

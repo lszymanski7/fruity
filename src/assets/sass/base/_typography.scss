@@ -6,6 +6,7 @@ body {
   color: map-get($colors, 'basic', 'black');
   font-family: 'Titan One';
   font-size: 1.6rem;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
