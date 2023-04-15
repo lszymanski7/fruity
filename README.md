@@ -21,7 +21,7 @@
 
 <!-- FRUITY -->
 # Fruity
-Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about it anymore! All you have to do is select your favorite fruits, click the button and let the app decide for you. It's so simple!
+Are you a fruit lover? Have you ever been unable to decide what kind of fruit you would like to eat? Don't worry about it anymore! All you have to do is select your favorite fruits, click the button and let the application decide for you. It's so simple!
 
 🚀 **Live demo:** <a href="https://lszymanski7-fruity.netlify.app">https://lszymanski7-fruity.netlify.app<a/>
 
