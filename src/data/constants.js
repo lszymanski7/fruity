@@ -1,4 +1,4 @@
-const ICONS = {
+export const ICONS = {
     apple: require('../assets/images/icons/apple.webp'),
     banana: require('../assets/images/icons/banana.webp'),
     blackberry: require('../assets/images/icons/blackberry.webp'),
@@ -25,7 +25,7 @@ const ICONS = {
     watermelon: require('../assets/images/icons/watermelon.webp')
 }
 
-const LOGOS = {
+export const LOGOS = {
     fruity: {
         size_128x128: require('../assets/images/logos/fruity-128x128.webp'),
         size_256x256: require('../assets/images/logos/fruity-256x256.webp'),
@@ -34,10 +34,8 @@ const LOGOS = {
     github: require('../assets/images/logos/github.svg')
 }
 
-const SHAPES = {
+export const SHAPES = {
     moon: require('../assets/images/shapes/moon.svg'),
     reset: require('../assets/images/shapes/reset.svg'),
     sun: require('../assets/images/shapes/sun.svg')
 }
-
-export { ICONS, LOGOS, SHAPES }

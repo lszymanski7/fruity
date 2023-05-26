@@ -37,4 +37,4 @@ ToggleSwitch.propTypes = {
     isChecked: PropTypes.bool.isRequired
 }
 
-export { ToggleSwitch as default }
+export default ToggleSwitch

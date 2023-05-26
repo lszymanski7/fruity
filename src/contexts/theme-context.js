@@ -5,10 +5,10 @@ import PropTypes from 'prop-types'
 import useLocalStorage from '../hooks/useLocalStorage'
 
 // Function ➞ creates theme context
-const ThemeContext = createContext()
+export const ThemeContext = createContext()
 
 // Function ➞ creates theme provider
-const ThemeProvider = ({ children }) => {
+export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useLocalStorage('theme', 'light')
 
     const toggleTheme = () => {
@@ -39,5 +39,3 @@ const ThemeProvider = ({ children }) => {
 ThemeProvider.propTypes = {
     children: PropTypes.object.isRequired
 }
-
-export { ThemeContext, ThemeProvider }

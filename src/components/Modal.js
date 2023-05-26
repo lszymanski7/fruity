@@ -38,4 +38,4 @@ Modal.propTypes = {
     selectedFruit: PropTypes.object
 }
 
-export { Modal as default }
+export default Modal

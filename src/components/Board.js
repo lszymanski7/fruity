@@ -30,4 +30,4 @@ Board.propTypes = {
     handleCheck: PropTypes.func.isRequired
 }
 
-export { Board as default }
+export default Board
