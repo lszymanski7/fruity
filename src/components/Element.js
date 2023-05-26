@@ -33,4 +33,4 @@ Element.propTypes = {
     name: PropTypes.string.isRequired
 }
 
-export { Element as default }
+export default Element

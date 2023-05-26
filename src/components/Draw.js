@@ -39,4 +39,4 @@ Draw.propTypes = {
     handleReset: PropTypes.func.isRequired
 }
 
-export { Draw as default }
+export default Draw

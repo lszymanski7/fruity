@@ -147,4 +147,4 @@ const fruits = [
     }
 ]
 
-export { fruits as default }
+export default fruits
