@@ -2,7 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import Modal from '../../components/Modal'
-import { ThemeProvider } from '../../contexts/theme-context'
+import { ThemeProvider } from '../../contexts/ThemeContext'
 import fruits from '../../data/fruits'
 
 const props = {
