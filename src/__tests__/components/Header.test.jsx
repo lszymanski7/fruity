@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import Header from '../../components/Header'
-import { ThemeProvider } from '../../contexts/theme-context'
+import { ThemeProvider } from '../../contexts/ThemeContext'
 
 describe('Header', () => {
     it('should be rendered correctly.', () => {
