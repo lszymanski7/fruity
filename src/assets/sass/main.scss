@@ -1,5 +1,5 @@
 // ================================================================================================
-// Imports
+// Main
 // ================================================================================================
 
 @charset 'utf-8';
@@ -15,7 +15,7 @@
   './base/typography';
 
 @import 
-  './layout/fullscreen',
+  './layout/display-modes',
   './layout/header';
 
 @import 
@@ -26,5 +26,5 @@
   './components/toggle-switch';
 
 @import 
-  './themes/dark',
-  './themes/light';
+  './themes/theme-dark',
+  './themes/theme-light';
