@@ -57,7 +57,7 @@ jobs:
       - name: Build application
         run: npm run build
 
-      - name: Upload artifact
+      - name: Upload production build artifact
         uses: actions/upload-artifact@v3
         with:
           name: production-build
