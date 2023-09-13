@@ -19,19 +19,19 @@ on:
         description: Operating System (OS)
         type: choice
         options:
-        - macos-latest
-        - ubuntu-latest
-        - windows-latest
+          - macos-latest
+          - ubuntu-latest
+          - windows-latest
         default: ubuntu-latest
         required: true
       node-version:
         description: Node.js
         type: choice
         options:
-        - 14.x
-        - 16.x
-        - 18.x
-        - 20.x
+          - 14.x
+          - 16.x
+          - 18.x
+          - 20.x
         default: 18.x
         required: true
 
