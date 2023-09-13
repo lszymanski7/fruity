@@ -1,6 +1,6 @@
 name: Production Build
 
-run-name: Build on Node.js (${{ inputs.node-version }}) and ${{ inputs.runs-on }}
+run-name: Build on Node.js (${{ inputs.node-version }}) and ${{ inputs.runs-on == 'ubuntu-latest' && 'Ubuntu' || inputs.runs-on == 'windows-latest' && 'Windows' || inputs.runs-on == 'macos-latest' && 'macOS' }} (latest)
 
 on:
   workflow_call:
@@ -37,7 +37,7 @@ on:
 
 jobs:
   build:
-    name: Node.js (${{ inputs.node-version }}) and ${{ inputs.runs-on }}
+    name: Node.js (${{ inputs.node-version }}) + ${{ inputs.runs-on == 'ubuntu-latest' && 'Ubuntu' || inputs.runs-on == 'windows-latest' && 'Windows' || inputs.runs-on == 'macos-latest' && 'macOS' }} (latest)
 
     runs-on: ${{ inputs.runs-on }}
 
