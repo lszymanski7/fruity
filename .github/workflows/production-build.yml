@@ -61,5 +61,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: production-build
-          path: ./build
+          path: build
           if-no-files-found: error
