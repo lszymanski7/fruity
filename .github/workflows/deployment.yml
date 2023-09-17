@@ -34,7 +34,7 @@ jobs:
 
       - name: Deploy application
         run: |
-          if [ '${{ github.event_name }}' != 'workflow_dispatch' ]; then
+          if [ ${{ github.event_name }} != 'workflow_dispatch' ]; then
             netlify deploy --prod
           else
             netlify deploy --build --prod
