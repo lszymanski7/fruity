@@ -139,6 +139,5 @@ This project is licensed under the terms of the [MIT License](https://github.com
   <p>If you have any questions or suggestions, please send me an <a href="mailto:lszymanski.info@gmail.com?subject=GitHub - Your subject here...">e-mail</a>. <br/> You can also find me on the following websites:</p>
   
   [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/18706083)
-  [![GitLab](https://img.shields.io/badge/GitLab-555555?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lszymanski7)
 </div>
